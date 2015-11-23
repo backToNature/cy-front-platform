@@ -1,9 +1,21 @@
+var render = require('./lib/render');
+var logger = require('koa-logger');
+var route = require('koa-route');
+var parse = require('co-body');
 var koa = require('koa');
+var app = koa();
 
-var app = module.exports = koa();
+var posts = [];
 
-app.use(function *() {
-    this.body = '哈哈哈';
-});
+app.use(logger());
 
-if (!module.parent) app.listen(3000);
+// 路由层
+app.use(route.get('/', index));
+
+function *index() {
+  this.body = yield render('login-test');
+}
+
+
+app.listen(3000);
+console.log('listening on port 3000');

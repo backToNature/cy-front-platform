@@ -1,3 +1,4 @@
 module.exports = {
-    select: 'SELECT * form user'
+    select: 'SELECT * FROM user',
+    getUserInfo: 'SELECT * FORM user where id=?'
 };
