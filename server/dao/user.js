@@ -26,5 +26,8 @@ module.exports = {
 		 * id {INT}: 用户id
 		 */
     	query(sql_mapping.getUserInfo, params, fn);
+    },
+    login: function (params, fn) {
+
     }
 };
