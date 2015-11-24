@@ -1,20 +1,23 @@
-var render = require('./lib/render');
-var logger = require('koa-logger');
-var route = require('koa-route');
-var parse = require('co-body');
-var koa = require('koa');
-var app = koa();
+const render = require('./lib/render');
+const logger = require('koa-logger');
+const route = require('koa-route');
+const parse = require('co-body');
+const koa = require('koa');
+const convert = require('koa-convert')
+const session = require('koa-generic-session')
+const app = koa();
 
-var posts = [];
+app.keys = ['cy-front-platform'];
+app.use(session(app));
 
 app.use(logger());
 
-// 路由层
-app.use(route.get('/', index));
+var posts = [];
 
-function *index() {
-  this.body = yield render('login-test');
-}
+
+// 路由层
+var user = require('./routes/user');
+app.use(route.get('/user/:type', user));
 
 
 app.listen(3000);
