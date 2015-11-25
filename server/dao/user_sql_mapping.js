@@ -1,5 +1,7 @@
 module.exports = {
-    select: 'SELECT * FROM user',
-    getUserInfo: 'SELECT * FORM user where id=?',
-    loginQuery: 'SELECT * FORM user WHERE account=? and password=?'
+    queryById: 'SELECT * FROM user WHERE id=?;',
+    queryByAccount: 'SELECT * FROM user WHERE account=?;',
+    loginQuery: 'SELECT * FROM user WHERE account=? and password=?;',
+    update: 'UPDATE user SET password=?, role=? WHERE userId=?;',
+    select: 'SELECT * FROM user;'
 };

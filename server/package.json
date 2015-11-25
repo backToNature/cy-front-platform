@@ -29,8 +29,10 @@
     "koa-static": "^1.4.5",
     "raw-body": "^1.2.1",
     "save-to": "^1.0.3",
+    "koa-json": "*",
     "streaming-json-stringify": "^1.0.0",
-    "swig": "^1.4.2"
+    "swig": "^1.4.2",
+    "mysql": "*"
   },
   "devDependencies": {
     "co": "*",

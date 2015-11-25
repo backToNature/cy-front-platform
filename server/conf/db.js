@@ -1,8 +1,8 @@
 module.exports = {
     mysql: {
-        host: '10.0.0.22',
+        host: '10.2.58.184',
         user: 'guohao',
-        password: '123456',
+        password: 'zaq1230.',
         database:'cy-frontend-platform',
         port: 3306
     }
