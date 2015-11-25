@@ -5,10 +5,14 @@ const parse = require('co-body');
 const koa = require('koa');
 const convert = require('koa-convert');
 const session = require('koa-generic-session');
+const json = require('koa-json');
 const app = koa();
 
 app.keys = ['cy-front-platform'];
 app.use(session(app));
+
+
+app.use(json());
 
 app.use(logger());
 

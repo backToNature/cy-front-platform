@@ -4,6 +4,7 @@ var userDao = require('../dao/user');
 function *user(type) {
     var req = this.request;
     var res = this.response;
+    var _this = this;
     var query = req.query;
     if (type === 'sign_up') {
         var account = query.account, pwd = query.pwd;
@@ -14,12 +15,7 @@ function *user(type) {
         if (typeof account !== 'string' && typeof pwd !== 'string') {
             return;
         }
-        console.log(account);
-        userDao.accountIsExsit([account], function (result) {
-            if (result.length) {
-
-            }
-        });
+        this.body = yield userDao.accountIsExsit([account]);
 
     }
 	if (type === 'login') {
@@ -34,6 +30,7 @@ function *user(type) {
 	if (type === 'logout') {
 		// 登出
 		this.session.userId = null;
+        this.body = yield render('login-test');
 	}
 
 }

@@ -1,18 +1,26 @@
 var dbconfig = require('../conf/db'),
     mysql = require('mysql'),
-    sql_mapping = require('./user_sql_mapping');
+    sql_mapping = require('./user_sql_mapping'),
+    co = require('co');
 
 var pool = mysql.createPool(dbconfig.mysql);
 
-var query = function (sql, params, fn) {
-	pool.getConnection(function (err, connection) {
-	    var responseText;
-	    connection.query(sql, params, function (err, result) {
-            fn(result);
-	        connection.release();
-	    });
-	});
-};
+
+function query(sql, params) {
+    return function (fn) {
+        pool.getConnection(function (err, connection) {
+            connection.query(sql, params, fn);
+        });
+    };
+}
+// var query = function (sql, params, fn) {
+// 	pool.getConnection(function (err, connection) {
+// 	    connection.query(sql, params, function (err, result) {
+//             // fn(result);
+// 	        connection.release();
+// 	    });
+// 	});
+// };
 
 module.exports = {
 	// 获取用户列表
@@ -20,12 +28,13 @@ module.exports = {
 		query(sql_mapping.select, params, fn);
     },
     // 获取用户名是否存在
-    accountIsExsit: function (params, fn) {
+    accountIsExsit: function *(params) {
         /**
          * @params
          * account {string}: 用户账号
          */
-        query(sql_mapping.queryByAccount, params, fn);
+        var a = yield query(sql_mapping.queryByAccount, params);
+        return a;
     },
     // 获取用户信息
     getUserInfo: function (params, fn) {
