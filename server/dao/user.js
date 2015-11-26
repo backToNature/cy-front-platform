@@ -55,7 +55,7 @@ module.exports = {
     signUp: function *(params) {
         /**
          * @params
-         * username {string}: 用户名
+         * account {string}: 用户名
          * pwd {string}: 密码
          */
         var accountIsExsit = yield this.accountIsExsit(params[0]);
@@ -77,7 +77,31 @@ module.exports = {
         }
         
     },
-    login: function (params, fn) {
-
+    login: function *(params) {
+        /**
+         * @params
+         * account {string}: 用户名
+         * pwd {string}: 密码
+         */
+         var result = yield query(sql_mapping.loginQuery, params);
+         if (result[0].length) {
+            return {
+                code:200,
+                data: {
+                    id: result[0][0].id,
+                    nickname: result[0][0].nickname,
+                    img_url: result[0][0].img_url,
+                    role: result[0][0].role
+                },
+                status: 'success',
+                msg: 'login success'
+            };
+         } else {
+            return {
+                code:200,
+                status: 'failed',
+                msg: 'login failed'
+            };
+         }
     }
 };
