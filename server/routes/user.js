@@ -15,7 +15,18 @@ function *user(type) {
         if (typeof account !== 'string' && typeof pwd !== 'string') {
             return;
         }
-        this.body = yield userDao.accountIsExsit([account]);
+        var result = yield userDao.accountIsExsit([account]);
+        if (result === true) {
+            this.body = {
+                code: 200,
+                msg: 'this account has already exsit'
+            };
+        } else if (result === false) {
+            this.body = {
+                code: 200,
+                msg: 'you can register this account'
+            };
+        }
 
     }
 	if (type === 'login') {

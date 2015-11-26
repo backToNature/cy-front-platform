@@ -24,8 +24,9 @@ function query(sql, params) {
 
 module.exports = {
 	// 获取用户列表
-    getUserList: function (params, fn) {
-		query(sql_mapping.select, params, fn);
+    getUserList: function *(params) {
+
+		return yield query(sql_mapping.select, params);
     },
     // 获取用户名是否存在
     accountIsExsit: function *(params) {
@@ -33,8 +34,14 @@ module.exports = {
          * @params
          * account {string}: 用户账号
          */
-        var a = yield query(sql_mapping.queryByAccount, params);
-        return a;
+        var result = yield query(sql_mapping.queryByAccount, params);
+        if (result[0].length) {
+            return true;
+        } else if (result[0].length === 0) {
+            return false;
+        } else {
+            return 'error';
+        }
     },
     // 获取用户信息
     getUserInfo: function (params, fn) {
@@ -45,13 +52,17 @@ module.exports = {
     	query(sql_mapping.getUserInfo, params, fn);
     },
     // 注册
-    signUp: function (params, fn) {
+    signUp: function *(params) {
         /**
          * @params
          * username {string}: 用户名
          * pwd {string}: 密码
          */
-        query(sql_mapping.update, params, fn);
+        var accountIsExsit = yield this.accountIsExsit(params[0]);
+        if (accountIsExsit === true) {
+            
+        }
+        query(sql_mapping.update, params);
     },
     login: function (params, fn) {
 
