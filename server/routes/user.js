@@ -11,22 +11,10 @@ function *user(type) {
         if (!account || !pwd) {
             return;
         }
-
         if (typeof account !== 'string' && typeof pwd !== 'string') {
             return;
         }
-        var result = yield userDao.accountIsExsit([account]);
-        if (result === true) {
-            this.body = {
-                code: 200,
-                msg: 'this account has already exsit'
-            };
-        } else if (result === false) {
-            this.body = {
-                code: 200,
-                msg: 'you can register this account'
-            };
-        }
+        this.body = yield userDao.signUp([account, pwd , 0]);
 
     }
 	if (type === 'login') {

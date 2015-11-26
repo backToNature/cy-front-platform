@@ -60,9 +60,22 @@ module.exports = {
          */
         var accountIsExsit = yield this.accountIsExsit(params[0]);
         if (accountIsExsit === true) {
-            
+            return {
+                code: 200,
+                status: 'failed',
+                msg: 'account is exsit'
+            }
+        } else if (accountIsExsit === false) {
+            var result = yield query(sql_mapping.insert, params);
+            if (result[0].insertId) {
+                return {
+                    code:200,
+                    status: 'success',
+                    msg: 'register success'
+                };
+            }
         }
-        query(sql_mapping.update, params);
+        
     },
     login: function (params, fn) {
 
