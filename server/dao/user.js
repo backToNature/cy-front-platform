@@ -86,7 +86,7 @@ module.exports = {
          var result = yield query(sql_mapping.loginQuery, params);
          if (result[0].length) {
             return {
-                code:200,
+                code: 200,
                 data: {
                     id: result[0][0].id,
                     nickname: result[0][0].nickname,
@@ -98,7 +98,7 @@ module.exports = {
             };
          } else {
             return {
-                code:200,
+                code: 200,
                 status: 'failed',
                 msg: 'login failed'
             };

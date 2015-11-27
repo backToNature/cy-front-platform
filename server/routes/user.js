@@ -60,6 +60,29 @@ function *user(type) {
         };
 	}
 
+    if (type === 'get_user_info') {
+        if (this.session.userId) {
+            this.body = {
+                code: 200,
+                data: {
+                    nickname: this.session.nickname,
+                    img_url: this.session.img_url,
+                    role: this.session.role
+                },
+                status: 'success',
+                msg: 'get success'
+            };
+        } else {
+            this.body = {
+                code: 200,
+                data: {},
+                status: 'failed',
+                msg: 'get failed'
+            }
+        }
+        
+    }
+
 }
 
 module.exports = user;
