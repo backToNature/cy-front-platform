@@ -23,6 +23,9 @@ var posts = [];
 var user = require('./routes/user');
 app.use(route.get('/user/api/:type', user));
 
+var component = require('./route/component');
+app.use(route.get('/component/api/:type'), component);
+
 
 app.listen(3000);
 console.log('listening on port 3000');
