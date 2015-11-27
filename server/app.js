@@ -1,4 +1,4 @@
-const render = require('./lib/render');
+var render = require('./lib/render');
 const logger = require('koa-logger');
 const route = require('koa-route');
 const parse = require('co-body');
@@ -23,9 +23,13 @@ var posts = [];
 var user = require('./routes/user');
 app.use(route.get('/user/api/:type', user));
 
-var component = require('./route/component');
-app.use(route.get('/component/api/:type'), component);
+var component = require('./routes/component');
+app.use(route.get('/component/api/:type', component));
 
+function *post () {
+	this.body = yield render('post-test');
+}
+app.use(route.get('/component/post', post));
 
 app.listen(3000);
 console.log('listening on port 3000');
