@@ -27,6 +27,7 @@
     "koa-route": "^1.1.4",
     "koa-session": "^3.1.0",
     "koa-static": "^1.4.5",
+    "koa-serve": "*",
     "raw-body": "^1.2.1",
     "save-to": "^1.0.3",
     "koa-json": "*",

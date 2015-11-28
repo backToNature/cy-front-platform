@@ -1,0 +1,71 @@
+<html>
+<head>
+  <title>发布测试</title>
+  <meta charset="utf-8">
+  <style type="text/css">
+    body {
+      text-align: center;
+      }
+  </style>
+</head>
+<body>
+  <h1>发布测试</h1>
+  <p>标题</p>
+  <input id="title" type="text" placeholder="请输入标题" name="title">
+  <p>内容</p>
+  <textarea name="content" id="content" placeholder="请输入内容" style="width: 500px;height: 300px;"></textarea>
+  <p>缩略图</p>
+  <input name="img" type="file" id="img"> <img id="uploadImg" src="">
+  <p>tag</p>
+  <input id="tag" name="tag" type="text" placeholder="标签">
+  <p>简介</p>
+  <input id="description" name="description" type="text" placeholder="请输入简介">
+  <button id="submit">提交</button>
+  <script src="http://apps.bdimg.com/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script src="/lib/ajaxFileUpload/ajaxFileUpload.js"></script>
+  <script>
+  	$(function () {
+  		$('#submit').on('click', function () {
+        $.ajaxFileUpload({
+          fileElementId: 'img',
+          url: '/component/api/submitImg',
+          dataType: 'json',
+          beforeSend: function (XMLHttpRequest) {
+            //("loading");
+          },
+          success: function (data, textStatus) {
+            debugger;
+            if (data.code === 200) {
+              if (data.status === 'success') {
+                $('#uploadImg').attr('src', data.img);
+              }
+            }
+          },
+          error: function (XMLHttpRequest, textStatus, errorThrown) {
+            console.log(XMLHttpRequest);
+            // var img = "图片上传失败！";
+            // var msg = "服务器出错，错误内容：" + XMLHttpRequest.responseText;
+            // $.messager.showWin({ msg: msg, title: '错误提示', color: 'red' });
+          },
+          complete: function (XMLHttpRequest, textStatus) {
+            //("loaded");
+          }
+        });
+
+  			// $.ajax({
+		   //      type: "POST",
+		   //      url: "/component/api/submit",
+		   //      data: {
+		   //      	data: $code.val()
+		   //      },
+		   //      cache: false,
+		   //      dataType: "json",
+		   //      success: function(data){
+		             
+		   //      }
+     //     	});
+  		});
+  	});
+  </script>
+</body>
+</html>

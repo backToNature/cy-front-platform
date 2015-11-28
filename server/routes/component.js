@@ -1,19 +1,38 @@
 const render = require('../lib/render');
-var componetDao = require('../dao/component');
-var fs = require('co-fs');
+const componetDao = require('../dao/component');
+const parse = require('co-busboy');
+const fs = require('fs');
+const path = require('path');
 
 function *componet(type) {
-    var req = this.request;
-    var res = this.response;
-    var _this = this;
-    var query = req.query;
-    // console.log(this.session.nickname);
-    console.log(type, 1243343);
-    
-    if (type === 'submit') {
-        // 提交
-        var result = yield fs.writeFile('./files/a.md', 124234);
-        this.body = result;
+
+    if (type === 'submitImg') {
+        if (!this.session.userId) {
+            this.body = {
+                code: 200,
+                status: 'failed',
+                msg: 'please login first'
+            };
+            return;
+        }
+
+        if (!fs.existsSync(path.resolve(__dirname, '../static/files/' + this.session.userId))) {
+            fs.mkdirSync(path.resolve(__dirname, '../static/files/' + this.session.userId));
+        }
+        var parts = parse(this);
+        var part, filename;
+        while (part = yield parts) {
+            var stream = fs.createWriteStream(path.resolve(__dirname, '../static/files/'  + this.session.userId + '/thumbnail' + path.extname(part.filename)));
+            part.pipe(stream);
+            filename = part.filename;
+            console.log('uploading %s -> %s', part.filename, stream.path);
+        }
+        this.body = {
+            code: 200,
+            status: 'success',
+            img: '/files/'+ this.session.userId +'/thumbnail' + path.extname(filename),
+            msg: 'uploading success'
+        };
     }
 
 }
