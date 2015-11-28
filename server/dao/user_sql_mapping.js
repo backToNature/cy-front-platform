@@ -4,5 +4,5 @@ module.exports = {
     loginQuery: 'SELECT * FROM user WHERE account=? and pwd=?;',
     update: 'UPDATE user SET pwd=?, role=? WHERE id=?;',
     select: 'SELECT * FROM user;',
-    insert:'INSERT INTO user(account, pwd, role) VALUES(?,?,?)',
+    insert: 'INSERT INTO user(account, pwd, role) VALUES(?,?,?);'
 };

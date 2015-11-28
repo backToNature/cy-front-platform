@@ -15,20 +15,24 @@
   <p>内容</p>
   <textarea name="content" id="content" placeholder="请输入内容" style="width: 500px;height: 300px;"></textarea>
   <p>缩略图</p>
+  
   <input name="img" type="file" id="img"> <img id="uploadImg" src="">
+  <button id="submitImg">上传</button>
   <p>tag</p>
   <input id="tag" name="tag" type="text" placeholder="标签">
   <p>简介</p>
   <input id="description" name="description" type="text" placeholder="请输入简介">
-  <button id="submit">提交</button>
-  <script src="http://apps.bdimg.com/libs/jquery/1.8.3/jquery.min.js"></script>
+  <div>
+    <button id="submit">提交</button>
+  </div>
+  <script src="/lib/jquery/jquery.1.8.3.min.js"></script>
   <script src="/lib/ajaxFileUpload/ajaxFileUpload.js"></script>
   <script>
   	$(function () {
-  		$('#submit').on('click', function () {
+  		$('#submitImg').on('click', function () {
         $.ajaxFileUpload({
           fileElementId: 'img',
-          url: '/component/api/submitImg',
+          url: '/component/api/submitImg?a=32452354',
           dataType: 'json',
           beforeSend: function (XMLHttpRequest) {
             //("loading");
@@ -65,6 +69,24 @@
 		   //      }
      //     	});
   		});
+      $('#submit').on('click', function () {
+        $.ajax({
+          type: 'POST',
+          url: '/component/api/submit',
+          dataType: 'json',
+          cache: false,
+          data: {
+            title: $('#title').val(),
+            tag: $('#tag').val(),
+            description: $('#description').val(),
+            content: $('#content').val(),
+            img: $('#uploadImg').attr('src')
+          },
+          success: function (data) {
+            console.log(data);
+          }
+        });
+      });
   	});
   </script>
 </body>
