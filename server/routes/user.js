@@ -6,7 +6,6 @@ function *user(type) {
     var res = this.response;
     var _this = this;
     var query = req.query;
-    console.log(this.session.nickname);
     if (type === 'sign_up') {
         // 注册
         var account = query.account, pwd = query.pwd;

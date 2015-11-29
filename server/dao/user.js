@@ -1,10 +1,8 @@
 var dbconfig = require('../conf/db'),
     mysql = require('mysql'),
-    sql_mapping = require('./user_sql_mapping'),
-    co = require('co');
+    sql_mapping = require('./user_sql_mapping');
 
 var pool = mysql.createPool(dbconfig.mysql);
-
 
 function query(sql, params) {
     return function (fn) {
@@ -13,19 +11,10 @@ function query(sql, params) {
         });
     };
 }
-// var query = function (sql, params, fn) {
-// 	pool.getConnection(function (err, connection) {
-// 	    connection.query(sql, params, function (err, result) {
-//             // fn(result);
-// 	        connection.release();
-// 	    });
-// 	});
-// };
 
 module.exports = {
 	// 获取用户列表
     getUserList: function *(params) {
-
 		return yield query(sql_mapping.select, params);
     },
     // 获取用户名是否存在
@@ -36,10 +25,13 @@ module.exports = {
          */
         var result = yield query(sql_mapping.queryByAccount, params);
         if (result[0].length) {
+            // 存在
             return true;
         } else if (result[0].length === 0) {
+            // 不存在
             return false;
         } else {
+            // 查询出错
             return 'error';
         }
     },
@@ -50,6 +42,7 @@ module.exports = {
          * account {string}: 用户名
          * pwd {string}: 密码
          */
+        // 查询用户名是否存在
         var accountIsExsit = yield this.accountIsExsit(params[0]);
         if (accountIsExsit === true) {
             return {
@@ -58,14 +51,27 @@ module.exports = {
                 msg: 'account is exsit'
             }
         } else if (accountIsExsit === false) {
+            // 注册
             var result = yield query(sql_mapping.insert, params);
             if (result[0].insertId) {
                 return {
-                    code:200,
+                    code: 200,
                     status: 'success',
                     msg: 'register success'
                 };
+            } else {
+                return {
+                    code: 500,
+                    status: 'error',
+                    msg: 'server error'
+                };
             }
+        } else {
+            return {
+                code: 500,
+                status: 'error',
+                msg: 'server error'
+            };
         }
     },
     // 登陆

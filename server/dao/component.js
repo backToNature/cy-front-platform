@@ -25,7 +25,6 @@ module.exports = {
          * utime {date}: 更新时间
          */
         var result = yield query(sql_mapping.insert, params);
-        console.log(result[0]);
         if (result[0].insertId) {
             return {
                 code: 200,
