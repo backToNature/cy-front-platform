@@ -42,7 +42,30 @@ module.exports = {
                 msg: 'insert failed'
             };
          }
-
+    },
+    modifyComponent: function *(params) {
+        /**
+         * @params
+         * component_id {int}: 组件id
+         * user_id {INT}: 用户id
+         * title {string}: 组件title
+         * tag {string}: 组件标签
+         * description {string}: 组件简介
+         * utime {date}: 更新时间
+         */
+        var result = yield query(sql_mapping.update, params);
+        if (result[0].changedRows) {
+            return {
+                code: 200,
+                status: 'success',
+                msg: 'modify success'
+            };
+        } else {
+            return {
+                code: 200,
+                status: 'failed',
+                msg: 'modify failed'
+            };
+        }
     }
-    
 };

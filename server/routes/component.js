@@ -102,6 +102,63 @@ function *componet(type) {
         };
     }
 
+    if (type === 'modify') {
+        // 判断是否登陆
+        if (!this.session.userId) {
+            this.body = {
+                code: 200,
+                status: 'failed',
+                msg: 'please login first'
+            };
+            return;
+        }
+        if (!this.session.userId) {
+            this.body = {
+                code: 200,
+                status: 'failed',
+                msg: 'please login first'
+            };
+            return;
+        }
+        var postQuery = yield postParse(this);
+        var componentId = postQuery.component_id;
+        var result = yield componentDao.modifyComponent([postQuery.title, postQuery.tag, postQuery.description, new Date(), componentId, this.session.userId]);
+        
+        var userComponentPath = path.resolve(__dirname, '../static/files/components/' + this.session.userId);
+        if (result.code === 200) {
+            if (result.status !== 'success') {
+                this.body = {
+                    code: 200,
+                    status: 'failed',
+                    msg: 'modify failed'
+                };
+                return;
+            }
+        }
+
+        if (!fs.existsSync(userComponentPath)) {
+            fs.mkdirSync(userComponentPath);
+        }
+        var componentPath = userComponentPath + '/' + componentId;
+        if (!fs.existsSync(componentPath)) {
+            fs.mkdirSync(componentPath);
+        }
+
+        fs.writeFileSync(componentPath + '/' + postQuery.title + '.md', postQuery.content);
+
+        var thumbnailName = path.basename(postQuery.img);
+        if (thumbnailName) {
+            if (fs.existsSync(userComponentPath + '/' + thumbnailName)) {
+                fs.renameSync(userComponentPath + '/' + thumbnailName, componentPath + '/' + thumbnailName);
+            }
+        }
+        this.body = {
+            code: 200,
+            status: 'success',
+            msg: 'modify success'
+        };
+
+    }
 }
 
 module.exports = componet;

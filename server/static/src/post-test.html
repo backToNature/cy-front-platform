@@ -25,6 +25,10 @@
   <div>
     <button id="submit">提交</button>
   </div>
+  <div>
+    <input id="component_id" type="text" value="1">
+    <button id="modify">修改</button>
+  </div>
   <script src="/lib/jquery/jquery.1.8.3.min.js"></script>
   <script src="/lib/ajaxFileUpload/ajaxFileUpload.js"></script>
   <script>
@@ -55,19 +59,6 @@
             //("loaded");
           }
         });
-
-  			// $.ajax({
-		   //      type: "POST",
-		   //      url: "/component/api/submit",
-		   //      data: {
-		   //      	data: $code.val()
-		   //      },
-		   //      cache: false,
-		   //      dataType: "json",
-		   //      success: function(data){
-		             
-		   //      }
-     //     	});
   		});
       $('#submit').on('click', function () {
         $.ajax({
@@ -80,6 +71,25 @@
             tag: $('#tag').val(),
             description: $('#description').val(),
             content: $('#content').val(),
+            img: $('#uploadImg').attr('src')
+          },
+          success: function (data) {
+            console.log(data);
+          }
+        });
+      });
+      $('#modify').on('click', function () {
+        $.ajax({
+          type: 'POST',
+          url: '/component/api/modify',
+          dataType: 'json',
+          cache: false,
+          data: {
+            title: $('#title').val(),
+            tag: $('#tag').val(),
+            description: $('#description').val(),
+            content: $('#content').val(),
+            component_id: $('#component_id').val(),
             img: $('#uploadImg').attr('src')
           },
           success: function (data) {

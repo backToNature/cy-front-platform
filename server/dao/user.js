@@ -43,14 +43,6 @@ module.exports = {
             return 'error';
         }
     },
-    // 获取用户信息
-    getUserInfo: function (params, fn) {
-    	/**
-		 * @params
-		 * id {INT}: 用户id
-		 */
-    	query(sql_mapping.getUserInfo, params, fn);
-    },
     // 注册
     signUp: function *(params) {
         /**
@@ -111,7 +103,6 @@ module.exports = {
          * id {int}: 用户id
          * pwd {string}: 旧密码
          */
-
         var result = yield query(sql_mapping.update, params);
         if (result[0].changedRows) {
             return {
