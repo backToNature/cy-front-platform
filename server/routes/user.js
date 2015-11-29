@@ -80,9 +80,28 @@ function *user(type) {
                 msg: 'get failed'
             }
         }
-        
     }
 
+    if (type === 'modify') {
+        // 判断是否登陆
+        if (!this.session.userId) {
+            this.body = {
+                code: 200,
+                status: 'failed',
+                msg: 'please login first'
+            };
+            return;
+        }
+
+        var result = yield userDao.modify([query.new_pwd, this.session.userId, query.old_pwd]);
+        if (result.code === 200) {
+            if (result.status === 'success') {
+                this.body = result;
+            } else {
+                this.body = result;
+            }
+        } 
+    }
 }
 
 module.exports = user;

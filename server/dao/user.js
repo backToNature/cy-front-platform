@@ -75,8 +75,8 @@ module.exports = {
                 };
             }
         }
-        
     },
+    // 登陆
     login: function *(params) {
         /**
          * @params
@@ -103,5 +103,28 @@ module.exports = {
                 msg: 'login failed'
             };
          }
+    },
+    modify: function *(params) {
+        /**
+         * @params
+         * pwd {string}: 新密码
+         * id {int}: 用户id
+         * pwd {string}: 旧密码
+         */
+
+        var result = yield query(sql_mapping.update, params);
+        if (result[0].changedRows) {
+            return {
+                code: 200,
+                status: 'success',
+                msg: 'modify success'
+            };
+        } else {
+            return {
+                code: 200,
+                status: 'failed',
+                msg: 'modify failed'
+            };
+        }
     }
 };
