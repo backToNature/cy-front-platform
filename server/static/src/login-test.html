@@ -1,11 +1,40 @@
 <html>
 <head>
-  <title>登陆测试</title>
+<title>登陆测试</title>
+<style>
+    body {
+        text-align: center;
+    }
+</style>
 </head>
 <body>
-  <h1>登陆测试</h1>
-  {% for post in posts %}
-  {% endfor %}
-  <script src="http://apps.bdimg.com/libs/jquery/1.8.3/jquery.min.js"></script>
+    <div>
+        <h1>登陆测试</h1>
+        <div>
+            <input type="text" placeholder="请输入账号">
+        </div>
+        <div>
+            <input type="text" placeholder="请输入密码">
+        </div>
+        <button id="login">登录</button>
+        <p></p>
+        <p></p>
+        <p></p>
+    </div>
+    <div>
+        <h1>注册测试</h1>
+        <div>
+            <input type="text" placeholder="请输入账号">
+        </div>
+        <div>
+            <input type="text" placeholder="请输入密码">
+        </div>
+        <div>
+            <input type="text" placeholder="再次输入密码">
+        </div>
+        <button id="signUp">注册</button>
+    </div>
+    
+    <script src="/src/lib/jquery/jquery.1.8.3.min.js"></script>
 </body>
 </html>
