@@ -30,6 +30,7 @@ app.use(route.get('/user/api/:type', user));
 var component = require('./routes/component');
 app.use(route.post('/component/api/:type', component));
 
+app.use(route.get('/component/api/:type', component));
 
 
 function *post () {

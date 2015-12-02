@@ -66,5 +66,10 @@ module.exports = {
                 msg: 'modify failed'
             };
         }
+    },
+    getComponetList: function *() {
+        var result = yield query(sql_mapping.queryAll);
+        var list = result[0];
+        return list;
     }
 };
