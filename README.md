@@ -60,3 +60,9 @@
 		* *tag： 组件分类
 		* *description: 组件简介
 
+### 获取组件列表
+
+* /componet/api/list
+	* type: get
+	* request
+
