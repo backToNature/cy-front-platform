@@ -5,6 +5,7 @@ const postParse = require('co-body');
 const fs = require('fs');
 const path = require('path');
 const componentDao = require('../dao/component');
+const util = require('util');
 var componentModel = require('../model/component');
 
 function *componet(type) {
@@ -15,7 +16,24 @@ function *componet(type) {
     if (this.method == 'GET') {
         if (type === 'list') {
             var result = yield componentDao.getComponetList();
-            this.body = result;
+            if (util.isArray(result)) {
+                result.forEach(function (item) {
+                    item.ctime = item.ctime.valueOf();
+                    item.utime = item.utime.valueOf();
+                });
+                this.body = {
+                    code: 200,
+                    status: 'success',
+                    data: result,
+                    msg: 'query success'
+                };
+            } else {
+                this.body = {
+                    code: 200,
+                    status: 'failed',
+                    msg: 'query failed'
+                };
+            }
             return;
         }
     }
