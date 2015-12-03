@@ -96,5 +96,10 @@ module.exports = {
         var result = yield query(sql_mapping.queryAll);
         var list = result[0];
         return list;
+    },
+    getUserComponentList: function *(params) {
+        var result = yield query(sql_mapping.queryById, params);
+        var list = result[0];
+        return list;
     }
 };

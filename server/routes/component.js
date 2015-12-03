@@ -36,6 +36,36 @@ function *componet(type) {
             }
             return;
         }
+        if (type === 'userList') {
+            if (!this.session.userId) {
+                this.body = {
+                    code: 200,
+                    status: 'failed',
+                    msg: 'please login first'
+                };
+                return;
+            }
+            var result = yield componentDao.getUserComponentList([this.session.userId]);
+            if (util.isArray(result)) {
+                result.forEach(function (item) {
+                    item.ctime = item.ctime.valueOf();
+                    item.utime = item.utime.valueOf();
+                });
+                this.body = {
+                    code: 200,
+                    status: 'success',
+                    data: result,
+                    msg: 'query success'
+                };
+            } else {
+                this.body = {
+                    code: 200,
+                    status: 'failed',
+                    msg: 'query failed'
+                };
+            }
+            return;
+        }
     }
 
     if (type === 'submitImg') {
