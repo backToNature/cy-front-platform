@@ -42,7 +42,6 @@
             //("loading");
           },
           success: function (data, textStatus) {
-            debugger;
             if (data.code === 200) {
               if (data.status === 'success') {
                 $('#uploadImg').attr('src', data.img);
