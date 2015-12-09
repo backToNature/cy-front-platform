@@ -6,7 +6,7 @@ const fs = require('fs');
 const path = require('path');
 const componentDao = require('../dao/component');
 const util = require('util');
-var componentModel = require('../model/component');
+const componentModel = require('../model/component');
 
 function *componet(componentId) {
     var req = this.request;

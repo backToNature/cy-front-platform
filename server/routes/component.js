@@ -122,10 +122,11 @@ function *componet(type) {
         var postQuery = yield postParse(this);
         var result = yield componentDao.addComponent([this.session.userId, postQuery.title, postQuery.tag, postQuery.description, new Date()]);
         var componentsRoot = path.resolve(__dirname, '../static/files/components');
+        var tmpdir = path.resolve(__dirname, '../static/files/tmp');
         var componentId;
         if (result.code === 200) {
             if (result.status === 'success') {
-                componentId = result.data.id; 
+                componentId = result.data.id.toString();
             } else {
                 this.body = {
                     code: 200,
@@ -140,18 +141,18 @@ function *componet(type) {
         if (!fs.existsSync(componentPath)) {
             fs.mkdirSync(componentPath);
         }
-        
-        fs.writeFileSync(componentPath + '/' + 'component.md', postQuery.content);
 
-        //   写到这里了啊
+        fs.writeFileSync(path.join(componentPath, 'component.md'), postQuery.content);
+
         var thumbnailName = path.basename(postQuery.img);
-        var componentUrl = '/files/components/'  + this.session.userId + '/' + componentId + '/' + 'component.md';
+
+        var componentUrl = path.join('/files/components/', componentId, 'component.md');
         var thumbnailUrl = '/files/components/thumbnail.png';
 
         if (thumbnailName) {
-            if (fs.existsSync(userComponentPath + '/' + thumbnailName)) {
-                fs.renameSync(userComponentPath + '/' + thumbnailName, componentPath + '/' + 'thumb' + path.extname(thumbnailName));
-                thumbnailUrl = '/files/components/' + this.session.userId + '/' + componentId + '/' + 'thumb' + path.extname(thumbnailName);
+            if (fs.existsSync(path.join(tmpdir, thumbnailName))) {
+                fs.renameSync(path.join(tmpdir, thumbnailName), path.join(componentPath, 'thumb' + path.extname(thumbnailName)));
+                thumbnailUrl = path.join('/files/components/', componentId, 'thumb' + path.extname(thumbnailName));
             }
         }
         var Mresult = yield componentDao.modifyComponent([postQuery.title, postQuery.tag, postQuery.description, new Date(), componentUrl, thumbnailUrl, componentId, this.session.userId]);
@@ -183,38 +184,24 @@ function *componet(type) {
             };
             return;
         }
-        if (!this.session.userId) {
-            this.body = {
-                code: 200,
-                status: 'failed',
-                msg: 'please login first'
-            };
-            return;
-        }
+        var tmpdir = path.resolve(__dirname, '../static/files/tmp');
+
         var postQuery = yield postParse(this);
-        var componentId = postQuery.component_id;
+        var componentId = postQuery.component_id.toString();
         
-        var userComponentPath = path.resolve(__dirname, '../static/files/components/' + this.session.userId);
-        
+        var componentRoot = path.resolve(__dirname, '../static/files/components');
+        var componentPath = path.join(componentRoot, componentId);
 
-        if (!fs.existsSync(userComponentPath)) {
-            fs.mkdirSync(userComponentPath);
-        }
-
-        var componentPath = userComponentPath + '/' + componentId;
-        if (!fs.existsSync(componentPath)) {
-            fs.mkdirSync(componentPath);
-        }
-
-        fs.writeFileSync(componentPath + '/' + 'component.md', postQuery.content);
+        fs.writeFileSync(path.join(componentPath, 'component.md'), postQuery.content);
 
         var thumbnailName = path.basename(postQuery.img);
         var thumbnailUrl = '';
-        var componentUrl = '/files/components/'  + this.session.userId + '/' + componentId + '/' + 'component.md';
+        var componentUrl = path.join('/files/components/', componentId, 'component.md');
+
         if (thumbnailName) {
-            if (fs.existsSync(userComponentPath + '/' + thumbnailName)) {
-                fs.renameSync(userComponentPath + '/' + thumbnailName, componentPath + '/' + 'thumb' + path.extname(thumbnailName));
-                thumbnailUrl = '/files/components/' + this.session.userId + '/' + componentId + '/' + 'thumb' + path.extname(thumbnailName);
+            if (fs.existsSync(path.join(tmpdir, thumbnailName))) {
+                fs.renameSync(path.join(tmpdir, thumbnailName), path.join(componentPath,'thumb' + path.extname(thumbnailName)));
+                thumbnailUrl = path.join('/files/components/', componentId, 'thumb' + path.extname(thumbnailName));
             }
         }
         var result;
