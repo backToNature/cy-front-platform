@@ -8,6 +8,8 @@ const convert = require('koa-convert');
 const session = require('koa-generic-session');
 const json = require('koa-json');
 const staticCache = require('koa-static-cache')
+const os = require('os');
+const path = require('path');
 const app = koa();
 
 
@@ -30,6 +32,8 @@ app.use(route.post('/component/api/:type', component));
 
 app.use(route.get('/component/api/:type', component));
 
+// var componentPage = require('./routes/componentPage');
+// app.use(route.get('/component/:componentId', componentPage));
 
 function *post () {
 	this.body = yield render('post-test');
@@ -38,7 +42,9 @@ app.use(route.get('/component/post', post));
 
 app.use(staticCache(__dirname + '/static', {
 	maxAge: 365 * 24 * 60 * 60,
-	gzip: true
+	gzip: true,
+    dynamic: true
 }));
+
 app.listen(3000);
 console.log('listening on port 3000');

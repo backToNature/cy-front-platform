@@ -6,6 +6,7 @@ const fs = require('fs');
 const path = require('path');
 const componentDao = require('../dao/component');
 const util = require('util');
+const os = require('os');
 var componentModel = require('../model/component');
 
 function *componet(type) {
@@ -78,36 +79,35 @@ function *componet(type) {
             return;
         }
 
-        // 计算组件路径
-        var thumbnailPath = path.resolve(__dirname, '../static/files/components/' + this.session.userId);
-        if (!fs.existsSync(thumbnailPath)) {
-            fs.mkdirSync(thumbnailPath);
+        function uid() {
+          return Math.random().toString(36).slice(2);
         }
-        // 删除多余的临时缩略图
-        var fileList = fs.readdirSync(thumbnailPath);
-        fileList.forEach(function (item) {
-            if (path.extname(item)) {
-                fs.unlinkSync(thumbnailPath + '/' + item);
-            }
-        });
+
+        var tmpdir = path.resolve(__dirname, '../static/files/tmp');
+
+        if (!fs.existsSync(tmpdir)) {
+            fs.mkdirSync(tmpdir);
+        }
 
         // 上传缩略图
         var parts = parse(this);
-        var part, filename;
+        var filename, name;
         while (part = yield parts) {
-            var stream = fs.createWriteStream(thumbnailPath + '/' + part.filename);
+            name = uid() + path.extname(part.filename);
+            filename = path.join(tmpdir, name);
+            var stream = fs.createWriteStream(filename);
             part.pipe(stream);
-            filename = part.filename;
-            console.log('uploading %s -> %s', part.filename, stream.path);
+            console.log('uploading %s -> %s', filename, stream.path);
         }
 
         this.body = {
             code: 200,
             status: 'success',
-            img: '/files/components/'+ this.session.userId +'/' + filename,
+            img: '/files/tmp/' + name,
             msg: 'uploading success'
         };
     }
+
     if (type === 'submit') {
         // 判断是否登陆
         if (!this.session.userId) {
@@ -118,9 +118,10 @@ function *componet(type) {
             };
             return;
         }
+
         var postQuery = yield postParse(this);
         var result = yield componentDao.addComponent([this.session.userId, postQuery.title, postQuery.tag, postQuery.description, new Date()]);
-        var userComponentPath = path.resolve(__dirname, '../static/files/components/' + this.session.userId);
+        var componentsRoot = path.resolve(__dirname, '../static/files/components');
         var componentId;
         if (result.code === 200) {
             if (result.status === 'success') {
@@ -134,16 +135,15 @@ function *componet(type) {
                 return;
             }
         }
+        var componentPath = path.join(componentsRoot, componentId);
 
-        if (!fs.existsSync(userComponentPath)) {
-            fs.mkdirSync(userComponentPath);
-        }
-        var componentPath = userComponentPath + '/' + componentId;
         if (!fs.existsSync(componentPath)) {
             fs.mkdirSync(componentPath);
         }
+        
         fs.writeFileSync(componentPath + '/' + 'component.md', postQuery.content);
 
+        //   写到这里了啊
         var thumbnailName = path.basename(postQuery.img);
         var componentUrl = '/files/components/'  + this.session.userId + '/' + componentId + '/' + 'component.md';
         var thumbnailUrl = '/files/components/thumbnail.png';
