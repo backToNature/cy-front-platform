@@ -10,6 +10,7 @@ const json = require('koa-json');
 const staticCache = require('koa-static-cache')
 const os = require('os');
 const path = require('path');
+
 const app = koa();
 
 
@@ -42,7 +43,8 @@ app.use(route.get('/component/modify/:componentId', componentPage.modify));
 app.use(route.get('/component/detail/:componentId', componentPage.detail));
 // 主页
 app.use(route.get('/', componentPage.index));
-
+app.use(route.get('/index', componentPage.index));
+app.use(route.get('/index.html', componentPage.index));
 
 // function *post () {
 // 	this.body = yield render('post-test');

@@ -8,6 +8,7 @@ const componentDao = require('../dao/component');
 const util = require('util');
 const componentModel = require('../model/component');
 const md = require( "markdown" ).markdown;
+const moment = require("moment");
 
 function *componet(key) {
     var req = this.request;
@@ -33,7 +34,10 @@ var routePages = {
             this.redirect = ('/src/login.html');
         }
         var userInfo = this.session;
-        this.body = yield render('submit', userInfo);
+        var data = {
+            userInfo: userInfo
+        };
+        this.body = yield render('submit', data);
     },
     modify: function *(componentId) {
         if (!this.session.userId) {
@@ -67,8 +71,8 @@ var routePages = {
         var html = md.toHTML(content)
         html = html.replace(/<pre>/g, '<pre class="prettyprint">');
         info.content = html;
-        info.ctime = info.ctime.valueOf();
-        info.utime = info.utime.valueOf();
+        info.ctime = moment(info.ctime).format("YYYY-MM-DD HH:mm:ss");
+        info.utime = moment(info.utime).format("YYYY-MM-DD HH:mm:ss");
 
         var data = {
             info: info
@@ -78,10 +82,15 @@ var routePages = {
     index: function *() {
         var componentList = yield componentDao.getComponetList();
         var userInfo = this.session;
+        componentList.forEach(function (item) {
+            item.ctime = moment(item.ctime).format("YYYY-MM-DD HH:mm:ss");
+            item.utime = moment(item.utime).format("YYYY-MM-DD HH:mm:ss");
+        });
         var data = {
             componentList: componentList,
             userInfo: userInfo
         };
+
         console.log(userInfo);
         this.body = yield render('index', data);
     }

@@ -35,7 +35,8 @@
     "streaming-json-stringify": "^1.0.0",
     "swig": "^1.4.2",
     "mysql": "*",
-    "markdown": "*"
+    "markdown": "*",
+    "moment": "*"
   },
   "devDependencies": {
     "co": "*",
