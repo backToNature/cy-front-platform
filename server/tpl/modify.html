@@ -1,0 +1,99 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>修改组件</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <link rel="alternate icon" type="image/png" href="/i/favicon.png">
+    <link rel="stylesheet" href="/src/lib/amaze/css/amazeui.min.css"/>
+</head>
+<body>
+    <div class="am-topbar admin-header">
+      <div class="am-topbar-brand">
+        <strong>畅言</strong> <small>前端组件平台</small>
+      </div>
+
+      <button class="am-topbar-btn am-topbar-toggle am-btn am-btn-sm am-btn-success am-show-sm-only" data-am-collapse="{target: '#topbar-collapse'}"><span class="am-sr-only">导航切换</span> <span class="am-icon-bars"></span></button>
+
+      <div class="am-collapse am-topbar-collapse" id="topbar-collapse">
+        {% block user %}
+        <ul class="am-nav am-nav-pills am-topbar-nav am-topbar-right admin-header-list">
+          <li class="am-dropdown" data-am-dropdown>
+            <a class="am-dropdown-toggle" data-am-dropdown-toggle href="javascript:;">
+              <span class="am-icon-users"></span> {{userInfo.nickname}} <span class="am-icon-caret-down"></span>
+            </a>
+            <ul class="am-dropdown-content">
+              <li><a href="/component/myComponents/{{userId}}"><span class="am-icon-user"></span> 我的组件</a></li>
+              <li><a href="/component/submit"><span class="am-icon-cog"></span> 发表组件</a></li>
+              <li><a href="#" id="logout"><span class="am-icon-power-off"></span> 退出</a></li>
+            </ul>
+          </li>
+        </ul>
+        {%endblock%}
+      </div>
+    </div>
+    <div class="content am-g">
+      <div class="am-u-sm-8 am-u-sm-centered">
+      {% block component %}
+        <form class="am-form">
+          <fieldset>
+            <legend>修改组件</legend>
+            <input id="component_id" type="text" readonly="readonly" value="{{component.id}}" style="display: none;">
+            <div class="am-form-group">
+              <label for="title">标题</label>
+              <input type="text" id="title" value="{{component.title}}" placeholder="输入标题">
+            </div>
+            
+            <div class="am-form-group">
+              <label for="content">内容</label>
+              <textarea style="resize: none;" class="" rows="5" id="content" placeholder="请填入markdown内容">{{component.content}}</textarea>
+            </div>
+
+            <div class="am-form-group">
+              <label for="up-img">请上传缩略图</label>
+              <input name="up-img" type="file"s id="up-img">
+              <p class="am-form-help">请选择要上传的文件...</p>
+              <button id="uploadImg" type="button" class="am-btn am-btn-xs am-btn-primary">上 传</button>
+            </div>
+
+            <div class="am-form-group">
+              <div style="width: 135px;height: 75px;">
+                <img id="img" class="am-img-thumbnail am-img-bdrs" src="{{component.thub_url}}" alt="缩略图">
+              </div>
+            </div>
+
+            <div class="am-form-group">
+              <label for="tag">tag</label>
+              <input type="text" class="" id="tag" placeholder="输入tag" value="{{component.tag}}">
+            </div>
+
+            <div class="am-form-group">
+              <label for="description">简介</label>
+              <input type="text" value="{{component.description}}" id="description" placeholder="输入组件简介">
+            </div>
+            <p><button id="submit" type="submit" class="am-btn am-btn-primary">提交</button></p>
+          </fieldset>
+        </form>
+      {%endblock%}
+      </div>
+    </div>
+    <div class="am-modal am-modal-alert" tabindex="-1" id="alert">
+      <div class="am-modal-dialog">
+        <div class="am-modal-hd">畅言FE</div>
+        <div class="am-modal-bd">
+          输入有错误！
+        </div>
+        <div class="am-modal-footer">
+          <span class="am-modal-btn">确定</span>
+        </div>
+      </div>
+    </div>
+    <script src="/src/lib/jquery/jquery.1.8.3.min.js"></script>
+    <script src="/src/lib/amaze/js/amazeui.min.js"></script>
+    <script src="/src/lib/ajaxFileUpload/ajaxFileUpload.js"></script>
+    <script src="/src/js/modify.js"></script>
+</body>
+</html>

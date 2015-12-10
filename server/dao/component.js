@@ -10,6 +10,7 @@ function query(sql, params) {
     return function (fn) {
         pool.getConnection(function (err, connection) {
             connection.query(sql, params, fn);
+            connection.release();
         });
     };
 }
@@ -92,14 +93,28 @@ module.exports = {
             };
         }
     },
+
     getComponetList: function *() {
         var result = yield query(sql_mapping.queryAll);
         var list = result[0];
         return list;
     },
-    getUserComponentList: function *(params) {
+    getComponentById: function *(params) {
         var result = yield query(sql_mapping.queryById, params);
         var list = result[0];
         return list;
+    },
+    validateUserIsHasThisComponent: function *(params) {
+        var result = yield query(sql_mapping.queryByIdUserId, params);
+        if (result[0].length) {
+            // 存在
+            return true;
+        } else if (result[0].length === 0) {
+            // 不存在
+            return false;
+        } else {
+            // 查询出错
+            return 'error';
+        }
     }
 };

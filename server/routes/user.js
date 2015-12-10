@@ -27,7 +27,7 @@ function *user(type) {
         if (typeof account !== 'string' && typeof pwd !== 'string') {
             return;
         }
-
+        
         var result = yield userDao.login([account, pwd]);
         if (result.code === 200) {
             if (result.status === 'success') {
@@ -35,6 +35,7 @@ function *user(type) {
                 this.session.nickname = result.data.nickname;
                 this.session.img_url = result.data.img_url;
                 this.session.role = result.data.role;
+                this.session.account = account;
                 this.body = {
                     code: 200,
                     status: 'success',

@@ -84,7 +84,7 @@ function *componet(type) {
         }
 
         var tmpdir = path.resolve(__dirname, '../static/files/tmp');
-
+        console.log(tmpdir);
         if (!fs.existsSync(tmpdir)) {
             fs.mkdirSync(tmpdir);
         }
@@ -94,6 +94,7 @@ function *componet(type) {
         var filename, name;
         while (part = yield parts) {
             name = uid() + path.extname(part.filename);
+            console.log(part);
             filename = path.join(tmpdir, name);
             var stream = fs.createWriteStream(filename);
             part.pipe(stream);

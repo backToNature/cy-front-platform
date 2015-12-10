@@ -9,20 +9,37 @@
     <meta http-equiv="Cache-Control" content="no-siteapp" />
     <link rel="alternate icon" type="image/png" href="/i/favicon.png">
     <link rel="stylesheet" href="/src/lib/amaze/css/amazeui.min.css"/>
+    <link rel="stylesheet" href="/src/css/detail.css">
+    <script src="/src/lib/prettify/prettify.min.js"></script>
 </head>
-<body>
+<body onload="prettyPrint()">
     <div class="am-topbar admin-header">
       <div class="am-topbar-brand">
         <strong>畅言</strong> <small>前端组件平台</small>
       </div>
+
     </div>
     <div class="am-g">
       <div class="am-u-sm-2">
-        123414
+        这里为标题栏
       </div>
       <div class="am-u-sm-10">
         <div class="markdownWrapper">
+          {% block info %}
+          <div class="infoHeader">
+            <h1>{{info.title}}</h1>
+              <p><span class="kind1">所属分类</span> {{info.tag}}</p>
+              <p><span class="kind2">创建时间</span> {{info.ctime}} &nbsp;&nbsp;&nbsp;&nbsp;<span class="kind3">更新时间</span> {{info.utime}}</p>
+            <p>简介: {{info.description}}</p>
+            <hr>
+          </div>
+          {%endblock%}
           
+          <div class="markdown">
+            {% autoescape false %}
+              {{info.content}} 
+            {% endautoescape %}
+          </div>
         </div>
       </div>
     </div>

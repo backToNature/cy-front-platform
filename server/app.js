@@ -32,13 +32,21 @@ app.use(route.post('/component/api/:type', component));
 
 app.use(route.get('/component/api/:type', component));
 
-// var componentPage = require('./routes/componentPage');
-// app.use(route.get('/component/:componentId', componentPage));
 
-function *post () {
-	this.body = yield render('post-test');
-}
-app.use(route.get('/component/post', post));
+var componentPage = require('./routes/componentPage');
+// 发表页面
+app.use(route.get('/component/submit', componentPage.submit));
+// 修改页面
+app.use(route.get('/component/modify/:componentId', componentPage.modify));
+// 详情页面
+app.use(route.get('/component/detail/:componentId', componentPage.detail));
+
+
+
+// function *post () {
+// 	this.body = yield render('post-test');
+// }
+// app.use(route.get('/component/post', post));
 
 app.use(staticCache(__dirname + '/static', {
 	maxAge: 365 * 24 * 60 * 60,

@@ -8,6 +8,7 @@ function query(sql, params) {
     return function (fn) {
         pool.getConnection(function (err, connection) {
             connection.query(sql, params, fn);
+            connection.release();
         });
     };
 }

@@ -25,34 +25,95 @@
 </head>
 <body>
     <div class="header">
-  <div class="am-g">
-    <h1>畅言前端组件平台</h1>
-    <p>我们不生产组件，我们是组件的搬运工</p>
-  </div>
-  <hr />
-</div>
-<div class="am-g">
-  <div class="am-u-lg-6 am-u-md-8 am-u-sm-centered">
-    <h3>注册</h3>
-    <hr>
-    <form method="post" class="am-form">
-      <label for="account">账号:</label>
-      <input type="text" name="" id="account" value="">
-      <br>
-      <label for="password">密码:</label>
-      <input type="password" name="" id="password" value="">
-      <br>
-      <label for="repassword">再次输入密码:</label>
-      <input type="password" name="" id="repassword" value="">
-      <br>
-      <br />
-      <div class="am-cf">
-        <input type="submit" name="" value="注 册" class="am-btn am-btn-primary am-btn-sm am-fl">
+      <div class="am-g">
+        <h1>畅言前端组件平台</h1>
+        <p>我们不生产组件，我们是组件的搬运工</p>
       </div>
-    </form>
-    <hr>
-  </div>
-</div>
-    <script src="/src/lib/jquery/jquery.1.8.3.min.js"></script>
+      <hr />
+    </div>
+    <div class="am-g">
+      <div class="am-u-lg-6 am-u-md-8 am-u-sm-centered">
+        <h3>注册</h3>
+        <hr>
+        <form method="post" class="am-form">
+          <label for="account">账号:</label>
+          <input type="text" name="" id="account" value="">
+          <br>
+          <label for="password">密码:</label>
+          <input type="password" name="" id="password" value="">
+          <br>
+          <label for="repassword">再次输入密码:</label>
+          <input type="password" name="" id="repassword" value="">
+          <br>
+          <br />
+          <div class="am-cf">
+            <input id="submit" type="submit" name="" value="注 册" class="am-btn am-btn-primary am-btn-sm am-fl">
+          </div>
+        </form>
+        <hr>
+      </div>
+    </div>
+    <div class="am-modal am-modal-alert" tabindex="-1" id="alert">
+      <div class="am-modal-dialog">
+        <div class="am-modal-hd">畅言FE</div>
+        <div class="am-modal-bd">
+          输入有错误！
+        </div>
+        <div class="am-modal-footer">
+          <span class="am-modal-btn">确定</span>
+        </div>
+      </div>
+    </div>
+    <script src="./lib/jquery/jquery.1.8.3.min.js"></script>
+    <script src="./lib/amaze/js/amazeui.min.js"></script>
+    <script src="./lib/jquery/jQuery.md5.js"></script>
+    <script>
+      $(function () {
+      $('#submit').on('click', function (e) {
+        e.preventDefault();
+        var account = $('#account').val(),
+            pwd = $('#password').val(),
+            rePwd = $('#repassword').val();
+            if (account == '' || account.length > 30) {
+              $('#alert').modal('open');
+              return;
+            }
+
+            if (pwd == '' && pwd.length > 30) {
+              $('#alert').modal('open');
+              return;
+            }
+
+            if (rePwd == ''&& rePwd.length > 30) {
+              $('#alert').modal('open');
+              return;
+            }
+
+            if (rePwd !== pwd) {
+              $('#alert').modal('open');
+              return;
+            }
+
+        var md5Pwd = $.md5(pwd);
+        $.ajax({
+          type: 'GET',
+          url: '/user/api/sign_up',
+          dataType: 'json',
+          cache: false,
+          data: {
+            account: account,
+            pwd: md5Pwd
+          },
+          success: function (data) {
+            if (data.code === 200) {
+              if (data.status === 'success') {
+                $('#alert').modal('open');
+              }
+            }
+          }
+        });
+      });
+    });
+    </script>
 </body>
 </html>
