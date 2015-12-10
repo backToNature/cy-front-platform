@@ -77,10 +77,12 @@ var routePages = {
     },
     index: function *() {
         var componentList = yield componentDao.getComponetList();
+        var userInfo = this.session;
         var data = {
-            componentList: componentList
+            componentList: componentList,
+            userInfo: userInfo
         };
-        console.log(data);
+        console.log(userInfo);
         this.body = yield render('index', data);
     }
 };

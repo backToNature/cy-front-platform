@@ -78,7 +78,7 @@ module.exports = {
          * description {string}: 组件简介
          * utime {date}: 更新时间
          */
-         var result = yield query(sql_mapping.update2, params);
+        var result = yield query(sql_mapping.update2, params);
         if (result[0].changedRows) {
             return {
                 code: 200,
