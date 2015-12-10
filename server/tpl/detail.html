@@ -20,7 +20,7 @@
 
     </div>
     <div class="am-g">
-      <div class="am-u-sm-2">
+      <div class="am-u-sm-2 am-g-fixed sidebar">
         这里为标题栏
       </div>
       <div class="am-u-sm-10">
@@ -28,13 +28,13 @@
           {% block info %}
           <div class="infoHeader">
             <h1>{{info.title}}</h1>
-              <p><span class="kind1">所属分类</span> {{info.tag}}</p>
-              <p><span class="kind2">创建时间</span> {{info.ctime}} &nbsp;&nbsp;&nbsp;&nbsp;<span class="kind3">更新时间</span> {{info.utime}}</p>
-            <p>简介: {{info.description}}</p>
+              <p><span class="am-badge am-text-default am-badge-danger">所属分类:</span> {{info.tag}}</p>
+              <p><span class="am-badge am-text-default am-badge-success">创建时间:</span> {{info.ctime}} &nbsp;&nbsp;&nbsp;&nbsp;<span class="am-badge am-text-default am-badge-warning">更新时间</span> {{info.utime}}</p>
+            <p><span class="am-badge am-text-default am-badge-secondary">简介:</span> {{info.description}}</p>
+
             <hr>
           </div>
           {%endblock%}
-          
           <div class="markdown">
             {% autoescape false %}
               {{info.content}} 

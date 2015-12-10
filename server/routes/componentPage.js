@@ -63,15 +63,25 @@ var routePages = {
         var componentPath = path.resolve(__dirname, '../static/files/components', componentId.toString());
         var content = fs.readFileSync(path.join(componentPath, 'component.md'), 'utf8');
         var tree = md.parse(content);
+        console.log(md.toHTMLTree( tree ));
         var html = md.toHTML(content)
         html = html.replace(/<pre>/g, '<pre class="prettyprint">');
         info.content = html;
         info.ctime = info.ctime.valueOf();
         info.utime = info.utime.valueOf();
+
         var data = {
             info: info
         };
         this.body = yield render('detail', data);
+    },
+    index: function *() {
+        var componentList = yield componentDao.getComponetList();
+        var data = {
+            componentList: componentList
+        };
+        console.log(data);
+        this.body = yield render('index', data);
     }
 };
 

@@ -60,17 +60,12 @@ li.L1,li.L3,li.L5,li.L7,li.L9 { }
     pre .atv, code .atv { color: #088;  font-weight: normal; }
 }
 
-.kind1 {
-    background: #EE0A3B;
-    color: #fff;
+.sidebar {
+    background: #F5F5F5;
+    height: 1680px;
+    border-right: 1px solid #eee;
+    box-shadow: 1px 0 3px rgba(0,0,0,.05);
 }
-
-.kind2 {
-    background: #FFDE00;
-    color: #C141E3;
-}
-
-.kind3 {
-    background: #3FBC8D;
-    color: #fff;
+.am-topbar {
+    margin-bottom: 0!important;
 }

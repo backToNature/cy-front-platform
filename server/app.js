@@ -40,7 +40,8 @@ app.use(route.get('/component/submit', componentPage.submit));
 app.use(route.get('/component/modify/:componentId', componentPage.modify));
 // 详情页面
 app.use(route.get('/component/detail/:componentId', componentPage.detail));
-
+// 主页
+app.use(route.get('/', componentPage.index));
 
 
 // function *post () {
