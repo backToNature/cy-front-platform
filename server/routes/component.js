@@ -84,7 +84,6 @@ function *componet(type) {
         }
 
         var tmpdir = path.resolve(__dirname, '../static/files/tmp');
-        console.log(tmpdir);
         if (!fs.existsSync(tmpdir)) {
             fs.mkdirSync(tmpdir);
         }
@@ -237,9 +236,34 @@ function *componet(type) {
                 status: 'failed',
                 msg: 'please login first'
             };
-            return;
         }
-        
+        var postQuery = yield postParse(this);
+        var componetId = postQuery.componet_id;
+        var componentRoot = path.resolve(__dirname, '../static/files/components');
+        var componetPath = path.join(componentRoot, componetId.toString());
+        var files = [];
+        if (fs.existsSync(componetPath)) {
+            files = fs.readdirSync(componetPath);
+            files.forEach(function (item) {
+                fs.unlinkSync(path.join(componetPath, item));
+            });
+            fs.rmdirSync(componetPath);
+        }
+        var result = yield componentDao.dorpComponentById([componetId]);
+
+        if (result[0]) {
+            this.body = {
+                code: 200,
+                status: 'success',
+                msg: 'delete success'
+            };
+        } else {
+            this.body = {
+                code: 200,
+                status: 'failed',
+                msg: 'delete failed'
+            };
+        }
     }
 }
 

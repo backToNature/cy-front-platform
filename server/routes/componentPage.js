@@ -74,7 +74,8 @@ var routePages = {
         info.utime = moment(info.utime).format("YYYY-MM-DD HH:mm:ss");
 
         var data = {
-            info: info
+            info: info,
+            userInfo: this.session
         };
         this.body = yield render('detail', data);
     },

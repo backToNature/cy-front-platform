@@ -69,6 +69,7 @@
     <script src="./lib/jquery/jQuery.md5.js"></script>
     <script>
       $(function () {
+        var $alert = $('#alert');
       $('#submit').on('click', function (e) {
         e.preventDefault();
         var account = $('#account').val(),
@@ -107,7 +108,11 @@
           success: function (data) {
             if (data.code === 200) {
               if (data.status === 'success') {
-                $('#alert').modal('open');
+                $alert.find('.am-modal-bd').text('注册成功，马上跳转！');
+                $alert.modal('open');
+                window.setTimeout(function () {
+                  window.location.href = window.location.origin;
+                }, 2000);
               }
             }
           }

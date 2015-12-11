@@ -14,13 +14,30 @@ $(function () {
         $('#confirm').modal({
             relatedTarget: this,
             onConfirm: function(options) {
+                $.ajax({
+                  type: 'POST',
+                  url: '/component/api/delete',
+                  dataType: 'json',
+                  cache: false,
+                  data: {
+                    componet_id: componetId
+                  },
+                  success: function (data) {
+                    if (data.code === 200 && data.status === 'success') {
+                        $tr.remove();
+                        $alert.find('.am-modal-bd').text('删除成功');
+                        $alert.modal('open');
+                    } else {
+                        $alert.find('.am-modal-bd').text('删除失败！');
+                        $alert.modal('open');
+                    }
+                  }
+                });
                 
-                $alert.find('.am-modal-bd').text('修改组件成功！');
-                $alert.modal('open');
             },
             // closeOnConfirm: false,
             onCancel: function() {
-              alert('算求，不弄了');
+
             }
           });
     });

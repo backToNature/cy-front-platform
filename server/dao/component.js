@@ -93,7 +93,10 @@ module.exports = {
             };
         }
     },
-
+    dorpComponentById: function *(params) {
+        var result = yield query(sql_mapping.drop, params);
+        return result;
+    },
     getComponetList: function *() {
         var result = yield query(sql_mapping.queryAll);
         var list = result[0];
@@ -121,5 +124,7 @@ module.exports = {
             // 查询出错
             return 'error';
         }
-    }
+    },
+
+
 };
