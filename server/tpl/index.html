@@ -28,24 +28,28 @@
   <div class="admin-sidebar am-offcanvas" id="admin-offcanvas">
     <div class="am-offcanvas-bar admin-offcanvas-bar">
       <ul class="am-list admin-sidebar-list">
-        <li><a href="admin-index.html"><span class="am-icon-home"></span> 首页<span class="am-badge am-badge-secondary am-margin-right am-fr">24</span></a></li>
+        {% for item in tagList %}
+          <li><a href="#{{item.tag}}"><span class="am-icon-home"></span> {{item.tag}}<span class="am-badge am-badge-secondary am-margin-right am-fr">{{item.num}}</span></a></li>
+        {%- endfor %}
+
+        <!-- <li><a href="admin-index.html"><span class="am-icon-home"></span> 首页<span class="am-badge am-badge-secondary am-margin-right am-fr">24</span></a></li>
         
         <li><a href="admin-table.html"><span class="am-icon-table"></span> 表格</a></li>
         <li><a href="admin-form.html"><span class="am-icon-pencil-square-o"></span> 表单</a></li>
-        <li><a href="#"><span class="am-icon-sign-out"></span> 注销</a></li>
+        <li><a href="#"><span class="am-icon-sign-out"></span> 注销</a></li> -->
       </ul>
 
       <div class="am-panel am-panel-default admin-sidebar-panel">
         <div class="am-panel-bd">
-          <p><span class="am-icon-bookmark"></span> 公告</p>
-          <p>时光静好，与君语；细水流年，与君同。—— Amaze UI</p>
+          <p><span class="am-icon-bookmark"></span> 小知识</p>
+          <p>http302跳转对于seo来说好于301哦。—— </p>
         </div>
       </div>
 
       <div class="am-panel am-panel-default admin-sidebar-panel">
         <div class="am-panel-bd">
-          <p><span class="am-icon-tag"></span> wiki</p>
-          <p>Welcome to the Amaze UI wiki!</p>
+          <p><span class="am-icon-tag"></span> 每日阅读</p>
+          <p><a target="_blank" href="http://www.ruanyifeng.com/blog/2014/12/unicode.html">Unicode与JavaScript详解</a>—— 阮一峰</p>
         </div>
       </div>
     </div>
@@ -54,22 +58,23 @@
 
   <!-- content start -->
   <div class="admin-content">
+    {% for item in tagList %}
+      <div class="am-cf am-padding">
+        <div class="am-fl am-cf" id="{{item.tag}}"><strong class="am-text-primary am-text-lg">{{item.tag}}</strong> / <small>List</small></div>
+      </div>
+      <ul class="am-avg-sm-2 am-avg-md-4 am-avg-lg-6 am-margin gallery-list">
+        {% for sitem in item.list %}
+            <li data-id="{{item.id}}">
+              <a target="_blank" href="/component/detail/{{sitem.id}}">
+                <img class="am-img-thumbnail am-img-bdrs" src="{{sitem.thub_url}}" alt="{{sitem.title}}"/>
+                <div class="gallery-title">{{sitem.title}}</div>
+                <div class="gallery-desc">{{sitem.utime}}</div>
+              </a>
+            </li>
+        {%- endfor %}
+      </ul>
 
-    <div class="am-cf am-padding">
-      <div class="am-fl am-cf"><strong class="am-text-primary am-text-lg">列表</strong> / <small>List</small></div>
-    </div>
-
-    <ul class="am-avg-sm-2 am-avg-md-4 am-avg-lg-6 am-margin gallery-list">
-      {% for item in componentList %}
-          <li data-id="{{item.id}}">
-            <a target="_blank" href="/component/detail/{{item.id}}">
-              <img class="am-img-thumbnail am-img-bdrs" src="{{item.thub_url}}" alt="{{item.title}}"/>
-              <div class="gallery-title">{{item.title}}</div>
-              <div class="gallery-desc">{{item.utime}}</div>
-            </a>
-          </li>
-      {%- endfor %}
-    </ul>
+    {%- endfor %}
 
     <div class="am-margin am-cf">
       <hr/>
@@ -92,6 +97,7 @@
 
 <a href="#" class="am-icon-btn am-icon-th-list am-show-sm-only admin-menu" data-am-offcanvas="{target: '#admin-offcanvas'}"></a>
 
+{% include "footer.html" ignore missing %}
 
 <!--[if lt IE 9]>
 <script src="http://libs.baidu.com/jquery/1.11.1/jquery.min.js"></script>
@@ -104,5 +110,6 @@
 <!--<![endif]-->
 <script src="/src/lib/amaze/js/amazeui.min.js"></script>
 <script src="/src/lib/amaze/js/app.js"></script>
+{% include "commonjs.html" ignore missing %}
 </body>
 </html>

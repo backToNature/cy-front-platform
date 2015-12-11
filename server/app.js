@@ -41,15 +41,14 @@ app.use(route.get('/component/submit', componentPage.submit));
 app.use(route.get('/component/modify/:componentId', componentPage.modify));
 // 详情页面
 app.use(route.get('/component/detail/:componentId', componentPage.detail));
+// 我的组件页面
+app.use(route.get('/component/myComponent', componentPage.myComponent));
 // 主页
 app.use(route.get('/', componentPage.index));
 app.use(route.get('/index', componentPage.index));
 app.use(route.get('/index.html', componentPage.index));
 
-// function *post () {
-// 	this.body = yield render('post-test');
-// }
-// app.use(route.get('/component/post', post));
+
 
 app.use(staticCache(__dirname + '/static', {
 	maxAge: 365 * 24 * 60 * 60,

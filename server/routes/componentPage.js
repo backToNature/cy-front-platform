@@ -41,7 +41,7 @@ var routePages = {
     },
     modify: function *(componentId) {
         if (!this.session.userId) {
-            this.redirect = ('/src/login.html');
+            this.redirect('/src/login.html');
         }
         var isHasThisComponent = yield componentDao.validateUserIsHasThisComponent([componentId, this.session.userId]);
         if (!isHasThisComponent) {
@@ -67,7 +67,6 @@ var routePages = {
         var componentPath = path.resolve(__dirname, '../static/files/components', componentId.toString());
         var content = fs.readFileSync(path.join(componentPath, 'component.md'), 'utf8');
         var tree = md.parse(content);
-        console.log(md.toHTMLTree( tree ));
         var html = md.toHTML(content)
         html = html.replace(/<pre>/g, '<pre class="prettyprint">');
         info.content = html;
@@ -86,13 +85,29 @@ var routePages = {
             item.ctime = moment(item.ctime).format("YYYY-MM-DD HH:mm:ss");
             item.utime = moment(item.utime).format("YYYY-MM-DD HH:mm:ss");
         });
+        var tagList = componentModel.getTagList(componentList);
+        var data = {
+            tagList: tagList,
+            componentList: componentList,
+            userInfo: userInfo
+        };
+        this.body = yield render('index', data);
+    },
+    myComponent: function *() {
+        if (!this.session.userId) {
+            this.redirect('/src/login.html');
+        }
+        var userInfo = this.session;
+        var componentList = yield componentDao.getUserComponent([this.session.userId]);
+        componentList.forEach(function (item) {
+            item.ctime = moment(item.ctime).format("YYYY-MM-DD HH:mm:ss");
+            item.utime = moment(item.utime).format("YYYY-MM-DD HH:mm:ss");
+        });
         var data = {
             componentList: componentList,
             userInfo: userInfo
         };
-
-        console.log(userInfo);
-        this.body = yield render('index', data);
+        this.body = yield render('myComponent', data);
     }
 };
 

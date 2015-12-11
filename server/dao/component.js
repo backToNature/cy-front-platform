@@ -104,6 +104,11 @@ module.exports = {
         var list = result[0];
         return list;
     },
+    getUserComponent: function *(params) {
+        var result = yield query(sql_mapping.queryByUserId, params);
+        var list = result[0];
+        return list;
+    },
     validateUserIsHasThisComponent: function *(params) {
         var result = yield query(sql_mapping.queryByIdUserId, params);
         if (result[0].length) {

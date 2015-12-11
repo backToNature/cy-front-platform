@@ -172,7 +172,6 @@ function *componet(type) {
                 };
             }
         }
-        
     }
 
     if (type === 'modify') {
@@ -228,7 +227,19 @@ function *componet(type) {
             status: 'success',
             msg: 'modify success'
         };
+    }
 
+    if (type === 'delete') {
+        // 判断是否登陆
+        if (!this.session.userId) {
+            this.body = {
+                code: 200,
+                status: 'failed',
+                msg: 'please login first'
+            };
+            return;
+        }
+        
     }
 }
 
