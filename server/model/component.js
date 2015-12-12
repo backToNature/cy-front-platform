@@ -14,6 +14,8 @@ module.exports = {
             }
         });
         return tagArr;
-    }
+    },
+    getToc: function (list) {
         
+    }
 };

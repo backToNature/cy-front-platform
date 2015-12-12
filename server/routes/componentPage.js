@@ -67,7 +67,12 @@ var routePages = {
         var componentPath = path.resolve(__dirname, '../static/files/components', componentId.toString());
         var content = fs.readFileSync(path.join(componentPath, 'component.md'), 'utf8');
         var tree = md.parse(content);
-        var html = md.toHTML(content)
+        var html = md.toHTML(content);
+        var header = tree.filter(function (item) {
+            return item[0] === 'header';
+        });
+        var tocData = componentModel.getToc(header);
+        console.log(tocData);
         html = html.replace(/<pre>/g, '<pre class="prettyprint">');
         info.content = html;
         info.ctime = moment(info.ctime).format("YYYY-MM-DD HH:mm:ss");
