@@ -2,6 +2,7 @@
 
 * {
     font-family: 'Microsoft Yahei';
+    color: #555;
 }
 
 pre .str, code .str { color: #fec243; } /* string  - eggyolk gold */
@@ -69,3 +70,31 @@ li.L1,li.L3,li.L5,li.L7,li.L9 { }
 .am-topbar {
     margin-bottom: 0!important;
 }
+
+#toc {
+    padding: 20px 0 0 0;
+    list-style: none;
+}
+#toc li {
+    height: 40px;
+    line-height: 40px;
+}
+#toc li a:hover {
+    background-color: #1F8FC4;
+    color: #fff;
+}
+
+#toc a{
+  display: block;
+  height: 40px;
+  margin: 0;
+  padding: 0 15px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-shadow: none;
+  color: #555;
+  background-color: #F5F5F5;
+  transition: background 0.3s;
+}
+
