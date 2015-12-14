@@ -66,17 +66,18 @@
     <script src="./lib/jquery/jQuery.md5.js"></script>
     <script>
     $(function () {
+      var $alert = $('#alert');
       $('#submit').on('click', function (e) {
         e.preventDefault();
         var account = $('#account').val(),
             pwd = $('#password').val();
             if (account == '' || account.length > 30) {
-              $('#alert').modal('open');
+              $alert.modal('open');
               return;
             }
 
             if (pwd == '' && pwd.length > 30) {
-              $('#alert').modal('open');
+              $alert.modal('open');
               return;
             }
         var md5Pwd = $.md5(pwd);
@@ -93,6 +94,9 @@
             if (data.code === 200) {
               if (data.status === 'success') {
                 window.location.href = 'http://' + location.host + '/index';
+              } else {
+                $alert.find('.am-modal-bd').text('账号或者密码错误！');
+                $alert.modal('open');
               }
             }
           }
