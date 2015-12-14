@@ -39,6 +39,9 @@
           <label for="account">账号:</label>
           <input autofocus="autofocus" type="text" name="" id="account" value="">
           <br>
+          <label for="nickname">昵称:</label>
+          <input type="text" name="" id="nickname" value="">
+          <br>
           <label for="password">密码:</label>
           <input type="password" name="" id="password" value="">
           <br>
@@ -74,7 +77,9 @@
         e.preventDefault();
         var account = $('#account').val(),
             pwd = $('#password').val(),
-            rePwd = $('#repassword').val();
+            rePwd = $('#repassword').val(),
+            nickname = $('#nickname').val();
+
             if (account == '' || account.length > 30) {
               $('#alert').modal('open');
               return;
@@ -103,7 +108,8 @@
           cache: false,
           data: {
             account: account,
-            pwd: md5Pwd
+            pwd: md5Pwd,
+            nickname: nickname
           },
           success: function (data) {
             if (data.code === 200) {

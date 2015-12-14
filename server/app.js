@@ -56,6 +56,6 @@ app.use(staticCache(__dirname + '/static', {
     dynamic: true
 }));
 
-app.listen(3000);
+app.listen(80);
 console.log('listening on port 3000');
 

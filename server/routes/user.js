@@ -8,14 +8,14 @@ function *user(type) {
     var query = req.query;
     if (type === 'sign_up') {
         // 注册
-        var account = query.account, pwd = query.pwd;
+        var account = query.account, pwd = query.pwd, nickname = query.nickname;
         if (!account || !pwd) {
             return;
         }
         if (typeof account !== 'string' && typeof pwd !== 'string') {
             return;
         }
-        this.body = yield userDao.signUp([account, pwd , 0]);
+        this.body = yield userDao.signUp([account, pwd, nickname, 0]);
     }
 	if (type === 'login') {
 		// 登陆
