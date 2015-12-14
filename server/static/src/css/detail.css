@@ -63,7 +63,7 @@ li.L1,li.L3,li.L5,li.L7,li.L9 { }
 
 .sidebar {
     background: #F5F5F5;
-    height: 1680px;
+    height: 100vh;
     border-right: 1px solid #eee;
     box-shadow: 1px 0 3px rgba(0,0,0,.05);
 }
@@ -74,6 +74,7 @@ li.L1,li.L3,li.L5,li.L7,li.L9 { }
 #toc {
     padding: 20px 0 0 0;
     list-style: none;
+    position: fixed;
 }
 #toc li {
     height: 40px;
