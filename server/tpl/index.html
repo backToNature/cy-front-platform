@@ -52,6 +52,21 @@
           <p><a target="_blank" href="http://www.ruanyifeng.com/blog/2014/12/unicode.html">Unicode与JavaScript详解</a>—— 阮一峰</p>
         </div>
       </div>
+
+      <div class="am-panel am-panel-default admin-sidebar-panel">
+        <div class="am-panel-bd">
+          <p><span class="am-icon-tag"></span> 畅言热评</p>
+          <p><a href="http://mp.weixin.qq.com/s?__biz=MzA3NTc3OTMwMA==&mid=416945658&idx=1&sn=1c389a8cca0c6fe77a36cd8d15ae8131&scene=1&srcid=0106rDE6Rg8JGDYHwg6mD6T0#rd" target="_blank">30名摸金校尉落网，1号人物看山河定墓位</a></p>
+        </div>
+      </div>
+      
+      <div class="am-panel am-panel-default admin-sidebar-panel">
+        <div class="am-panel-bd">
+          <p><span class="am-icon-tag"></span> 友情链接</p>
+          <p><a target="_blank" href="http://tnt.changyan.sohu.com/">深度订阅你关注的公司和领域</a>—— 畅言TNT</p>
+        </div>
+      </div>
+      
     </div>
   </div>
   <!-- sidebar end -->
@@ -68,7 +83,7 @@
               <a target="_blank" href="/component/detail/{{sitem.id}}">
                 <img class="am-img-thumbnail am-img-bdrs" src="{{sitem.thub_url}}" alt="{{sitem.title}}"/>
                 <div class="gallery-title">{{sitem.title}}</div>
-                <div class="gallery-desc">{{sitem.utime}}</div>
+                <div class="gallery-desc">更新时间:{{sitem.utime}}</div>
               </a>
             </li>
         {%- endfor %}
