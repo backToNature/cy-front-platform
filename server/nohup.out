@@ -1,0 +1,3367 @@
+listening on port 80
+listening on port 80
+  <-- GET /
+  --> GET / 200 89ms 5.69kb
+  <-- GET /src/lib/amaze/css/amazeui.min.css
+  <-- GET /src/lib/amaze/css/admin.css
+  --> GET /src/lib/amaze/css/amazeui.min.css 304 5ms 
+  --> GET /src/lib/amaze/css/admin.css 304 3ms 
+  <-- GET /files/components/1/thumb.jpg
+  <-- GET /src/lib/amaze/js/jquery.min.js
+  --> GET /files/components/1/thumb.jpg 304 1ms 
+  <-- GET /src/lib/amaze/js/amazeui.min.js
+  <-- GET /src/lib/amaze/js/app.js
+  --> GET /src/lib/amaze/js/jquery.min.js 304 2ms 
+  --> GET /src/lib/amaze/js/amazeui.min.js 304 3ms 
+  --> GET /src/lib/amaze/js/app.js 304 2ms 
+  <-- GET /src/js/common.js
+  --> GET /src/js/common.js 304 0ms 
+  <-- GET /files/components/2/thumb.jpg
+  --> GET /files/components/2/thumb.jpg 304 1ms 
+  <-- GET /src/lib/amaze/fonts/fontawesome-webfont.woff2?v=4.5.0
+  --> GET /src/lib/amaze/fonts/fontawesome-webfont.woff2?v=4.5.0 304 2ms 
+  <-- GET /
+  --> GET / 200 19ms 5.69kb
+  <-- GET /src/lib/amaze/css/amazeui.min.css
+  --> GET /src/lib/amaze/css/amazeui.min.css 304 5ms 
+  <-- GET /src/lib/amaze/css/admin.css
+  <-- GET /files/components/1/thumb.jpg
+  <-- GET /src/lib/amaze/js/jquery.min.js
+  <-- GET /src/lib/amaze/js/amazeui.min.js
+  <-- GET /src/lib/amaze/js/app.js
+  --> GET /src/lib/amaze/css/admin.css 304 9ms 
+  --> GET /files/components/1/thumb.jpg 304 9ms 
+  --> GET /src/lib/amaze/js/jquery.min.js 304 7ms 
+  --> GET /src/lib/amaze/js/amazeui.min.js 304 7ms 
+  <-- GET /src/js/common.js
+  --> GET /src/lib/amaze/js/app.js 304 7ms 
+  --> GET /src/js/common.js 304 2ms 
+  <-- GET /files/components/2/thumb.jpg
+  --> GET /files/components/2/thumb.jpg 304 1ms 
+  <-- GET /src/lib/amaze/fonts/fontawesome-webfont.woff2?v=4.5.0
+  --> GET /src/lib/amaze/fonts/fontawesome-webfont.woff2?v=4.5.0 304 1ms 
+  <-- GET /
+  --> GET / 200 20ms 5.69kb
+  <-- GET /src/lib/amaze/css/amazeui.min.css
+  --> GET /src/lib/amaze/css/amazeui.min.css 304 1ms 
+  <-- GET /src/lib/amaze/css/admin.css
+  <-- GET /files/components/1/thumb.jpg
+  --> GET /src/lib/amaze/css/admin.css 304 2ms 
+  --> GET /files/components/1/thumb.jpg 304 2ms 
+  <-- GET /src/lib/amaze/js/jquery.min.js
+  <-- GET /src/lib/amaze/js/amazeui.min.js
+  <-- GET /src/lib/amaze/js/app.js
+  <-- GET /src/js/common.js
+  --> GET /src/lib/amaze/js/jquery.min.js 304 4ms 
+  --> GET /src/lib/amaze/js/amazeui.min.js 304 3ms 
+  --> GET /src/lib/amaze/js/app.js 304 3ms 
+  <-- GET /files/components/2/thumb.jpg
+  --> GET /src/js/common.js 304 4ms 
+  --> GET /files/components/2/thumb.jpg 304 3ms 
+  <-- GET /src/lib/amaze/fonts/fontawesome-webfont.woff2?v=4.5.0
+  --> GET /src/lib/amaze/fonts/fontawesome-webfont.woff2?v=4.5.0 304 1ms 
+  <-- GET /
+  --> GET / 200 21ms 5.69kb
+  <-- GET /src/lib/amaze/css/amazeui.min.css
+  <-- GET /src/lib/amaze/css/admin.css
+  <-- GET /files/components/1/thumb.jpg
+  --> GET /src/lib/amaze/css/amazeui.min.css 304 6ms 
+  --> GET /src/lib/amaze/css/admin.css 304 7ms 
+  --> GET /files/components/1/thumb.jpg 304 5ms 
+  <-- GET /src/lib/amaze/js/jquery.min.js
+  <-- GET /src/lib/amaze/js/amazeui.min.js
+  <-- GET /src/lib/amaze/js/app.js
+  --> GET /src/lib/amaze/js/jquery.min.js 304 2ms 
+  --> GET /src/lib/amaze/js/amazeui.min.js 304 2ms 
+  <-- GET /src/js/common.js
+  --> GET /src/lib/amaze/js/app.js 304 2ms 
+  --> GET /src/js/common.js 304 3ms 
+  <-- GET /files/components/2/thumb.jpg
+  --> GET /files/components/2/thumb.jpg 304 1ms 
+  <-- GET /src/lib/amaze/fonts/fontawesome-webfont.woff2?v=4.5.0
+  --> GET /src/lib/amaze/fonts/fontawesome-webfont.woff2?v=4.5.0 304 1ms 
+  <-- GET /
+  --> GET / 200 17ms 5.69kb
+  <-- GET /src/lib/amaze/css/amazeui.min.css
+  <-- GET /src/lib/amaze/css/admin.css
+  --> GET /src/lib/amaze/css/amazeui.min.css 304 2ms 
+  --> GET /src/lib/amaze/css/admin.css 304 2ms 
+  <-- GET /files/components/1/thumb.jpg
+  --> GET /files/components/1/thumb.jpg 304 1ms 
+  <-- GET /src/lib/amaze/js/jquery.min.js
+  <-- GET /src/lib/amaze/js/amazeui.min.js
+  <-- GET /src/lib/amaze/js/app.js
+  <-- GET /src/js/common.js
+  --> GET /src/lib/amaze/js/jquery.min.js 304 5ms 
+  --> GET /src/lib/amaze/js/amazeui.min.js 304 5ms 
+  --> GET /src/lib/amaze/js/app.js 304 5ms 
+  --> GET /src/js/common.js 304 3ms 
+  <-- GET /files/components/2/thumb.jpg
+  --> GET /files/components/2/thumb.jpg 304 2ms 
+  <-- GET /src/lib/amaze/fonts/fontawesome-webfont.woff2?v=4.5.0
+  --> GET /src/lib/amaze/fonts/fontawesome-webfont.woff2?v=4.5.0 304 1ms 
+  <-- GET /
+  --> GET / 200 18ms 5.69kb
+  <-- GET /src/lib/amaze/css/amazeui.min.css
+  <-- GET /src/lib/amaze/css/admin.css
+  --> GET /src/lib/amaze/css/amazeui.min.css 304 2ms 
+  --> GET /src/lib/amaze/css/admin.css 304 2ms 
+  <-- GET /files/components/1/thumb.jpg
+  <-- GET /src/lib/amaze/js/jquery.min.js
+  <-- GET /src/lib/amaze/js/amazeui.min.js
+  <-- GET /src/lib/amaze/js/app.js
+  --> GET /files/components/1/thumb.jpg 304 4ms 
+  --> GET /src/lib/amaze/js/jquery.min.js 304 4ms 
+  --> GET /src/lib/amaze/js/amazeui.min.js 304 3ms 
+  --> GET /src/lib/amaze/js/app.js 304 3ms 
+  <-- GET /src/js/common.js
+  <-- GET /files/components/2/thumb.jpg
+  --> GET /src/js/common.js 304 2ms 
+  --> GET /files/components/2/thumb.jpg 304 2ms 
+  <-- GET /src/lib/amaze/fonts/fontawesome-webfont.woff2?v=4.5.0
+  --> GET /src/lib/amaze/fonts/fontawesome-webfont.woff2?v=4.5.0 304 2ms 
+  <-- GET /
+  --> GET / 200 17ms 5.69kb
+  <-- GET /src/lib/amaze/css/amazeui.min.css
+  <-- GET /src/lib/amaze/css/admin.css
+  --> GET /src/lib/amaze/css/amazeui.min.css 304 2ms 
+  --> GET /src/lib/amaze/css/admin.css 304 1ms 
+  <-- GET /files/components/1/thumb.jpg
+  <-- GET /src/lib/amaze/js/jquery.min.js
+  <-- GET /src/lib/amaze/js/amazeui.min.js
+  --> GET /files/components/1/thumb.jpg 304 2ms 
+  --> GET /src/lib/amaze/js/jquery.min.js 304 3ms 
+  --> GET /src/lib/amaze/js/amazeui.min.js 304 4ms 
+  <-- GET /src/lib/amaze/js/app.js
+  <-- GET /src/js/common.js
+  <-- GET /files/components/2/thumb.jpg
+  --> GET /src/lib/amaze/js/app.js 304 4ms 
+  --> GET /src/js/common.js 304 3ms 
+  --> GET /files/components/2/thumb.jpg 304 3ms 
+  <-- GET /src/lib/amaze/fonts/fontawesome-webfont.woff2?v=4.5.0
+  --> GET /src/lib/amaze/fonts/fontawesome-webfont.woff2?v=4.5.0 304 1ms 
+  <-- GET /
+  --> GET / 200 15ms 5.69kb
+  <-- GET /src/lib/amaze/css/amazeui.min.css
+  --> GET /src/lib/amaze/css/amazeui.min.css 304 1ms 
+  <-- GET /src/lib/amaze/css/admin.css
+  <-- GET /files/components/1/thumb.jpg
+  --> GET /src/lib/amaze/css/admin.css 304 9ms 
+  --> GET /files/components/1/thumb.jpg 304 9ms 
+  <-- GET /src/lib/amaze/js/jquery.min.js
+  <-- GET /src/lib/amaze/js/amazeui.min.js
+  <-- GET /src/lib/amaze/js/app.js
+  <-- GET /src/js/common.js
+  --> GET /src/lib/amaze/js/jquery.min.js 304 3ms 
+  --> GET /src/lib/amaze/js/amazeui.min.js 304 3ms 
+  --> GET /src/lib/amaze/js/app.js 304 3ms 
+  --> GET /src/js/common.js 304 4ms 
+  <-- GET /files/components/2/thumb.jpg
+  --> GET /files/components/2/thumb.jpg 304 1ms 
+  <-- GET /src/lib/amaze/fonts/fontawesome-webfont.woff2?v=4.5.0
+  --> GET /src/lib/amaze/fonts/fontawesome-webfont.woff2?v=4.5.0 304 2ms 
+  <-- GET /index
+  --> GET /index 200 17ms 5.69kb
+  <-- GET /component/detail/2
+undefined
+  --> GET /component/detail/2 200 32ms 4.67kb
+  <-- GET /
+  --> GET / 200 16ms 5.69kb
+  <-- GET /component/detail/1
+undefined
+  --> GET /component/detail/1 200 22ms 7.25kb
+  <-- GET /component/detail/2
+undefined
+  --> GET /component/detail/2 200 12ms 4.67kb
+  <-- GET /component/detail/1
+undefined
+  --> GET /component/detail/1 200 18ms 7.25kb
+  <-- GET /index
+  --> GET /index 200 19ms 5.69kb
+  <-- GET /src/login.html
+  --> GET /src/login.html 200 22ms 1.28kb
+  <-- GET /src/lib/jquery/jQuery.md5.js
+  --> GET /src/lib/jquery/jQuery.md5.js 200 7ms 3.04kb
+  <-- GET /user/api/login?account=guohao&pwd=202cb962ac59075b964b07152d234b70&_=1450161816075
+  --> GET /user/api/login?account=guohao&pwd=202cb962ac59075b964b07152d234b70&_=1450161816075 200 12ms 51b
+  <-- GET /user/api/login?account=guohao&pwd=9d175317ab4e4ab2469c3007b38ea744&_=1450161819205
+  --> GET /user/api/login?account=guohao&pwd=9d175317ab4e4ab2469c3007b38ea744&_=1450161819205 200 8ms 53b
+  <-- GET /index
+  --> GET /index 200 17ms 6kb
+  <-- GET /component/myComponent
+  --> GET /component/myComponent 200 13ms 6.39kb
+  <-- GET /component/submit
+  --> GET /component/submit 200 4ms 4.23kb
+  <-- POST /component/api/submit
+  --> POST /component/api/submit 200 70ms 54b
+  <-- GET /component/myComponent
+  --> GET /component/myComponent 200 12ms 7.24kb
+  <-- GET /component/detail/3
+undefined
+  --> GET /component/detail/3 200 18ms 4.03kb
+  <-- GET /index
+  --> GET /index 200 17ms 6.78kb
+  <-- GET /src/lib/amaze/css/amazeui.min.css
+  <-- GET /src/lib/amaze/css/admin.css
+  <-- GET /files/components/1/thumb.jpg
+  <-- GET /src/lib/amaze/js/jquery.min.js
+  <-- GET /src/lib/amaze/js/amazeui.min.js
+  --> GET /src/lib/amaze/css/amazeui.min.css 304 20ms 
+  --> GET /src/lib/amaze/css/admin.css 304 19ms 
+  --> GET /files/components/1/thumb.jpg 304 19ms 
+  --> GET /src/lib/amaze/js/jquery.min.js 304 18ms 
+  --> GET /src/lib/amaze/js/amazeui.min.js 304 5ms 
+  <-- GET /src/lib/amaze/js/app.js
+  <-- GET /src/js/common.js
+  <-- GET /files/components/2/thumb.jpg
+  <-- GET /files/components/thumbnail.png
+  --> GET /src/lib/amaze/js/app.js 304 5ms 
+  --> GET /src/js/common.js 304 5ms 
+  --> GET /files/components/2/thumb.jpg 304 4ms 
+  --> GET /files/components/thumbnail.png 200 8ms 51.89kb
+  <-- GET /src/lib/amaze/fonts/fontawesome-webfont.woff2?v=4.5.0
+  --> GET /src/lib/amaze/fonts/fontawesome-webfont.woff2?v=4.5.0 304 1ms 
+  <-- GET /index
+  --> GET /index 200 22ms 6.78kb
+  <-- GET /src/lib/amaze/css/amazeui.min.css
+  <-- GET /src/lib/amaze/css/admin.css
+  <-- GET /files/components/1/thumb.jpg
+  <-- GET /src/lib/amaze/js/jquery.min.js
+  <-- GET /src/lib/amaze/js/amazeui.min.js
+  --> GET /src/lib/amaze/css/amazeui.min.css 304 7ms 
+  --> GET /src/lib/amaze/css/admin.css 304 5ms 
+  --> GET /files/components/1/thumb.jpg 304 5ms 
+  --> GET /src/lib/amaze/js/jquery.min.js 304 3ms 
+  --> GET /src/lib/amaze/js/amazeui.min.js 304 3ms 
+  <-- GET /src/lib/amaze/js/app.js
+  --> GET /src/lib/amaze/js/app.js 304 0ms 
+  <-- GET /src/js/common.js
+  <-- GET /files/components/thumbnail.png
+  <-- GET /files/components/2/thumb.jpg
+  --> GET /src/js/common.js 304 5ms 
+  --> GET /files/components/thumbnail.png 304 4ms 
+  --> GET /files/components/2/thumb.jpg 304 4ms 
+  <-- GET /src/lib/amaze/fonts/fontawesome-webfont.woff2?v=4.5.0
+  --> GET /src/lib/amaze/fonts/fontawesome-webfont.woff2?v=4.5.0 304 1ms 
+  <-- GET /index
+  --> GET /index 200 19ms 6.78kb
+  <-- GET /src/lib/amaze/css/amazeui.min.css
+  <-- GET /src/lib/amaze/css/admin.css
+  <-- GET /files/components/1/thumb.jpg
+  <-- GET /src/lib/amaze/js/jquery.min.js
+  <-- GET /src/lib/amaze/js/amazeui.min.js
+  <-- GET /src/lib/amaze/js/app.js
+  --> GET /src/lib/amaze/css/amazeui.min.css 304 11ms 
+  --> GET /src/lib/amaze/css/admin.css 304 9ms 
+  --> GET /files/components/1/thumb.jpg 304 9ms 
+  --> GET /src/lib/amaze/js/jquery.min.js 304 7ms 
+  --> GET /src/lib/amaze/js/amazeui.min.js 304 4ms 
+  --> GET /src/lib/amaze/js/app.js 304 4ms 
+  <-- GET /src/js/common.js
+  <-- GET /files/components/thumbnail.png
+  <-- GET /files/components/2/thumb.jpg
+  --> GET /src/js/common.js 304 3ms 
+  --> GET /files/components/thumbnail.png 304 2ms 
+  --> GET /files/components/2/thumb.jpg 304 2ms 
+  <-- GET /src/lib/amaze/fonts/fontawesome-webfont.woff2?v=4.5.0
+  --> GET /src/lib/amaze/fonts/fontawesome-webfont.woff2?v=4.5.0 304 1ms 
+  <-- GET /index
+  --> GET /index 200 17ms 6.78kb
+  <-- GET /src/lib/amaze/css/amazeui.min.css
+  <-- GET /src/lib/amaze/css/admin.css
+  <-- GET /files/components/1/thumb.jpg
+  <-- GET /src/lib/amaze/js/jquery.min.js
+  <-- GET /src/lib/amaze/js/amazeui.min.js
+  <-- GET /src/lib/amaze/js/app.js
+  --> GET /src/lib/amaze/css/amazeui.min.css 304 8ms 
+  --> GET /src/lib/amaze/css/admin.css 304 9ms 
+  --> GET /files/components/1/thumb.jpg 304 9ms 
+  --> GET /src/lib/amaze/js/jquery.min.js 304 9ms 
+  --> GET /src/lib/amaze/js/amazeui.min.js 304 10ms 
+  --> GET /src/lib/amaze/js/app.js 304 10ms 
+  <-- GET /src/js/common.js
+  <-- GET /files/components/thumbnail.png
+  <-- GET /files/components/2/thumb.jpg
+  --> GET /src/js/common.js 304 3ms 
+  --> GET /files/components/thumbnail.png 304 4ms 
+  --> GET /files/components/2/thumb.jpg 304 3ms 
+  <-- GET /src/lib/amaze/fonts/fontawesome-webfont.woff2?v=4.5.0
+  --> GET /src/lib/amaze/fonts/fontawesome-webfont.woff2?v=4.5.0 304 1ms 
+  <-- GET /index
+  --> GET /index 200 12ms 6.78kb
+  <-- GET /src/lib/amaze/css/amazeui.min.css
+  <-- GET /src/lib/amaze/css/admin.css
+  <-- GET /files/components/1/thumb.jpg
+  --> GET /src/lib/amaze/css/amazeui.min.css 304 4ms 
+  --> GET /src/lib/amaze/css/admin.css 304 3ms 
+  <-- GET /src/lib/amaze/js/jquery.min.js
+  <-- GET /src/lib/amaze/js/amazeui.min.js
+  <-- GET /src/lib/amaze/js/app.js
+  --> GET /files/components/1/thumb.jpg 304 5ms 
+  --> GET /src/lib/amaze/js/jquery.min.js 304 2ms 
+  --> GET /src/lib/amaze/js/amazeui.min.js 304 3ms 
+  <-- GET /src/js/common.js
+  <-- GET /files/components/thumbnail.png
+  --> GET /src/lib/amaze/js/app.js 304 4ms 
+  --> GET /src/js/common.js 304 4ms 
+  --> GET /files/components/thumbnail.png 304 2ms 
+  <-- GET /files/components/2/thumb.jpg
+  --> GET /files/components/2/thumb.jpg 304 1ms 
+  <-- GET /src/lib/amaze/fonts/fontawesome-webfont.woff2?v=4.5.0
+  --> GET /src/lib/amaze/fonts/fontawesome-webfont.woff2?v=4.5.0 304 1ms 
+  <-- GET /component/detail/3
+undefined
+  --> GET /component/detail/3 200 14ms 4.03kb
+  <-- GET /index
+  --> GET /index 200 18ms 6.78kb
+  <-- GET /files/components/1/thumb.jpg
+  --> GET /files/components/1/thumb.jpg 304 1ms 
+  <-- GET /files/components/thumbnail.png
+  --> GET /files/components/thumbnail.png 304 1ms 
+  <-- GET /files/components/2/thumb.jpg
+  --> GET /files/components/2/thumb.jpg 304 1ms 
+  <-- GET /component/detail/3
+undefined
+  --> GET /component/detail/3 200 15ms 4.03kb
+  <-- GET /
+  --> GET / 200 17ms 6.78kb
+  <-- GET /assets/i/favicon.png
+  --> GET /assets/i/favicon.png 404 2ms -
+  <-- GET /component/detail/3
+undefined
+  --> GET /component/detail/3 200 9ms 4.03kb
+  <-- GET /i/favicon.png
+  --> GET /i/favicon.png 404 1ms -
+  <-- GET /component/myComponent
+  --> GET /component/myComponent 200 11ms 7.24kb
+  <-- GET /src/lib/amaze/css/amazeui.min.css
+  <-- GET /src/lib/amaze/css/admin.css
+  <-- GET /src/lib/amaze/js/jquery.min.js
+  <-- GET /src/lib/amaze/js/amazeui.min.js
+  <-- GET /src/lib/amaze/js/app.js
+  <-- GET /src/js/common.js
+  --> GET /src/lib/amaze/css/admin.css 200 16ms 1.3kb
+  --> GET /src/lib/amaze/js/app.js 200 11ms 372b
+  --> GET /src/js/common.js 200 5ms 408b
+  --> GET /src/lib/amaze/js/jquery.min.js 200 21ms 28.87kb
+  --> GET /src/lib/amaze/css/amazeui.min.css 200 28ms 41.83kb
+  --> GET /src/lib/amaze/js/amazeui.min.js 200 33ms 56.47kb
+  <-- GET /src/lib/amaze/fonts/fontawesome-webfont.woff2?v=4.5.0
+  --> GET /src/lib/amaze/fonts/fontawesome-webfont.woff2?v=4.5.0 200 3ms 65.06kb
+  <-- GET /component/assets/i/favicon.png
+  --> GET /component/assets/i/favicon.png 404 2ms -
+  <-- GET /component/detail/3
+undefined
+  --> GET /component/detail/3 200 16ms 4.03kb
+  <-- GET /component/modify/3
+  --> GET /component/modify/3 200 14ms 5.16kb
+  <-- POST /component/api/submitImg
+FileStream {
+  _readableState: 
+   ReadableState {
+     objectMode: false,
+     highWaterMark: 16384,
+     buffer: [ <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 01 1a 00 00 00 9c 08 03 00 00 00 97 f3 94 f9 00 00 00 04 67 41 4d 41 00 00 b1 8f 0b fc 61 05 00 ... > ],
+     length: 10808,
+     pipes: null,
+     pipesCount: 0,
+     flowing: null,
+     ended: true,
+     endEmitted: false,
+     reading: false,
+     sync: false,
+     needReadable: false,
+     emittedReadable: true,
+     readableListening: false,
+     defaultEncoding: 'utf8',
+     ranOut: false,
+     awaitDrain: 0,
+     readingMore: false,
+     decoder: null,
+     encoding: null },
+  readable: true,
+  domain: null,
+  _events: { end: [Function] },
+  _eventsCount: 1,
+  _maxListeners: undefined,
+  truncated: false,
+  _read: [Function],
+  fieldname: 'up-img',
+  filename: 'u=716603840,1078119296&fm=11&gp=0.jpg',
+  encoding: '7bit',
+  transferEncoding: '7bit',
+  mime: 'image/jpeg',
+  mimeType: 'image/jpeg' }
+uploading /opt/cy-front-platform/server/static/files/tmp/ype9rar880ti6bt9.jpg -> /opt/cy-front-platform/server/static/files/tmp/ype9rar880ti6bt9.jpg
+  --> POST /component/api/submitImg 200 38ms 97b
+  <-- GET /files/tmp/ype9rar880ti6bt9.jpg
+  --> GET /files/tmp/ype9rar880ti6bt9.jpg 200 3ms 10.55kb
+  <-- POST /component/api/modify
+  --> POST /component/api/modify 200 24ms 54b
+  <-- GET /index
+  --> GET /index 200 18ms 6.78kb
+  <-- GET /files/components/3/thumb.jpg
+  --> GET /files/components/3/thumb.jpg 200 4ms 10.55kb
+  <-- GET /index
+  --> GET /index 200 24ms 6.78kb
+  <-- GET /src/lib/amaze/css/amazeui.min.css
+  --> GET /src/lib/amaze/css/amazeui.min.css 304 1ms 
+  <-- GET /src/lib/amaze/css/admin.css
+  <-- GET /files/components/1/thumb.jpg
+  <-- GET /src/lib/amaze/js/jquery.min.js
+  --> GET /src/lib/amaze/css/admin.css 304 3ms 
+  --> GET /files/components/1/thumb.jpg 304 3ms 
+  --> GET /src/lib/amaze/js/jquery.min.js 304 4ms 
+  <-- GET /src/lib/amaze/js/amazeui.min.js
+  <-- GET /src/lib/amaze/js/app.js
+  --> GET /src/lib/amaze/js/amazeui.min.js 304 3ms 
+  --> GET /src/lib/amaze/js/app.js 304 2ms 
+  <-- GET /src/js/common.js
+  <-- GET /files/components/2/thumb.jpg
+  <-- GET /files/components/3/thumb.jpg
+  --> GET /src/js/common.js 304 3ms 
+  --> GET /files/components/2/thumb.jpg 304 3ms 
+  --> GET /files/components/3/thumb.jpg 304 3ms 
+  <-- GET /src/lib/amaze/fonts/fontawesome-webfont.woff2?v=4.5.0
+  --> GET /src/lib/amaze/fonts/fontawesome-webfont.woff2?v=4.5.0 304 1ms 
+  <-- GET /
+  --> GET / 200 20ms 6.78kb
+  <-- GET /
+  --> GET / 200 20ms 6.78kb
+  <-- GET /component/detail/1
+undefined
+  --> GET /component/detail/1 200 17ms 7.56kb
+  <-- GET /component/detail/2
+undefined
+  --> GET /component/detail/2 200 14ms 4.98kb
+  <-- GET /component/detail/2
+undefined
+  --> GET /component/detail/2 200 10ms 4.98kb
+  <-- GET /index
+  --> GET /index 200 20ms 6.78kb
+  <-- GET /index
+  --> GET /index 200 16ms 6.78kb
+  <-- GET /index
+  --> GET /index 200 16ms 6.78kb
+  <-- GET /index
+  --> GET /index 200 14ms 6.78kb
+  <-- GET /index
+  --> GET /index 200 18ms 6.78kb
+  <-- GET /index
+  --> GET /index 200 18ms 6.78kb
+  <-- GET /index
+  --> GET /index 200 19ms 6.78kb
+  <-- GET /index
+  --> GET /index 200 19ms 6.78kb
+  <-- GET /index
+  --> GET /index 200 17ms 6.78kb
+  <-- GET /index
+  --> GET /index 200 15ms 6.78kb
+  <-- GET /index
+  --> GET /index 200 18ms 6.78kb
+  <-- GET /index
+  --> GET /index 200 33ms 6.78kb
+  <-- GET /component/detail/1
+undefined
+  --> GET /component/detail/1 200 19ms 7.56kb
+  <-- GET /component/myComponent
+  --> GET /component/myComponent 200 11ms 7.24kb
+  <-- GET /component/modify/1
+  --> GET /component/modify/1 200 11ms 7.79kb
+  <-- GET /index
+  --> GET /index 200 20ms 6.78kb
+  <-- GET /component/detail/3
+undefined
+  --> GET /component/detail/3 200 10ms 4.03kb
+  <-- GET /component/detail/3
+undefined
+  --> GET /component/detail/3 200 11ms 4.03kb
+  <-- GET /
+  --> GET / 200 22ms 6.78kb
+  <-- GET /assets/i/favicon.png
+  --> GET /assets/i/favicon.png 404 1ms -
+  <-- GET /component/detail/3
+undefined
+  --> GET /component/detail/3 200 21ms 4.03kb
+  <-- GET /i/favicon.png
+  --> GET /i/favicon.png 404 0ms -
+  <-- GET /component/detail/1
+undefined
+  --> GET /component/detail/1 200 19ms 7.56kb
+  <-- GET /component/detail/3
+undefined
+  --> GET /component/detail/3 200 12ms 4.03kb
+  <-- GET /
+  --> GET / 200 20ms 6.78kb
+  <-- GET /src/lib/amaze/css/amazeui.min.css
+  --> GET /src/lib/amaze/css/amazeui.min.css 304 3ms 
+  <-- GET /src/lib/amaze/css/admin.css
+  <-- GET /src/lib/amaze/js/jquery.min.js
+  <-- GET /src/lib/amaze/js/amazeui.min.js
+  <-- GET /src/lib/amaze/js/app.js
+  <-- GET /src/js/common.js
+  --> GET /src/lib/amaze/css/admin.css 304 5ms 
+  --> GET /src/lib/amaze/js/jquery.min.js 304 5ms 
+  --> GET /src/lib/amaze/js/amazeui.min.js 304 7ms 
+  --> GET /src/lib/amaze/js/app.js 304 7ms 
+  <-- GET /files/components/1/thumb.jpg
+  --> GET /src/js/common.js 304 8ms 
+  <-- GET /files/components/2/thumb.jpg
+  <-- GET /files/components/3/thumb.jpg
+  --> GET /files/components/1/thumb.jpg 304 4ms 
+  --> GET /files/components/2/thumb.jpg 304 2ms 
+  --> GET /files/components/3/thumb.jpg 304 3ms 
+  <-- GET /src/lib/amaze/fonts/fontawesome-webfont.woff2?v=4.5.0
+  --> GET /src/lib/amaze/fonts/fontawesome-webfont.woff2?v=4.5.0 304 1ms 
+  <-- GET /component/detail/2
+undefined
+  --> GET /component/detail/2 200 10ms 4.98kb
+  <-- GET /component/detail/1
+undefined
+  --> GET /component/detail/1 200 18ms 7.56kb
+  <-- GET /component/detail/1
+undefined
+  --> GET /component/detail/1 200 16ms 7.56kb
+  <-- GET /component/detail/1
+undefined
+  --> GET /component/detail/1 200 13ms 7.56kb
+  <-- GET /component/detail/2
+undefined
+  --> GET /component/detail/2 200 10ms 4.98kb
+  <-- GET /favicon.ico
+  --> GET /favicon.ico 404 1ms -
+  <-- GET /component/detail/2
+undefined
+  --> GET /component/detail/2 200 10ms 4.98kb
+  <-- GET /component/detail/2
+undefined
+  --> GET /component/detail/2 200 13ms 4.98kb
+  <-- GET /
+  --> GET / 200 19ms 6.78kb
+  <-- GET /src/lib/amaze/css/amazeui.min.css
+  <-- GET /src/lib/amaze/css/admin.css
+  --> GET /src/lib/amaze/css/amazeui.min.css 304 2ms 
+  --> GET /src/lib/amaze/css/admin.css 304 2ms 
+  <-- GET /files/components/1/thumb.jpg
+  <-- GET /src/lib/amaze/js/jquery.min.js
+  <-- GET /src/lib/amaze/js/amazeui.min.js
+  <-- GET /src/lib/amaze/js/app.js
+  --> GET /files/components/1/thumb.jpg 304 5ms 
+  --> GET /src/lib/amaze/js/jquery.min.js 304 5ms 
+  --> GET /src/lib/amaze/js/amazeui.min.js 304 4ms 
+  <-- GET /src/js/common.js
+  <-- GET /files/components/2/thumb.jpg
+  --> GET /src/lib/amaze/js/app.js 304 6ms 
+  --> GET /src/js/common.js 304 2ms 
+  --> GET /files/components/2/thumb.jpg 304 2ms 
+  <-- GET /files/components/3/thumb.jpg
+  --> GET /files/components/3/thumb.jpg 304 1ms 
+  <-- GET /src/lib/amaze/fonts/fontawesome-webfont.woff2?v=4.5.0
+  --> GET /src/lib/amaze/fonts/fontawesome-webfont.woff2?v=4.5.0 304 2ms 
+  <-- GET /
+  --> GET / 200 17ms 6.78kb
+  <-- GET /src/lib/amaze/css/amazeui.min.css
+  --> GET /src/lib/amaze/css/amazeui.min.css 304 1ms 
+  <-- GET /src/lib/amaze/css/admin.css
+  --> GET /src/lib/amaze/css/admin.css 304 1ms 
+  <-- GET /src/lib/amaze/js/jquery.min.js
+  <-- GET /src/lib/amaze/js/amazeui.min.js
+  <-- GET /src/lib/amaze/js/app.js
+  <-- GET /src/js/common.js
+  <-- GET /files/components/1/thumb.jpg
+  --> GET /src/lib/amaze/js/jquery.min.js 304 7ms 
+  --> GET /src/lib/amaze/js/amazeui.min.js 304 6ms 
+  --> GET /src/lib/amaze/js/app.js 304 6ms 
+  --> GET /src/js/common.js 304 5ms 
+  --> GET /files/components/1/thumb.jpg 304 4ms 
+  <-- GET /files/components/2/thumb.jpg
+  <-- GET /files/components/3/thumb.jpg
+  --> GET /files/components/2/thumb.jpg 304 2ms 
+  --> GET /files/components/3/thumb.jpg 304 2ms 
+  <-- GET /src/lib/amaze/fonts/fontawesome-webfont.woff2?v=4.5.0
+  --> GET /src/lib/amaze/fonts/fontawesome-webfont.woff2?v=4.5.0 304 1ms 
+  <-- GET /
+  --> GET / 200 17ms 6.78kb
+  <-- GET /src/lib/amaze/css/amazeui.min.css
+  <-- GET /src/lib/amaze/css/admin.css
+  <-- GET /files/components/1/thumb.jpg
+  <-- GET /src/lib/amaze/js/jquery.min.js
+  <-- GET /src/lib/amaze/js/amazeui.min.js
+  <-- GET /src/lib/amaze/js/app.js
+  --> GET /src/lib/amaze/css/amazeui.min.css 304 6ms 
+  --> GET /src/lib/amaze/css/admin.css 304 5ms 
+  --> GET /files/components/1/thumb.jpg 304 5ms 
+  --> GET /src/lib/amaze/js/jquery.min.js 304 4ms 
+  --> GET /src/lib/amaze/js/amazeui.min.js 304 4ms 
+  --> GET /src/lib/amaze/js/app.js 304 4ms 
+  <-- GET /src/js/common.js
+  <-- GET /files/components/2/thumb.jpg
+  --> GET /src/js/common.js 304 2ms 
+  <-- GET /files/components/3/thumb.jpg
+  --> GET /files/components/2/thumb.jpg 304 3ms 
+  --> GET /files/components/3/thumb.jpg 304 2ms 
+  <-- GET /src/lib/amaze/fonts/fontawesome-webfont.woff2?v=4.5.0
+  --> GET /src/lib/amaze/fonts/fontawesome-webfont.woff2?v=4.5.0 304 1ms 
+  <-- GET /
+  --> GET / 200 17ms 6.78kb
+  <-- GET /src/lib/amaze/css/amazeui.min.css
+  --> GET /src/lib/amaze/css/amazeui.min.css 304 1ms 
+  <-- GET /src/lib/amaze/css/admin.css
+  <-- GET /files/components/1/thumb.jpg
+  --> GET /src/lib/amaze/css/admin.css 304 2ms 
+  <-- GET /src/lib/amaze/js/jquery.min.js
+  <-- GET /src/lib/amaze/js/amazeui.min.js
+  <-- GET /src/lib/amaze/js/app.js
+  --> GET /files/components/1/thumb.jpg 304 5ms 
+  --> GET /src/lib/amaze/js/jquery.min.js 304 3ms 
+  --> GET /src/lib/amaze/js/amazeui.min.js 304 3ms 
+  <-- GET /src/js/common.js
+  <-- GET /files/components/2/thumb.jpg
+  --> GET /src/lib/amaze/js/app.js 304 6ms 
+  --> GET /src/js/common.js 304 2ms 
+  <-- GET /files/components/3/thumb.jpg
+  --> GET /files/components/2/thumb.jpg 304 4ms 
+  --> GET /files/components/3/thumb.jpg 304 3ms 
+  <-- GET /src/lib/amaze/fonts/fontawesome-webfont.woff2?v=4.5.0
+  --> GET /src/lib/amaze/fonts/fontawesome-webfont.woff2?v=4.5.0 304 1ms 
+  <-- GET /
+  --> GET / 200 19ms 6.78kb
+  <-- GET /
+  --> GET / 200 16ms 6.78kb
+  <-- GET /
+  --> GET / 200 18ms 6.78kb
+  <-- GET /
+  --> GET / 200 51ms 6.78kb
+  <-- GET /
+  --> GET / 200 19ms 6.78kb
+  <-- GET /src/lib/amaze/css/amazeui.min.css
+  <-- GET /src/lib/amaze/css/admin.css
+  --> GET /src/lib/amaze/css/amazeui.min.css 304 3ms 
+  --> GET /src/lib/amaze/css/admin.css 304 2ms 
+  <-- GET /files/components/1/thumb.jpg
+  --> GET /files/components/1/thumb.jpg 304 2ms 
+  <-- GET /src/lib/amaze/js/jquery.min.js
+  <-- GET /src/lib/amaze/js/amazeui.min.js
+  <-- GET /src/lib/amaze/js/app.js
+  --> GET /src/lib/amaze/js/jquery.min.js 304 5ms 
+  --> GET /src/lib/amaze/js/amazeui.min.js 304 7ms 
+  <-- GET /src/js/common.js
+  <-- GET /files/components/2/thumb.jpg
+  <-- GET /files/components/3/thumb.jpg
+  --> GET /src/lib/amaze/js/app.js 304 9ms 
+  --> GET /src/js/common.js 304 4ms 
+  --> GET /files/components/2/thumb.jpg 304 4ms 
+  --> GET /files/components/3/thumb.jpg 304 3ms 
+  <-- GET /src/lib/amaze/fonts/fontawesome-webfont.woff2?v=4.5.0
+  --> GET /src/lib/amaze/fonts/fontawesome-webfont.woff2?v=4.5.0 304 1ms 
+  <-- GET /
+  --> GET / 200 20ms 6.78kb
+  <-- GET /src/lib/amaze/css/amazeui.min.css
+  <-- GET /src/lib/amaze/css/admin.css
+  --> GET /src/lib/amaze/css/amazeui.min.css 304 2ms 
+  --> GET /src/lib/amaze/css/admin.css 304 2ms 
+  <-- GET /files/components/1/thumb.jpg
+  <-- GET /files/components/2/thumb.jpg
+  <-- GET /files/components/3/thumb.jpg
+  <-- GET /src/lib/amaze/js/jquery.min.js
+  <-- GET /src/lib/amaze/js/amazeui.min.js
+  --> GET /files/components/1/thumb.jpg 304 5ms 
+  --> GET /files/components/2/thumb.jpg 304 4ms 
+  --> GET /files/components/3/thumb.jpg 304 4ms 
+  --> GET /src/lib/amaze/js/jquery.min.js 304 3ms 
+  <-- GET /src/lib/amaze/js/app.js
+  --> GET /src/lib/amaze/js/amazeui.min.js 304 4ms 
+  <-- GET /src/js/common.js
+  --> GET /src/lib/amaze/js/app.js 304 2ms 
+  --> GET /src/js/common.js 304 2ms 
+  <-- GET /src/lib/amaze/fonts/fontawesome-webfont.woff2?v=4.5.0
+  --> GET /src/lib/amaze/fonts/fontawesome-webfont.woff2?v=4.5.0 304 1ms 
+  <-- GET /component/myComponent
+  --> GET /component/myComponent 200 12ms 7.24kb
+  <-- GET /component/assets/i/favicon.png
+  --> GET /component/assets/i/favicon.png 404 3ms -
+  <-- GET /component/modify/3
+  --> GET /component/modify/3 200 8ms 5.15kb
+  <-- GET /component/myComponent
+  --> GET /component/myComponent 200 12ms 7.24kb
+  <-- GET /index
+  --> GET /index 200 18ms 6.78kb
+  <-- GET /component/submit
+  --> GET /component/submit 200 5ms 4.23kb
+  <-- POST /component/api/submitImg
+FileStream {
+  _readableState: 
+   ReadableState {
+     objectMode: false,
+     highWaterMark: 16384,
+     buffer: [ <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 01 00 60 00 60 00 00 ff db 00 43 00 02 01 01 02 01 01 02 02 02 02 02 02 02 02 03 05 03 03 03 03 03 06 04 04 03 ... > ],
+     length: 20716,
+     pipes: null,
+     pipesCount: 0,
+     flowing: null,
+     ended: true,
+     endEmitted: false,
+     reading: false,
+     sync: true,
+     needReadable: false,
+     emittedReadable: true,
+     readableListening: false,
+     defaultEncoding: 'utf8',
+     ranOut: false,
+     awaitDrain: 0,
+     readingMore: false,
+     decoder: null,
+     encoding: null },
+  readable: true,
+  domain: null,
+  _events: { end: [Function] },
+  _eventsCount: 1,
+  _maxListeners: undefined,
+  truncated: false,
+  _read: [Function],
+  fieldname: 'up-img',
+  filename: 'b6c22e3djw1eu4gc729v3j20by0bywey.jpg',
+  encoding: '7bit',
+  transferEncoding: '7bit',
+  mime: 'image/jpeg',
+  mimeType: 'image/jpeg' }
+uploading /opt/cy-front-platform/server/static/files/tmp/igxm4ls8tybymn29.jpg -> /opt/cy-front-platform/server/static/files/tmp/igxm4ls8tybymn29.jpg
+  --> POST /component/api/submitImg 200 14ms 97b
+  <-- GET /files/tmp/igxm4ls8tybymn29.jpg
+  --> GET /files/tmp/igxm4ls8tybymn29.jpg 200 4ms 20.23kb
+  <-- POST /component/api/submit
+  --> POST /component/api/submit 200 28ms 54b
+  <-- GET /index
+  --> GET /index 200 19ms 7.14kb
+  <-- GET /files/components/1/thumb.jpg
+  --> GET /files/components/1/thumb.jpg 304 1ms 
+  <-- GET /files/components/2/thumb.jpg
+  --> GET /files/components/2/thumb.jpg 304 1ms 
+  <-- GET /files/components/4/thumb.jpg
+  --> GET /files/components/4/thumb.jpg 200 3ms 20.23kb
+  <-- GET /files/components/3/thumb.jpg
+  --> GET /files/components/3/thumb.jpg 304 1ms 
+  <-- GET /index
+  --> GET /index 200 18ms 7.14kb
+  <-- GET /files/components/1/thumb.jpg
+  --> GET /files/components/1/thumb.jpg 304 1ms 
+  <-- GET /files/components/2/thumb.jpg
+  --> GET /files/components/2/thumb.jpg 304 1ms 
+  <-- GET /files/components/4/thumb.jpg
+  --> GET /files/components/4/thumb.jpg 304 1ms 
+  <-- GET /files/components/3/thumb.jpg
+  --> GET /files/components/3/thumb.jpg 304 1ms 
+  <-- GET /index
+  --> GET /index 200 19ms 7.14kb
+  <-- GET /files/components/1/thumb.jpg
+  --> GET /files/components/1/thumb.jpg 304 1ms 
+  <-- GET /files/components/2/thumb.jpg
+  --> GET /files/components/2/thumb.jpg 304 1ms 
+  <-- GET /files/components/4/thumb.jpg
+  --> GET /files/components/4/thumb.jpg 304 1ms 
+  <-- GET /files/components/3/thumb.jpg
+  --> GET /files/components/3/thumb.jpg 304 1ms 
+  <-- GET /index
+  --> GET /index 200 22ms 7.14kb
+  <-- GET /files/components/1/thumb.jpg
+  --> GET /files/components/1/thumb.jpg 304 1ms 
+  <-- GET /files/components/2/thumb.jpg
+  --> GET /files/components/2/thumb.jpg 304 1ms 
+  <-- GET /files/components/4/thumb.jpg
+  --> GET /files/components/4/thumb.jpg 304 1ms 
+  <-- GET /files/components/3/thumb.jpg
+  --> GET /files/components/3/thumb.jpg 304 1ms 
+  <-- GET /component/myComponent
+  --> GET /component/myComponent 200 14ms 8.1kb
+  <-- GET /component/modify/2
+  --> GET /component/modify/2 200 8ms 5.63kb
+  <-- POST /component/api/submitImg
+FileStream {
+  _readableState: 
+   ReadableState {
+     objectMode: false,
+     highWaterMark: 16384,
+     buffer: [ <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 01 00 60 00 60 00 00 ff e1 00 16 45 78 69 66 00 00 4d 4d 00 2a 00 00 00 08 00 00 00 00 00 00 ff ec 00 11 44 75 ... > ],
+     length: 16284,
+     pipes: null,
+     pipesCount: 0,
+     flowing: null,
+     ended: true,
+     endEmitted: false,
+     reading: false,
+     sync: false,
+     needReadable: false,
+     emittedReadable: true,
+     readableListening: false,
+     defaultEncoding: 'utf8',
+     ranOut: false,
+     awaitDrain: 0,
+     readingMore: false,
+     decoder: null,
+     encoding: null },
+  readable: true,
+  domain: null,
+  _events: { end: [Function] },
+  _eventsCount: 1,
+  _maxListeners: undefined,
+  truncated: false,
+  _read: [Function],
+  fieldname: 'up-img',
+  filename: 'thumb (1).jpg',
+  encoding: '7bit',
+  transferEncoding: '7bit',
+  mime: 'image/jpeg',
+  mimeType: 'image/jpeg' }
+uploading /opt/cy-front-platform/server/static/files/tmp/qg7im07ke9daemi.jpg -> /opt/cy-front-platform/server/static/files/tmp/qg7im07ke9daemi.jpg
+  --> POST /component/api/submitImg 200 9ms 96b
+  <-- GET /files/tmp/qg7im07ke9daemi.jpg
+  --> GET /files/tmp/qg7im07ke9daemi.jpg 200 3ms 15.9kb
+  <-- POST /component/api/modify
+  --> POST /component/api/modify 200 23ms 54b
+  <-- GET /index
+  --> GET /index 200 19ms 7.14kb
+  <-- GET /index
+  --> GET /index 200 21ms 7.14kb
+  <-- GET /files/components/1/thumb.jpg
+  --> GET /files/components/1/thumb.jpg 304 1ms 
+  <-- GET /files/components/2/thumb.jpg
+  --> GET /files/components/2/thumb.jpg 200 3ms 15.9kb
+  <-- GET /files/components/4/thumb.jpg
+  --> GET /files/components/4/thumb.jpg 304 1ms 
+  <-- GET /files/components/3/thumb.jpg
+  --> GET /files/components/3/thumb.jpg 304 1ms 
+  <-- GET /index
+  --> GET /index 200 17ms 7.14kb
+  <-- GET /files/components/1/thumb.jpg
+  --> GET /files/components/1/thumb.jpg 304 1ms 
+  <-- GET /files/components/2/thumb.jpg
+  --> GET /files/components/2/thumb.jpg 200 2ms 15.9kb
+  <-- GET /files/components/4/thumb.jpg
+  --> GET /files/components/4/thumb.jpg 304 1ms 
+  <-- GET /files/components/3/thumb.jpg
+  --> GET /files/components/3/thumb.jpg 304 1ms 
+  <-- GET /index
+  --> GET /index 200 15ms 7.14kb
+  <-- GET /files/components/1/thumb.jpg
+  --> GET /files/components/1/thumb.jpg 304 1ms 
+  <-- GET /files/components/2/thumb.jpg
+  --> GET /files/components/2/thumb.jpg 304 1ms 
+  <-- GET /files/components/4/thumb.jpg
+  --> GET /files/components/4/thumb.jpg 304 1ms 
+  <-- GET /files/components/3/thumb.jpg
+  --> GET /files/components/3/thumb.jpg 304 1ms 
+  <-- GET /index
+  --> GET /index 200 18ms 7.14kb
+  <-- GET /files/components/1/thumb.jpg
+  --> GET /files/components/1/thumb.jpg 304 1ms 
+  <-- GET /files/components/2/thumb.jpg
+  --> GET /files/components/2/thumb.jpg 304 1ms 
+  <-- GET /files/components/4/thumb.jpg
+  --> GET /files/components/4/thumb.jpg 304 1ms 
+  <-- GET /files/components/3/thumb.jpg
+  --> GET /files/components/3/thumb.jpg 304 1ms 
+  <-- POST /component/api/submitImg
+FileStream {
+  _readableState: 
+   ReadableState {
+     objectMode: false,
+     highWaterMark: 16384,
+     buffer: [ <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 01 00 60 00 60 00 00 ff e1 00 16 45 78 69 66 00 00 4d 4d 00 2a 00 00 00 08 00 00 00 00 00 00 ff ec 00 11 44 75 ... > ],
+     length: 7747,
+     pipes: null,
+     pipesCount: 0,
+     flowing: null,
+     ended: true,
+     endEmitted: false,
+     reading: false,
+     sync: false,
+     needReadable: false,
+     emittedReadable: true,
+     readableListening: false,
+     defaultEncoding: 'utf8',
+     ranOut: false,
+     awaitDrain: 0,
+     readingMore: false,
+     decoder: null,
+     encoding: null },
+  readable: true,
+  domain: null,
+  _events: { end: [Function] },
+  _eventsCount: 1,
+  _maxListeners: undefined,
+  truncated: false,
+  _read: [Function],
+  fieldname: 'up-img',
+  filename: 'thumb (1).jpg',
+  encoding: '7bit',
+  transferEncoding: '7bit',
+  mime: 'image/jpeg',
+  mimeType: 'image/jpeg' }
+uploading /opt/cy-front-platform/server/static/files/tmp/obu0ntirnvmwjyvi.jpg -> /opt/cy-front-platform/server/static/files/tmp/obu0ntirnvmwjyvi.jpg
+  --> POST /component/api/submitImg 200 7ms 97b
+  <-- GET /files/tmp/obu0ntirnvmwjyvi.jpg
+  --> GET /files/tmp/obu0ntirnvmwjyvi.jpg 200 3ms 7.57kb
+  <-- POST /component/api/modify
+  --> POST /component/api/modify 200 26ms 54b
+  <-- GET /index
+  --> GET /index 200 14ms 7.14kb
+  <-- GET /files/components/1/thumb.jpg
+  --> GET /files/components/1/thumb.jpg 304 1ms 
+  <-- GET /files/components/2/thumb.jpg
+  --> GET /files/components/2/thumb.jpg 200 2ms 7.57kb
+  <-- GET /files/components/4/thumb.jpg
+  --> GET /files/components/4/thumb.jpg 304 1ms 
+  <-- GET /files/components/3/thumb.jpg
+  --> GET /files/components/3/thumb.jpg 304 0ms 
+  <-- GET /index
+  --> GET /index 200 16ms 7.14kb
+  <-- GET /files/components/1/thumb.jpg
+  --> GET /files/components/1/thumb.jpg 304 1ms 
+  <-- GET /files/components/2/thumb.jpg
+  --> GET /files/components/2/thumb.jpg 200 2ms 7.57kb
+  <-- GET /files/components/4/thumb.jpg
+  --> GET /files/components/4/thumb.jpg 304 1ms 
+  <-- GET /files/components/3/thumb.jpg
+  --> GET /files/components/3/thumb.jpg 304 1ms 
+  <-- GET /index
+  --> GET /index 200 17ms 7.14kb
+  <-- GET /files/components/1/thumb.jpg
+  --> GET /files/components/1/thumb.jpg 304 2ms 
+  <-- GET /files/components/2/thumb.jpg
+  --> GET /files/components/2/thumb.jpg 304 1ms 
+  <-- GET /files/components/4/thumb.jpg
+  --> GET /files/components/4/thumb.jpg 304 1ms 
+  <-- GET /files/components/3/thumb.jpg
+  --> GET /files/components/3/thumb.jpg 304 2ms 
+  <-- GET /component/detail/4
+undefined
+  --> GET /component/detail/4 200 11ms 4.16kb
+  <-- GET /component/detail/1
+undefined
+  --> GET /component/detail/1 200 24ms 7.56kb
+  <-- GET /component/detail/4
+undefined
+  --> GET /component/detail/4 200 9ms 4.16kb
+  <-- GET /component/detail/1
+undefined
+  --> GET /component/detail/1 200 19ms 7.56kb
+  <-- GET /component/modify/4
+  --> GET /component/modify/4 200 8ms 5.27kb
+  <-- POST /component/api/modify
+  --> POST /component/api/modify 200 32ms 54b
+  <-- GET /component/detail/4
+undefined
+  --> GET /component/detail/4 200 6ms 4.17kb
+  <-- GET /component/detail/4
+undefined
+  --> GET /component/detail/4 200 7ms 4.17kb
+  <-- GET /component/detail/4
+undefined
+  --> GET /component/detail/4 200 8ms 4.17kb
+  <-- GET /component/detail/4
+undefined
+  --> GET /component/detail/4 200 8ms 4.17kb
+  <-- POST /component/api/submitImg
+FileStream {
+  _readableState: 
+   ReadableState {
+     objectMode: false,
+     highWaterMark: 16384,
+     buffer: [],
+     length: 0,
+     pipes: null,
+     pipesCount: 0,
+     flowing: null,
+     ended: true,
+     endEmitted: false,
+     reading: false,
+     sync: true,
+     needReadable: false,
+     emittedReadable: true,
+     readableListening: false,
+     defaultEncoding: 'utf8',
+     ranOut: false,
+     awaitDrain: 0,
+     readingMore: false,
+     decoder: null,
+     encoding: null },
+  readable: true,
+  domain: null,
+  _events: { end: [Function] },
+  _eventsCount: 1,
+  _maxListeners: undefined,
+  truncated: false,
+  _read: [Function],
+  fieldname: 'up-img',
+  filename: '',
+  encoding: '7bit',
+  transferEncoding: '7bit',
+  mime: 'application/octet-stream',
+  mimeType: 'application/octet-stream' }
+uploading /opt/cy-front-platform/server/static/files/tmp/bamj54bi83vunmi -> /opt/cy-front-platform/server/static/files/tmp/bamj54bi83vunmi
+  --> POST /component/api/submitImg 200 8ms 92b
+  <-- GET /files/tmp/bamj54bi83vunmi
+  --> GET /files/tmp/bamj54bi83vunmi 200 3ms 0b
+  <-- GET /component/modify/4
+  --> GET /component/modify/4 200 11ms 5.28kb
+  <-- GET /files/components/4/thumb.jpg
+  --> GET /files/components/4/thumb.jpg 304 5ms 
+  <-- GET /component/modify/4
+  --> GET /component/modify/4 200 9ms 5.28kb
+  <-- GET /files/components/4/thumb.jpg
+  --> GET /files/components/4/thumb.jpg 304 1ms 
+  <-- GET /component/modify/4
+  --> GET /component/modify/4 200 7ms 5.28kb
+  <-- GET /files/components/4/thumb.jpg
+  --> GET /files/components/4/thumb.jpg 304 1ms 
+  <-- GET /component/modify/4
+  --> GET /component/modify/4 200 7ms 5.28kb
+  <-- GET /files/components/4/thumb.jpg
+  --> GET /files/components/4/thumb.jpg 304 1ms 
+  <-- GET /component/modify/4
+  --> GET /component/modify/4 200 9ms 5.28kb
+  <-- GET /files/components/4/thumb.jpg
+  --> GET /files/components/4/thumb.jpg 304 2ms 
+  <-- GET /component/modify/4
+  --> GET /component/modify/4 200 15ms 5.28kb
+  <-- GET /files/components/4/thumb.jpg
+  --> GET /files/components/4/thumb.jpg 304 1ms 
+  <-- POST /component/api/modify
+  --> POST /component/api/modify 200 35ms 54b
+  <-- GET /component/detail/4
+undefined
+  --> GET /component/detail/4 200 8ms 4.16kb
+  <-- GET /component/detail/4
+undefined
+  --> GET /component/detail/4 200 8ms 4.16kb
+  <-- GET /component/detail/4
+undefined
+  --> GET /component/detail/4 200 6ms 4.16kb
+  <-- POST /component/api/modify
+  --> POST /component/api/modify 200 32ms 54b
+  <-- GET /component/detail/4
+undefined
+  --> GET /component/detail/4 200 10ms 4.12kb
+  <-- GET /component/detail/4
+undefined
+  --> GET /component/detail/4 200 6ms 4.12kb
+  <-- GET /component/detail/4
+undefined
+  --> GET /component/detail/4 200 7ms 4.12kb
+  <-- GET /component/detail/4
+undefined
+  --> GET /component/detail/4 200 8ms 4.12kb
+  <-- GET /component/detail/4
+undefined
+  --> GET /component/detail/4 200 7ms 4.12kb
+  <-- GET /component/detail/4
+undefined
+  --> GET /component/detail/4 200 7ms 4.12kb
+  <-- GET /component/detail/2
+undefined
+  --> GET /component/detail/2 200 7ms 4.98kb
+  <-- GET /component/detail/4
+undefined
+  --> GET /component/detail/4 200 7ms 4.12kb
+  <-- POST /component/api/modify
+  --> POST /component/api/modify 200 30ms 54b
+  <-- GET /component/detail/4
+undefined
+  --> GET /component/detail/4 200 7ms 4.13kb
+  <-- GET /component/detail/4
+undefined
+  --> GET /component/detail/4 200 6ms 4.13kb
+  <-- GET /component/detail/4
+undefined
+  --> GET /component/detail/4 200 9ms 4.13kb
+  <-- GET /component/detail/4
+undefined
+  --> GET /component/detail/4 200 7ms 4.13kb
+  <-- GET /component/detail/4
+undefined
+  --> GET /component/detail/4 200 8ms 4.13kb
+  <-- GET /component/modify/4
+  --> GET /component/modify/4 200 7ms 5.24kb
+  <-- POST /component/api/modify
+  --> POST /component/api/modify 200 32ms 54b
+  <-- GET /component/detail/4
+undefined
+  --> GET /component/detail/4 200 12ms 4.16kb
+  <-- GET /component/detail/4
+undefined
+  --> GET /component/detail/4 200 7ms 4.16kb
+  <-- GET /component/detail/4
+undefined
+  --> GET /component/detail/4 200 7ms 4.16kb
+  <-- GET /component/detail/4
+undefined
+  --> GET /component/detail/4 200 7ms 4.16kb
+  <-- POST /component/api/modify
+  --> POST /component/api/modify 200 32ms 54b
+  <-- GET /component/detail/4
+undefined
+  --> GET /component/detail/4 200 6ms 4.17kb
+  <-- GET /component/detail/4
+undefined
+  --> GET /component/detail/4 200 6ms 4.17kb
+  <-- GET /component/myComponent
+  --> GET /component/myComponent 200 10ms 8.1kb
+  <-- GET /src/lib/amaze/css/amazeui.min.css
+  --> GET /src/lib/amaze/css/amazeui.min.css 200 24ms 41.83kb
+  <-- GET /src/lib/amaze/css/admin.css
+  --> GET /src/lib/amaze/css/admin.css 200 2ms 1.3kb
+  <-- GET /component/modify/1
+  --> GET /component/modify/1 200 7ms 7.79kb
+  <-- GET /src/lib/jquery/jquery.1.8.3.min.js
+  <-- GET /src/lib/amaze/js/amazeui.min.js
+  <-- GET /src/lib/ajaxFileUpload/ajaxFileUpload.js
+  <-- GET /src/js/modify.js
+  <-- GET /src/js/common.js
+  --> GET /src/js/common.js 200 6ms 408b
+  --> GET /src/js/modify.js 200 8ms 591b
+  --> GET /src/lib/ajaxFileUpload/ajaxFileUpload.js 200 9ms 3.48kb
+  <-- GET /src/lib/amaze/fonts/fontawesome-webfont.woff2?v=4.5.0
+  --> GET /src/lib/jquery/jquery.1.8.3.min.js 200 23ms 32.68kb
+  --> GET /src/lib/amaze/fonts/fontawesome-webfont.woff2?v=4.5.0 200 5ms 65.06kb
+  --> GET /src/lib/amaze/js/amazeui.min.js 200 29ms 56.47kb
+  <-- GET /index
+  --> GET /index 200 16ms 7.14kb
+  <-- GET /files/components/1/thumb.jpg
+  --> GET /files/components/1/thumb.jpg 304 2ms 
+  <-- GET /files/components/2/thumb.jpg
+  --> GET /files/components/2/thumb.jpg 304 1ms 
+  <-- GET /files/components/4/thumb.jpg
+  --> GET /files/components/4/thumb.jpg 304 1ms 
+  <-- GET /files/components/3/thumb.jpg
+  --> GET /files/components/3/thumb.jpg 304 1ms 
+  <-- GET /index
+  --> GET /index 200 14ms 7.14kb
+  <-- GET /files/components/1/thumb.jpg
+  --> GET /files/components/1/thumb.jpg 304 1ms 
+  <-- GET /files/components/2/thumb.jpg
+  --> GET /files/components/2/thumb.jpg 304 1ms 
+  <-- GET /files/components/4/thumb.jpg
+  --> GET /files/components/4/thumb.jpg 304 1ms 
+  <-- GET /files/components/3/thumb.jpg
+  --> GET /files/components/3/thumb.jpg 304 1ms 
+  <-- GET /component/modify/1
+  --> GET /component/modify/1 302 13ms 7.48kb
+  <-- GET /component/modify/1
+  --> GET /component/modify/1 302 8ms 7.48kb
+  <-- GET /component/myComponent
+  --> GET /component/myComponent 302 7ms 4.37kb
+  <-- GET /user/api/login?account=guohao&pwd=9d175317ab4e4ab2469c3007b38ea744&_=1450250729000
+  --> GET /user/api/login?account=guohao&pwd=9d175317ab4e4ab2469c3007b38ea744&_=1450250729000 200 8ms 53b
+  <-- GET /index
+  --> GET /index 200 16ms 7.14kb
+  <-- GET /
+  --> GET / 200 12ms 7.14kb
+  <-- GET /src/lib/amaze/css/amazeui.min.css
+  <-- GET /src/lib/amaze/css/admin.css
+  <-- GET /src/lib/amaze/js/jquery.min.js
+  --> GET /src/lib/amaze/css/admin.css 200 5ms 1.3kb
+  <-- GET /src/lib/amaze/js/amazeui.min.js
+  <-- GET /src/lib/amaze/js/app.js
+  <-- GET /src/js/common.js
+  --> GET /src/lib/amaze/js/app.js 200 3ms 372b
+  --> GET /src/js/common.js 200 2ms 408b
+  --> GET /src/lib/amaze/js/jquery.min.js 200 12ms 28.87kb
+  --> GET /src/lib/amaze/css/amazeui.min.css 200 21ms 41.83kb
+  --> GET /src/lib/amaze/js/amazeui.min.js 200 26ms 56.47kb
+  <-- GET /src/lib/amaze/fonts/fontawesome-webfont.woff2?v=4.5.0
+  --> GET /src/lib/amaze/fonts/fontawesome-webfont.woff2?v=4.5.0 200 5ms 65.06kb
+  <-- GET /assets/i/favicon.png
+  --> GET /assets/i/favicon.png 404 1ms -
+  <-- GET /
+  --> GET / 200 15ms 7.14kb
+  <-- GET /src/lib/amaze/css/amazeui.min.css
+  <-- GET /src/lib/amaze/css/admin.css
+  --> GET /src/lib/amaze/css/amazeui.min.css 304 2ms 
+  --> GET /src/lib/amaze/css/admin.css 304 1ms 
+  <-- GET /files/components/1/thumb.jpg
+  <-- GET /src/lib/amaze/js/jquery.min.js
+  <-- GET /src/lib/amaze/js/amazeui.min.js
+  --> GET /files/components/1/thumb.jpg 304 2ms 
+  --> GET /src/lib/amaze/js/jquery.min.js 304 2ms 
+  <-- GET /src/lib/amaze/js/app.js
+  <-- GET /src/js/common.js
+  --> GET /src/lib/amaze/js/amazeui.min.js 304 4ms 
+  --> GET /src/lib/amaze/js/app.js 304 4ms 
+  <-- GET /files/components/2/thumb.jpg
+  --> GET /src/js/common.js 304 4ms 
+  <-- GET /files/components/4/thumb.jpg
+  <-- GET /files/components/3/thumb.jpg
+  --> GET /files/components/4/thumb.jpg 304 2ms 
+  --> GET /files/components/3/thumb.jpg 304 2ms 
+  --> GET /files/components/2/thumb.jpg 200 5ms 7.57kb
+  <-- GET /src/lib/amaze/fonts/fontawesome-webfont.woff2?v=4.5.0
+  --> GET /src/lib/amaze/fonts/fontawesome-webfont.woff2?v=4.5.0 304 1ms 
+  <-- GET /
+  --> GET / 200 17ms 7.14kb
+  <-- GET /files/components/1/thumb.jpg
+  --> GET /files/components/1/thumb.jpg 200 5ms 68.33kb
+  <-- GET /files/components/2/thumb.jpg
+  --> GET /files/components/2/thumb.jpg 200 2ms 7.57kb
+  <-- GET /files/components/4/thumb.jpg
+  <-- GET /files/components/3/thumb.jpg
+  --> GET /files/components/4/thumb.jpg 200 4ms 20.23kb
+  --> GET /files/components/3/thumb.jpg 200 2ms 10.55kb
+  <-- GET /assets/i/favicon.png
+  --> GET /assets/i/favicon.png 404 1ms -
+  <-- GET /
+  --> GET / 200 21ms 6.82kb
+  <-- GET /src/lib/amaze/css/amazeui.min.css
+  <-- GET /src/lib/amaze/css/admin.css
+  <-- GET /files/components/1/thumb.jpg
+  <-- GET /src/lib/amaze/js/jquery.min.js
+  <-- GET /src/lib/amaze/js/amazeui.min.js
+  <-- GET /src/lib/amaze/js/app.js
+  --> GET /src/lib/amaze/css/admin.css 200 10ms 1.3kb
+  --> GET /src/lib/amaze/js/app.js 200 5ms 372b
+  --> GET /files/components/1/thumb.jpg 200 9ms 68.33kb
+  <-- GET /src/js/common.js
+  --> GET /src/lib/amaze/js/jquery.min.js 200 17ms 28.87kb
+  --> GET /src/js/common.js 200 3ms 408b
+  --> GET /src/lib/amaze/css/amazeui.min.css 200 29ms 41.83kb
+  --> GET /src/lib/amaze/js/amazeui.min.js 200 30ms 56.47kb
+  <-- GET /files/components/2/thumb.jpg
+  --> GET /files/components/2/thumb.jpg 200 2ms 7.57kb
+  <-- GET /files/components/4/thumb.jpg
+  --> GET /files/components/4/thumb.jpg 200 2ms 20.23kb
+  <-- GET /files/components/3/thumb.jpg
+  --> GET /files/components/3/thumb.jpg 200 4ms 10.55kb
+  <-- GET /src/lib/amaze/fonts/fontawesome-webfont.woff2?v=4.5.0
+  --> GET /src/lib/amaze/fonts/fontawesome-webfont.woff2?v=4.5.0 200 4ms 65.06kb
+  <-- GET /assets/i/favicon.png
+  --> GET /assets/i/favicon.png 404 1ms -
+  <-- GET /component/detail/3
+undefined
+  --> GET /component/detail/3 200 7ms 3.72kb
+  <-- GET /src/css/detail.css
+  <-- GET /src/lib/prettify/prettify.min.js
+  <-- GET /src/lib/jquery/jquery.1.8.3.min.js
+  <-- GET /src/js/detail.js
+  --> GET /src/css/detail.css 200 8ms 1.24kb
+  --> GET /src/js/detail.js 200 4ms 496b
+  --> GET /src/lib/prettify/prettify.min.js 200 8ms 6.3kb
+  --> GET /src/lib/jquery/jquery.1.8.3.min.js 200 18ms 32.68kb
+  <-- GET /i/favicon.png
+  --> GET /i/favicon.png 404 1ms -
+  <-- GET /
+  --> GET / 200 15ms 6.82kb
+  <-- GET /files/components/1/thumb.jpg
+  --> GET /files/components/1/thumb.jpg 304 1ms 
+  <-- GET /files/components/2/thumb.jpg
+  --> GET /files/components/2/thumb.jpg 304 1ms 
+  <-- GET /files/components/4/thumb.jpg
+  --> GET /files/components/4/thumb.jpg 304 1ms 
+  <-- GET /files/components/3/thumb.jpg
+  --> GET /files/components/3/thumb.jpg 304 1ms 
+  <-- GET /component/detail/3
+undefined
+  --> GET /component/detail/3 200 6ms 3.72kb
+  <-- GET /component/detail/2
+undefined
+  --> GET /component/detail/2 200 8ms 4.67kb
+  <-- GET /component/detail/1
+undefined
+  --> GET /component/detail/1 200 9ms 7.25kb
+  <-- GET /component/detail/4
+undefined
+  --> GET /component/detail/4 200 7ms 3.86kb
+  <-- GET /
+  --> GET / 200 18ms 6.82kb
+  <-- GET /component/detail/2
+undefined
+  --> GET /component/detail/2 200 13ms 4.67kb
+  <-- GET /
+  --> GET / 200 13ms 6.82kb
+  <-- GET /src/lib/amaze/css/amazeui.min.css
+  <-- GET /src/lib/amaze/css/admin.css
+  --> GET /src/lib/amaze/css/admin.css 200 7ms 1.3kb
+  --> GET /src/lib/amaze/css/amazeui.min.css 200 24ms 41.83kb
+  <-- GET /src/lib/amaze/js/jquery.min.js
+  <-- GET /src/lib/amaze/js/amazeui.min.js
+  <-- GET /src/lib/amaze/js/app.js
+  <-- GET /src/js/common.js
+  --> GET /src/lib/amaze/js/app.js 200 4ms 372b
+  --> GET /src/js/common.js 200 2ms 408b
+  --> GET /src/lib/amaze/js/jquery.min.js 200 14ms 28.87kb
+  --> GET /src/lib/amaze/js/amazeui.min.js 200 23ms 56.47kb
+  <-- GET /src/lib/amaze/fonts/fontawesome-webfont.woff2?v=4.5.0
+  --> GET /src/lib/amaze/fonts/fontawesome-webfont.woff2?v=4.5.0 200 4ms 65.06kb
+  <-- GET /src/login.html
+  --> GET /src/login.html 200 3ms 1.28kb
+  <-- GET /src/lib/jquery/jQuery.md5.js
+  --> GET /src/lib/jquery/jQuery.md5.js 200 4ms 3.04kb
+  <-- GET /user/api/login?account=guohao&pwd=9d175317ab4e4ab2469c3007b38ea744&_=1450420440096
+  --> GET /user/api/login?account=guohao&pwd=9d175317ab4e4ab2469c3007b38ea744&_=1450420440096 200 6ms 53b
+  <-- GET /index
+  --> GET /index 200 15ms 7.14kb
+  <-- GET /component/submit
+  --> GET /component/submit 200 3ms 4.23kb
+  <-- GET /src/lib/ajaxFileUpload/ajaxFileUpload.js
+  <-- GET /src/js/submit.js
+  --> GET /src/js/submit.js 200 4ms 565b
+  --> GET /src/lib/ajaxFileUpload/ajaxFileUpload.js 200 5ms 3.48kb
+  <-- POST /component/api/submit
+  --> POST /component/api/submit 200 26ms 54b
+  <-- GET /index
+  --> GET /index 200 14ms 7.51kb
+  <-- GET /src/lib/amaze/css/amazeui.min.css
+  <-- GET /src/lib/amaze/css/admin.css
+  --> GET /src/lib/amaze/css/amazeui.min.css 304 2ms 
+  --> GET /src/lib/amaze/css/admin.css 304 2ms 
+  <-- GET /files/components/1/thumb.jpg
+  <-- GET /src/lib/amaze/js/jquery.min.js
+  --> GET /files/components/1/thumb.jpg 304 3ms 
+  <-- GET /src/lib/amaze/js/amazeui.min.js
+  --> GET /src/lib/amaze/js/jquery.min.js 304 4ms 
+  <-- GET /src/lib/amaze/js/app.js
+  <-- GET /src/js/common.js
+  <-- GET /files/components/2/thumb.jpg
+  --> GET /src/lib/amaze/js/amazeui.min.js 304 3ms 
+  --> GET /src/lib/amaze/js/app.js 304 2ms 
+  --> GET /src/js/common.js 304 2ms 
+  <-- GET /files/components/4/thumb.jpg
+  --> GET /files/components/2/thumb.jpg 304 2ms 
+  <-- GET /files/components/3/thumb.jpg
+  --> GET /files/components/4/thumb.jpg 304 1ms 
+  --> GET /files/components/3/thumb.jpg 304 1ms 
+  <-- GET /files/components/thumbnail.png
+  --> GET /files/components/thumbnail.png 200 4ms 51.89kb
+  <-- GET /src/lib/amaze/fonts/fontawesome-webfont.woff2?v=4.5.0
+  --> GET /src/lib/amaze/fonts/fontawesome-webfont.woff2?v=4.5.0 304 1ms 
+  <-- GET /component/detail/5
+undefined
+  --> GET /component/detail/5 200 12ms 5.43kb
+  <-- GET /component/detail/5
+undefined
+  --> GET /component/detail/5 200 10ms 5.43kb
+  <-- GET /component/detail/5
+undefined
+  --> GET /component/detail/5 200 16ms 5.43kb
+  <-- GET /index
+  --> GET /index 200 16ms 7.51kb
+  <-- GET /src/lib/amaze/css/amazeui.min.css
+  --> GET /src/lib/amaze/css/amazeui.min.css 304 1ms 
+  <-- GET /src/lib/amaze/css/admin.css
+  --> GET /src/lib/amaze/css/admin.css 304 1ms 
+  <-- GET /files/components/1/thumb.jpg
+  --> GET /files/components/1/thumb.jpg 304 1ms 
+  <-- GET /src/lib/amaze/js/jquery.min.js
+  <-- GET /src/lib/amaze/js/amazeui.min.js
+  --> GET /src/lib/amaze/js/jquery.min.js 304 2ms 
+  <-- GET /src/lib/amaze/js/app.js
+  <-- GET /src/js/common.js
+  <-- GET /files/components/thumbnail.png
+  <-- GET /files/components/2/thumb.jpg
+  --> GET /src/lib/amaze/js/amazeui.min.js 304 4ms 
+  --> GET /src/lib/amaze/js/app.js 304 4ms 
+  --> GET /src/js/common.js 304 3ms 
+  --> GET /files/components/thumbnail.png 304 3ms 
+  <-- GET /files/components/4/thumb.jpg
+  --> GET /files/components/2/thumb.jpg 304 3ms 
+  --> GET /files/components/4/thumb.jpg 304 3ms 
+  <-- GET /files/components/3/thumb.jpg
+  --> GET /files/components/3/thumb.jpg 304 1ms 
+  <-- GET /src/lib/amaze/fonts/fontawesome-webfont.woff2?v=4.5.0
+  --> GET /src/lib/amaze/fonts/fontawesome-webfont.woff2?v=4.5.0 304 1ms 
+  <-- GET /index
+  --> GET /index 200 14ms 7.51kb
+  <-- GET /src/lib/amaze/css/amazeui.min.css
+  <-- GET /src/lib/amaze/css/admin.css
+  --> GET /src/lib/amaze/css/amazeui.min.css 304 1ms 
+  --> GET /src/lib/amaze/css/admin.css 304 1ms 
+  <-- GET /files/components/1/thumb.jpg
+  <-- GET /src/lib/amaze/js/jquery.min.js
+  <-- GET /src/lib/amaze/js/amazeui.min.js
+  <-- GET /src/lib/amaze/js/app.js
+  --> GET /files/components/1/thumb.jpg 304 5ms 
+  --> GET /src/lib/amaze/js/jquery.min.js 304 3ms 
+  --> GET /src/lib/amaze/js/amazeui.min.js 304 3ms 
+  <-- GET /src/js/common.js
+  <-- GET /files/components/thumbnail.png
+  --> GET /src/lib/amaze/js/app.js 304 4ms 
+  --> GET /src/js/common.js 304 2ms 
+  --> GET /files/components/thumbnail.png 304 2ms 
+  <-- GET /files/components/2/thumb.jpg
+  <-- GET /files/components/4/thumb.jpg
+  <-- GET /files/components/3/thumb.jpg
+  --> GET /files/components/2/thumb.jpg 304 3ms 
+  --> GET /files/components/4/thumb.jpg 304 2ms 
+  --> GET /files/components/3/thumb.jpg 304 2ms 
+  <-- GET /src/lib/amaze/fonts/fontawesome-webfont.woff2?v=4.5.0
+  --> GET /src/lib/amaze/fonts/fontawesome-webfont.woff2?v=4.5.0 304 0ms 
+  <-- GET /component/submit
+  --> GET /component/submit 200 2ms 4.23kb
+  <-- POST /component/api/submit
+  --> POST /component/api/submit 200 17ms 54b
+  <-- GET /index
+  --> GET /index 200 17ms 7.88kb
+  <-- GET /src/lib/amaze/css/amazeui.min.css
+  <-- GET /src/lib/amaze/css/admin.css
+  --> GET /src/lib/amaze/css/amazeui.min.css 304 2ms 
+  --> GET /src/lib/amaze/css/admin.css 304 1ms 
+  <-- GET /files/components/1/thumb.jpg
+  --> GET /files/components/1/thumb.jpg 304 0ms 
+  <-- GET /src/lib/amaze/js/jquery.min.js
+  <-- GET /src/lib/amaze/js/amazeui.min.js
+  <-- GET /src/lib/amaze/js/app.js
+  --> GET /src/lib/amaze/js/jquery.min.js 304 3ms 
+  --> GET /src/lib/amaze/js/amazeui.min.js 304 3ms 
+  <-- GET /src/js/common.js
+  <-- GET /files/components/thumbnail.png
+  <-- GET /files/components/2/thumb.jpg
+  --> GET /src/lib/amaze/js/app.js 304 5ms 
+  --> GET /src/js/common.js 304 3ms 
+  --> GET /files/components/thumbnail.png 304 3ms 
+  <-- GET /files/components/4/thumb.jpg
+  <-- GET /files/components/3/thumb.jpg
+  --> GET /files/components/2/thumb.jpg 304 4ms 
+  --> GET /files/components/4/thumb.jpg 304 2ms 
+  --> GET /files/components/3/thumb.jpg 304 2ms 
+  <-- GET /src/lib/amaze/fonts/fontawesome-webfont.woff2?v=4.5.0
+  --> GET /src/lib/amaze/fonts/fontawesome-webfont.woff2?v=4.5.0 304 1ms 
+  <-- GET /component/detail/6
+undefined
+  --> GET /component/detail/6 200 11ms 4.77kb
+  <-- GET /
+  --> GET / 200 17ms 7.88kb
+  <-- GET /assets/i/favicon.png
+  --> GET /assets/i/favicon.png 404 1ms -
+  <-- GET /component/detail/5
+undefined
+  --> GET /component/detail/5 200 14ms 5.43kb
+  <-- GET /i/favicon.png
+  --> GET /i/favicon.png 404 1ms -
+  <-- GET /index
+  --> GET /index 200 16ms 7.88kb
+  <-- GET /index
+  --> GET /index 200 12ms 7.88kb
+  <-- GET /index
+  --> GET /index 200 15ms 7.88kb
+  <-- GET /index
+  --> GET /index 200 17ms 7.88kb
+  <-- GET /index
+  --> GET /index 200 17ms 7.88kb
+  <-- GET /src/lib/amaze/css/amazeui.min.css
+  --> GET /src/lib/amaze/css/amazeui.min.css 304 1ms 
+  <-- GET /src/lib/amaze/css/admin.css
+  <-- GET /files/components/1/thumb.jpg
+  --> GET /src/lib/amaze/css/admin.css 304 2ms 
+  --> GET /files/components/1/thumb.jpg 304 2ms 
+  <-- GET /src/lib/amaze/js/jquery.min.js
+  <-- GET /src/lib/amaze/js/amazeui.min.js
+  <-- GET /src/lib/amaze/js/app.js
+  --> GET /src/lib/amaze/js/jquery.min.js 304 3ms 
+  --> GET /src/lib/amaze/js/amazeui.min.js 304 3ms 
+  <-- GET /src/js/common.js
+  <-- GET /files/components/2/thumb.jpg
+  --> GET /src/lib/amaze/js/app.js 304 4ms 
+  --> GET /src/js/common.js 304 3ms 
+  --> GET /files/components/2/thumb.jpg 304 3ms 
+  <-- GET /files/components/4/thumb.jpg
+  <-- GET /files/components/3/thumb.jpg
+  --> GET /files/components/4/thumb.jpg 304 2ms 
+  <-- GET /files/components/thumbnail.png
+  --> GET /files/components/3/thumb.jpg 304 2ms 
+  --> GET /files/components/thumbnail.png 304 2ms 
+  <-- GET /src/lib/amaze/fonts/fontawesome-webfont.woff2?v=4.5.0
+  --> GET /src/lib/amaze/fonts/fontawesome-webfont.woff2?v=4.5.0 304 2ms 
+  <-- GET /component/detail/1
+undefined
+  --> GET /component/detail/1 200 15ms 7.56kb
+  <-- GET /component/submit
+  --> GET /component/submit 200 3ms 4.23kb
+  <-- GET /user/api/logout?_=1450435905377
+  --> GET /user/api/logout?_=1450435905377 200 1ms 54b
+  <-- GET /index
+  --> GET /index 200 17ms 7.56kb
+  <-- GET /src/lib/amaze/css/amazeui.min.css
+  <-- GET /src/lib/amaze/css/admin.css
+  <-- GET /files/components/1/thumb.jpg
+  --> GET /src/lib/amaze/css/amazeui.min.css 304 4ms 
+  --> GET /src/lib/amaze/css/admin.css 304 2ms 
+  <-- GET /src/lib/amaze/js/jquery.min.js
+  <-- GET /src/lib/amaze/js/amazeui.min.js
+  --> GET /files/components/1/thumb.jpg 304 4ms 
+  --> GET /src/lib/amaze/js/jquery.min.js 304 2ms 
+  --> GET /src/lib/amaze/js/amazeui.min.js 304 2ms 
+  <-- GET /src/js/common.js
+  <-- GET /src/lib/amaze/js/app.js
+  --> GET /src/js/common.js 304 1ms 
+  <-- GET /files/components/2/thumb.jpg
+  <-- GET /files/components/4/thumb.jpg
+  --> GET /src/lib/amaze/js/app.js 304 3ms 
+  --> GET /files/components/2/thumb.jpg 304 3ms 
+  <-- GET /files/components/3/thumb.jpg
+  --> GET /files/components/4/thumb.jpg 304 4ms 
+  --> GET /files/components/3/thumb.jpg 304 3ms 
+  <-- GET /files/components/thumbnail.png
+  --> GET /files/components/thumbnail.png 304 1ms 
+  <-- GET /src/lib/amaze/fonts/fontawesome-webfont.woff2?v=4.5.0
+  --> GET /src/lib/amaze/fonts/fontawesome-webfont.woff2?v=4.5.0 304 1ms 
+  <-- GET /src/sign_up.html
+  --> GET /src/sign_up.html 200 5ms 1.39kb
+  <-- GET /user/api/login?account=guohao&pwd=9d175317ab4e4ab2469c3007b38ea744&_=1450435992543
+  --> GET /user/api/login?account=guohao&pwd=9d175317ab4e4ab2469c3007b38ea744&_=1450435992543 200 3ms 53b
+  <-- GET /index
+  --> GET /index 200 18ms 7.88kb
+  <-- GET /component/submit
+  --> GET /component/submit 200 5ms 4.23kb
+  <-- GET /component/detail/1
+undefined
+  --> GET /component/detail/1 200 14ms 7.56kb
+  <-- GET /component/detail/5
+undefined
+  --> GET /component/detail/5 200 13ms 5.43kb
+  <-- GET /component/detail/1
+undefined
+  --> GET /component/detail/1 200 16ms 7.56kb
+  <-- GET /index
+  --> GET /index 200 18ms 7.88kb
+  <-- GET /src/lib/amaze/css/amazeui.min.css
+  --> GET /src/lib/amaze/css/amazeui.min.css 304 1ms 
+  <-- GET /src/lib/amaze/css/admin.css
+  --> GET /src/lib/amaze/css/admin.css 304 1ms 
+  <-- GET /src/lib/amaze/js/jquery.min.js
+  --> GET /src/lib/amaze/js/jquery.min.js 304 1ms 
+  <-- GET /src/lib/amaze/js/amazeui.min.js
+  <-- GET /src/lib/amaze/js/app.js
+  --> GET /src/lib/amaze/js/amazeui.min.js 304 1ms 
+  <-- GET /src/js/common.js
+  --> GET /src/lib/amaze/js/app.js 304 2ms 
+  --> GET /src/js/common.js 304 1ms 
+  <-- GET /files/components/1/thumb.jpg
+  --> GET /files/components/1/thumb.jpg 304 0ms 
+  <-- GET /files/components/2/thumb.jpg
+  <-- GET /files/components/4/thumb.jpg
+  <-- GET /files/components/3/thumb.jpg
+  <-- GET /files/components/thumbnail.png
+  --> GET /files/components/2/thumb.jpg 304 3ms 
+  --> GET /files/components/4/thumb.jpg 304 3ms 
+  --> GET /files/components/3/thumb.jpg 304 2ms 
+  --> GET /files/components/thumbnail.png 304 2ms 
+  <-- GET /src/lib/amaze/fonts/fontawesome-webfont.woff2?v=4.5.0
+  --> GET /src/lib/amaze/fonts/fontawesome-webfont.woff2?v=4.5.0 304 1ms 
+  <-- GET /component/detail/1
+undefined
+  --> GET /component/detail/1 200 12ms 7.56kb
+  <-- GET /component/detail/3
+undefined
+  --> GET /component/detail/3 200 8ms 4.03kb
+  <-- GET /
+  --> GET / 200 22ms 7.56kb
+  <-- GET /assets/i/favicon.png
+  --> GET /assets/i/favicon.png 404 1ms -
+  <-- GET /
+  --> GET / 200 18ms 7.56kb
+  <-- GET /files/components/1/thumb.jpg
+  --> GET /files/components/1/thumb.jpg 304 1ms 
+  <-- GET /files/components/2/thumb.jpg
+  --> GET /files/components/2/thumb.jpg 304 1ms 
+  <-- GET /files/components/4/thumb.jpg
+  --> GET /files/components/4/thumb.jpg 304 0ms 
+  <-- GET /files/components/3/thumb.jpg
+  --> GET /files/components/3/thumb.jpg 304 1ms 
+  <-- GET /files/components/thumbnail.png
+  --> GET /files/components/thumbnail.png 304 1ms 
+  <-- GET /component/detail/1
+undefined
+  --> GET /component/detail/1 200 15ms 7.25kb
+  <-- GET /i/favicon.png
+  --> GET /i/favicon.png 404 1ms -
+  <-- GET /component/detail/1
+undefined
+  --> GET /component/detail/1 200 15ms 7.25kb
+  <-- GET /component/detail/2
+undefined
+  --> GET /component/detail/2 200 11ms 4.67kb
+  <-- GET /component/detail/4
+undefined
+  --> GET /component/detail/4 200 22ms 3.86kb
+  <-- GET /component/detail/3
+undefined
+  --> GET /component/detail/3 200 12ms 3.72kb
+  <-- GET /component/detail/5
+undefined
+  --> GET /component/detail/5 200 16ms 5.11kb
+  <-- GET /component/detail/6
+undefined
+  --> GET /component/detail/6 200 9ms 4.45kb
+  <-- GET /component/detail/6
+undefined
+  --> GET /component/detail/6 200 10ms 4.45kb
+  <-- GET /component/detail/6
+undefined
+  --> GET /component/detail/6 200 9ms 4.45kb
+  <-- GET /component/detail/1
+undefined
+  --> GET /component/detail/1 200 17ms 7.25kb
+  <-- GET /
+  --> GET / 200 18ms 7.56kb
+  <-- GET /user/api/login?account=guohao&pwd=9d175317ab4e4ab2469c3007b38ea744&_=1450925783924
+  --> GET /user/api/login?account=guohao&pwd=9d175317ab4e4ab2469c3007b38ea744&_=1450925783924 200 8ms 53b
+  <-- GET /index
+  --> GET /index 200 15ms 7.88kb
+  <-- GET /component/detail/1
+undefined
+  --> GET /component/detail/1 200 15ms 7.56kb
+  <-- GET /component/myComponent
+  --> GET /component/myComponent 200 12ms 9.79kb
+  <-- GET /component/assets/i/favicon.png
+  --> GET /component/assets/i/favicon.png 404 1ms -
+  <-- GET /component/modify/1
+  --> GET /component/modify/1 200 8ms 7.79kb
+  <-- POST /component/api/modify
+  --> POST /component/api/modify 200 25ms 54b
+  <-- GET /component/detail/2
+undefined
+  --> GET /component/detail/2 200 11ms 4.98kb
+  <-- GET /component/modify/2
+  --> GET /component/modify/2 200 8ms 5.63kb
+  <-- POST /component/api/modify
+  --> POST /component/api/modify 200 22ms 54b
+  <-- GET /component/detail/4
+undefined
+  --> GET /component/detail/4 200 9ms 4.17kb
+  <-- GET /component/modify/4
+  --> GET /component/modify/4 200 9ms 5.29kb
+  <-- POST /component/api/modify
+  --> POST /component/api/modify 200 26ms 54b
+  <-- GET /component/detail/3
+undefined
+  --> GET /component/detail/3 200 9ms 4.03kb
+  <-- GET /component/myComponent
+  --> GET /component/myComponent 200 13ms 9.79kb
+  <-- GET /component/modify/3
+  --> GET /component/modify/3 200 9ms 5.15kb
+  <-- POST /component/api/modify
+  --> POST /component/api/modify 200 22ms 54b
+  <-- GET /
+  --> GET / 200 18ms 7.88kb
+  <-- GET /component/detail/3
+undefined
+  --> GET /component/detail/3 200 8ms 4.1kb
+  <-- GET /component/detail/5
+undefined
+  --> GET /component/detail/5 200 13ms 5.43kb
+  <-- GET /component/modify/5
+  --> GET /component/modify/5 200 8ms 6.38kb
+  <-- POST /component/api/modify
+  --> POST /component/api/modify 200 21ms 54b
+  <-- GET /component/modify/6
+  --> GET /component/modify/6 200 9ms 5.82kb
+  <-- GET /component/modify/6
+  --> GET /component/modify/6 200 8ms 5.82kb
+  <-- POST /component/api/modify
+  --> POST /component/api/modify 200 34ms 54b
+  <-- GET /
+  --> GET / 200 18ms 7.88kb
+  <-- GET /files/components/1/thumb.jpg
+  --> GET /files/components/1/thumb.jpg 304 2ms 
+  <-- GET /files/components/2/thumb.jpg
+  --> GET /files/components/2/thumb.jpg 304 1ms 
+  <-- GET /files/components/4/thumb.jpg
+  --> GET /files/components/4/thumb.jpg 304 1ms 
+  <-- GET /files/components/3/thumb.jpg
+  --> GET /files/components/3/thumb.jpg 304 1ms 
+  <-- GET /files/components/thumbnail.png
+  --> GET /files/components/thumbnail.png 304 3ms 
+  <-- GET /component/detail/6
+undefined
+  --> GET /component/detail/6 200 9ms 4.94kb
+  <-- GET /
+  --> GET / 200 20ms 7.88kb
+  <-- GET /assets/i/favicon.png
+  --> GET /assets/i/favicon.png 404 1ms -
+  <-- GET /
+  --> GET / 200 19ms 7.56kb
+  <-- GET /assets/i/favicon.png
+  --> GET /assets/i/favicon.png 404 1ms -
+  <-- GET /
+  --> GET / 200 17ms 7.56kb
+  <-- GET /assets/i/favicon.png
+  --> GET /assets/i/favicon.png 404 0ms -
+  <-- GET /component/detail/1
+undefined
+  --> GET /component/detail/1 200 14ms 7.31kb
+  <-- GET /i/favicon.png
+  --> GET /i/favicon.png 404 1ms -
+  <-- GET /
+  --> GET / 200 17ms 7.56kb
+  <-- GET /
+  --> GET / 200 23ms 7.56kb
+  <-- GET /src/lib/amaze/css/amazeui.min.css
+  <-- GET /src/lib/amaze/css/admin.css
+  <-- GET /src/lib/amaze/js/jquery.min.js
+  <-- GET /src/lib/amaze/js/amazeui.min.js
+  <-- GET /src/lib/amaze/js/app.js
+  <-- GET /src/js/common.js
+  --> GET /src/lib/amaze/css/admin.css 200 13ms 1.3kb
+  --> GET /src/lib/amaze/js/app.js 200 7ms 372b
+  --> GET /src/js/common.js 200 5ms 408b
+  --> GET /src/lib/amaze/js/jquery.min.js 200 17ms 28.87kb
+  --> GET /src/lib/amaze/css/amazeui.min.css 200 32ms 41.83kb
+  --> GET /src/lib/amaze/js/amazeui.min.js 200 32ms 56.47kb
+  <-- GET /src/lib/amaze/fonts/fontawesome-webfont.woff2?v=4.5.0
+  --> GET /src/lib/amaze/fonts/fontawesome-webfont.woff2?v=4.5.0 200 4ms 65.06kb
+  <-- GET /
+  --> GET / 200 22ms 7.56kb
+  <-- GET /
+  --> GET / 200 63ms 7.56kb
+  <-- GET /
+  --> GET / 200 21ms 7.56kb
+  <-- GET /
+  --> GET / 200 20ms 7.56kb
+  <-- GET /
+  --> GET / 200 20ms 7.56kb
+  <-- GET /assets/i/favicon.png
+  --> GET /assets/i/favicon.png 404 1ms -
+  <-- GET /
+  --> GET / 200 17ms 7.56kb
+  <-- GET /
+  --> GET / 200 19ms 7.56kb
+  <-- GET /
+  --> GET / 200 19ms 7.56kb
+  <-- GET /
+  --> GET / 200 20ms 7.56kb
+  <-- GET /
+  --> GET / 200 19ms 7.56kb
+  <-- GET /files/components/1/thumb.jpg
+  --> GET /files/components/1/thumb.jpg 304 1ms 
+  <-- GET /files/components/2/thumb.jpg
+  --> GET /files/components/2/thumb.jpg 304 1ms 
+  <-- GET /files/components/4/thumb.jpg
+  --> GET /files/components/4/thumb.jpg 304 1ms 
+  <-- GET /files/components/3/thumb.jpg
+  --> GET /files/components/3/thumb.jpg 304 1ms 
+  <-- GET /files/components/thumbnail.png
+  --> GET /files/components/thumbnail.png 304 1ms 
+  <-- GET /
+  --> GET / 200 20ms 7.56kb
+  <-- GET /files/components/1/thumb.jpg
+  --> GET /files/components/1/thumb.jpg 304 0ms 
+  <-- GET /files/components/2/thumb.jpg
+  --> GET /files/components/2/thumb.jpg 304 1ms 
+  <-- GET /files/components/4/thumb.jpg
+  --> GET /files/components/4/thumb.jpg 304 1ms 
+  <-- GET /files/components/3/thumb.jpg
+  <-- GET /files/components/thumbnail.png
+  --> GET /files/components/3/thumb.jpg 304 2ms 
+  --> GET /files/components/thumbnail.png 304 1ms 
+  <-- GET /
+  --> GET / 200 17ms 7.56kb
+  <-- GET /files/components/1/thumb.jpg
+  --> GET /files/components/1/thumb.jpg 304 1ms 
+  <-- GET /files/components/2/thumb.jpg
+  --> GET /files/components/2/thumb.jpg 304 1ms 
+  <-- GET /files/components/4/thumb.jpg
+  --> GET /files/components/4/thumb.jpg 304 1ms 
+  <-- GET /files/components/3/thumb.jpg
+  --> GET /files/components/3/thumb.jpg 304 1ms 
+  <-- GET /files/components/thumbnail.png
+  --> GET /files/components/thumbnail.png 304 1ms 
+  <-- GET /
+  --> GET / 200 22ms 7.56kb
+  <-- GET /
+  --> GET / 200 19ms 7.56kb
+  <-- GET /component/detail/2
+undefined
+  --> GET /component/detail/2 200 13ms 4.72kb
+  <-- GET /i/favicon.png
+  --> GET /i/favicon.png 404 1ms -
+  <-- GET /component/detail/3
+undefined
+  --> GET /component/detail/3 200 8ms 3.79kb
+  <-- GET /component/detail/1
+undefined
+  --> GET /component/detail/1 200 15ms 7.31kb
+  <-- GET /
+  --> GET / 200 18ms 7.56kb
+  <-- GET /
+  --> GET / 200 19ms 7.56kb
+  <-- GET /component/detail/1
+undefined
+  --> GET /component/detail/1 200 15ms 7.31kb
+  <-- GET /component/detail/1
+undefined
+  --> GET /component/detail/1 200 16ms 7.31kb
+  <-- GET /
+  --> GET / 200 17ms 7.56kb
+  <-- GET /files/components/1/thumb.jpg
+  --> GET /files/components/1/thumb.jpg 304 1ms 
+  <-- GET /files/components/2/thumb.jpg
+  --> GET /files/components/2/thumb.jpg 304 1ms 
+  <-- GET /files/components/4/thumb.jpg
+  --> GET /files/components/4/thumb.jpg 304 0ms 
+  <-- GET /files/components/3/thumb.jpg
+  --> GET /files/components/3/thumb.jpg 304 1ms 
+  <-- GET /files/components/thumbnail.png
+  --> GET /files/components/thumbnail.png 304 1ms 
+  <-- GET /
+  --> GET / 200 17ms 7.56kb
+  <-- GET /files/components/1/thumb.jpg
+  --> GET /files/components/1/thumb.jpg 304 1ms 
+  <-- GET /files/components/2/thumb.jpg
+  --> GET /files/components/2/thumb.jpg 304 1ms 
+  <-- GET /files/components/4/thumb.jpg
+  --> GET /files/components/4/thumb.jpg 304 1ms 
+  <-- GET /files/components/3/thumb.jpg
+  <-- GET /files/components/thumbnail.png
+  --> GET /files/components/3/thumb.jpg 304 2ms 
+  --> GET /files/components/thumbnail.png 304 1ms 
+  <-- GET /
+  --> GET / 200 18ms 7.56kb
+  <-- GET /files/components/1/thumb.jpg
+  --> GET /files/components/1/thumb.jpg 304 1ms 
+  <-- GET /files/components/2/thumb.jpg
+  --> GET /files/components/2/thumb.jpg 304 1ms 
+  <-- GET /files/components/4/thumb.jpg
+  <-- GET /files/components/thumbnail.png
+  --> GET /files/components/4/thumb.jpg 304 2ms 
+  --> GET /files/components/thumbnail.png 304 1ms 
+  <-- GET /files/components/3/thumb.jpg
+  --> GET /files/components/3/thumb.jpg 304 1ms 
+  <-- GET /
+  --> GET / 200 21ms 8.4kb
+  <-- GET /
+  --> GET / 200 17ms 8.4kb
+  <-- GET /files/components/1/thumb.jpg
+  --> GET /files/components/1/thumb.jpg 304 1ms 
+  <-- GET /files/components/2/thumb.jpg
+  --> GET /files/components/2/thumb.jpg 304 1ms 
+  <-- GET /files/components/4/thumb.jpg
+  --> GET /files/components/4/thumb.jpg 304 1ms 
+  <-- GET /files/components/3/thumb.jpg
+  --> GET /files/components/3/thumb.jpg 304 1ms 
+  <-- GET /files/components/thumbnail.png
+  --> GET /files/components/thumbnail.png 304 1ms 
+  <-- GET /user/api/login?account=guohao&pwd=9d175317ab4e4ab2469c3007b38ea744&_=1452057839158
+  --> GET /user/api/login?account=guohao&pwd=9d175317ab4e4ab2469c3007b38ea744&_=1452057839158 200 6ms 53b
+  <-- GET /index
+  --> GET /index 200 15ms 8.72kb
+  <-- GET /component/myComponent
+  --> GET /component/myComponent 200 11ms 9.79kb
+  <-- GET /component/assets/i/favicon.png
+  --> GET /component/assets/i/favicon.png 404 1ms -
+  <-- GET /component/detail/1
+undefined
+  --> GET /component/detail/1 200 24ms 7.62kb
+  <-- GET /component/modify/1
+  --> GET /component/modify/1 200 7ms 7.85kb
+  <-- GET /index
+  --> GET /index 200 15ms 8.72kb
+  <-- GET /component/detail/1
+undefined
+  --> GET /component/detail/1 200 12ms 7.62kb
+  <-- GET /
+  --> GET / 200 16ms 8.72kb
+  <-- GET /
+  --> GET / 200 12ms 8.72kb
+  <-- GET /
+  --> GET / 200 14ms 8.72kb
+  <-- GET /
+  --> GET / 200 16ms 8.72kb
+  <-- GET /
+  --> GET / 200 15ms 8.72kb
+  <-- GET /
+  --> GET / 200 14ms 8.72kb
+  <-- GET /files/components/1/thumb.jpg
+  --> GET /files/components/1/thumb.jpg 304 1ms 
+  <-- GET /files/components/2/thumb.jpg
+  --> GET /files/components/2/thumb.jpg 304 2ms 
+  <-- GET /files/components/4/thumb.jpg
+  --> GET /files/components/4/thumb.jpg 304 0ms 
+  <-- GET /files/components/3/thumb.jpg
+  --> GET /files/components/3/thumb.jpg 304 1ms 
+  <-- GET /files/components/thumbnail.png
+  --> GET /files/components/thumbnail.png 304 1ms 
+  <-- GET /
+  --> GET / 200 17ms 8.72kb
+  <-- GET /files/components/1/thumb.jpg
+  --> GET /files/components/1/thumb.jpg 304 2ms 
+  <-- GET /files/components/2/thumb.jpg
+  --> GET /files/components/2/thumb.jpg 304 1ms 
+  <-- GET /files/components/4/thumb.jpg
+  --> GET /files/components/4/thumb.jpg 304 1ms 
+  <-- GET /files/components/3/thumb.jpg
+  --> GET /files/components/3/thumb.jpg 304 0ms 
+  <-- GET /files/components/thumbnail.png
+  --> GET /files/components/thumbnail.png 304 1ms 
+  <-- GET /
+  --> GET / 200 16ms 8.72kb
+  <-- GET /files/components/1/thumb.jpg
+  --> GET /files/components/1/thumb.jpg 304 1ms 
+  <-- GET /files/components/2/thumb.jpg
+  --> GET /files/components/2/thumb.jpg 304 0ms 
+  <-- GET /files/components/4/thumb.jpg
+  --> GET /files/components/4/thumb.jpg 304 1ms 
+  <-- GET /files/components/3/thumb.jpg
+  --> GET /files/components/3/thumb.jpg 304 1ms 
+  <-- GET /files/components/thumbnail.png
+  --> GET /files/components/thumbnail.png 304 1ms 
+  <-- GET /
+  --> GET / 200 19ms 8.72kb
+  <-- GET /files/components/1/thumb.jpg
+  --> GET /files/components/1/thumb.jpg 304 1ms 
+  <-- GET /files/components/2/thumb.jpg
+  --> GET /files/components/2/thumb.jpg 304 1ms 
+  <-- GET /files/components/4/thumb.jpg
+  --> GET /files/components/4/thumb.jpg 304 1ms 
+  <-- GET /files/components/3/thumb.jpg
+  --> GET /files/components/3/thumb.jpg 304 1ms 
+  <-- GET /files/components/thumbnail.png
+  --> GET /files/components/thumbnail.png 304 1ms 
+  <-- GET /
+  --> GET / 200 16ms 8.72kb
+  <-- GET /files/components/1/thumb.jpg
+  --> GET /files/components/1/thumb.jpg 304 1ms 
+  <-- GET /files/components/2/thumb.jpg
+  --> GET /files/components/2/thumb.jpg 304 1ms 
+  <-- GET /files/components/4/thumb.jpg
+  --> GET /files/components/4/thumb.jpg 304 0ms 
+  <-- GET /files/components/3/thumb.jpg
+  --> GET /files/components/3/thumb.jpg 304 0ms 
+  <-- GET /files/components/thumbnail.png
+  --> GET /files/components/thumbnail.png 304 1ms 
+  <-- GET /
+  --> GET / 200 16ms 8.4kb
+  <-- GET /src/lib/amaze/css/amazeui.min.css
+  <-- GET /src/lib/amaze/css/admin.css
+  <-- GET /src/lib/amaze/js/jquery.min.js
+  <-- GET /src/lib/amaze/js/amazeui.min.js
+  <-- GET /src/lib/amaze/js/app.js
+  <-- GET /src/js/common.js
+  --> GET /src/lib/amaze/css/admin.css 200 9ms 1.3kb
+  --> GET /src/lib/amaze/js/app.js 200 6ms 372b
+  --> GET /src/js/common.js 200 3ms 408b
+  --> GET /src/lib/amaze/js/jquery.min.js 200 23ms 28.87kb
+  --> GET /src/lib/amaze/css/amazeui.min.css 200 30ms 41.83kb
+  --> GET /src/lib/amaze/js/amazeui.min.js 200 30ms 56.47kb
+  <-- GET /files/components/1/thumb.jpg
+  --> GET /files/components/1/thumb.jpg 200 6ms 68.33kb
+  <-- GET /files/components/2/thumb.jpg
+  --> GET /files/components/2/thumb.jpg 200 1ms 7.57kb
+  <-- GET /files/components/4/thumb.jpg
+  --> GET /files/components/4/thumb.jpg 200 1ms 20.23kb
+  <-- GET /files/components/3/thumb.jpg
+  --> GET /files/components/3/thumb.jpg 200 2ms 10.55kb
+  <-- GET /files/components/thumbnail.png
+  --> GET /files/components/thumbnail.png 200 2ms 51.89kb
+  <-- GET /src/lib/amaze/fonts/fontawesome-webfont.woff2?v=4.5.0
+  --> GET /src/lib/amaze/fonts/fontawesome-webfont.woff2?v=4.5.0 200 7ms 65.06kb
+  <-- GET /assets/i/favicon.png
+  --> GET /assets/i/favicon.png 404 1ms -
+  <-- GET /
+  --> GET / 200 16ms 8.72kb
+  <-- GET /component/detail/1
+undefined
+  --> GET /component/detail/1 200 12ms 7.31kb
+  <-- GET /src/css/detail.css
+  <-- GET /src/lib/prettify/prettify.min.js
+  --> GET /src/css/detail.css 200 2ms 1.24kb
+  <-- GET /src/lib/jquery/jquery.1.8.3.min.js
+  <-- GET /src/js/detail.js
+  --> GET /src/lib/prettify/prettify.min.js 200 4ms 6.3kb
+  --> GET /src/js/detail.js 200 3ms 496b
+  --> GET /src/lib/jquery/jquery.1.8.3.min.js 200 14ms 32.68kb
+  <-- GET /i/favicon.png
+  --> GET /i/favicon.png 404 1ms -
+  <-- GET /component/detail/2
+undefined
+  --> GET /component/detail/2 200 9ms 4.72kb
+  <-- GET /component/detail/3
+undefined
+  --> GET /component/detail/3 200 8ms 3.79kb
+  <-- GET /component/detail/3
+undefined
+  --> GET /component/detail/3 200 6ms 3.79kb
+  <-- GET /component/detail/6
+undefined
+  --> GET /component/detail/6 200 8ms 4.63kb
+  <-- GET /component/detail/5
+undefined
+  --> GET /component/detail/5 200 10ms 5.18kb
+  <-- GET /src/sign_up.html
+  --> GET /src/sign_up.html 200 4ms 1.39kb
+  <-- GET /src/lib/jquery/jQuery.md5.js
+  --> GET /src/lib/jquery/jQuery.md5.js 200 5ms 3.04kb
+  <-- GET /src/login.html
+  --> GET /src/login.html 200 3ms 1.28kb
+  <-- GET /user/api/login?account=guohao&pwd=9d175317ab4e4ab2469c3007b38ea744&_=1452064033889
+  --> GET /user/api/login?account=guohao&pwd=9d175317ab4e4ab2469c3007b38ea744&_=1452064033889 200 3ms 53b
+  <-- GET /index
+  --> GET /index 200 15ms 8.72kb
+  <-- GET /component/myComponent
+  --> GET /component/myComponent 200 11ms 9.79kb
+  <-- GET /src/js/myComponent.js
+  --> GET /src/js/myComponent.js 200 2ms 527b
+  <-- GET /component/assets/i/favicon.png
+  --> GET /component/assets/i/favicon.png 404 1ms -
+  <-- GET /component/detail/5
+undefined
+  --> GET /component/detail/5 200 11ms 5.5kb
+  <-- GET /component/submit
+  --> GET /component/submit 200 4ms 4.23kb
+  <-- GET /src/lib/ajaxFileUpload/ajaxFileUpload.js
+  <-- GET /src/js/submit.js
+  --> GET /src/js/submit.js 200 3ms 565b
+  --> GET /src/lib/ajaxFileUpload/ajaxFileUpload.js 200 6ms 3.48kb
+  <-- GET /component/detail/1
+undefined
+  --> GET /component/detail/1 200 13ms 7.62kb
+  <-- GET /component/detail/1
+undefined
+  --> GET /component/detail/1 200 10ms 7.62kb
+  <-- GET /component/detail/1
+undefined
+  --> GET /component/detail/1 200 12ms 7.62kb
+  <-- GET /component/detail/4
+undefined
+  --> GET /component/detail/4 200 7ms 4.22kb
+  <-- GET /component/detail/4
+undefined
+  --> GET /component/detail/4 200 6ms 4.22kb
+  <-- GET /favicon.ico
+  --> GET /favicon.ico 404 1ms -
+  <-- GET /
+  --> GET / 200 14ms 8.4kb
+  <-- GET /src/lib/amaze/css/amazeui.min.css
+  <-- GET /assets/i/favicon.png
+  <-- GET /src/lib/amaze/css/admin.css
+  <-- GET /src/lib/amaze/js/jquery.min.js
+  <-- GET /src/lib/amaze/js/amazeui.min.js
+  --> GET /assets/i/favicon.png 404 3ms -
+  <-- GET /src/lib/amaze/js/app.js
+  <-- GET /src/js/common.js
+  <-- GET /files/components/1/thumb.jpg
+  <-- GET /files/components/2/thumb.jpg
+  <-- GET /files/components/4/thumb.jpg
+  --> GET /src/lib/amaze/js/app.js 200 7ms 372b
+  --> GET /src/js/common.js 200 6ms 408b
+  --> GET /files/components/2/thumb.jpg 200 5ms 7.57kb
+  --> GET /src/lib/amaze/css/admin.css 200 10ms 1.3kb
+  --> GET /files/components/4/thumb.jpg 200 6ms 20.23kb
+  --> GET /files/components/1/thumb.jpg 200 8ms 68.33kb
+  --> GET /src/lib/amaze/js/jquery.min.js 200 18ms 28.87kb
+  --> GET /src/lib/amaze/css/amazeui.min.css 200 27ms 41.83kb
+  --> GET /src/lib/amaze/js/amazeui.min.js 200 28ms 56.47kb
+  <-- GET /files/components/3/thumb.jpg
+  --> GET /files/components/3/thumb.jpg 200 1ms 10.55kb
+  <-- GET /files/components/thumbnail.png
+  --> GET /files/components/thumbnail.png 200 3ms 51.89kb
+  <-- GET /src/lib/amaze/fonts/fontawesome-webfont.woff2?v=4.5.0
+  --> GET /src/lib/amaze/fonts/fontawesome-webfont.woff2?v=4.5.0 200 3ms 65.06kb
+  <-- GET /favicon.ico
+  --> GET /favicon.ico 404 3ms -
+  <-- GET /
+  --> GET / 200 16ms 8.4kb
+  <-- GET /src/lib/amaze/css/amazeui.min.css
+  <-- GET /src/lib/amaze/css/admin.css
+  <-- GET /src/lib/amaze/js/jquery.min.js
+  <-- GET /src/lib/amaze/js/amazeui.min.js
+  <-- GET /src/lib/amaze/js/app.js
+  --> GET /src/lib/amaze/css/admin.css 200 7ms 1.3kb
+  <-- GET /src/js/common.js
+  <-- GET /files/components/1/thumb.jpg
+  <-- GET /files/components/2/thumb.jpg
+  <-- GET /files/components/4/thumb.jpg
+  --> GET /src/lib/amaze/js/app.js 200 7ms 372b
+  --> GET /src/js/common.js 200 9ms 408b
+  --> GET /files/components/2/thumb.jpg 200 9ms 7.57kb
+  --> GET /files/components/1/thumb.jpg 200 14ms 68.33kb
+  --> GET /files/components/4/thumb.jpg 200 13ms 20.23kb
+  --> GET /src/lib/amaze/js/jquery.min.js 200 26ms 28.87kb
+  --> GET /src/lib/amaze/css/amazeui.min.css 200 29ms 41.83kb
+  --> GET /src/lib/amaze/js/amazeui.min.js 200 37ms 56.47kb
+  <-- GET /files/components/3/thumb.jpg
+  --> GET /files/components/3/thumb.jpg 200 2ms 10.55kb
+  <-- GET /files/components/thumbnail.png
+  --> GET /files/components/thumbnail.png 200 5ms 51.89kb
+  <-- GET /src/lib/amaze/fonts/fontawesome-webfont.woff?v=4.5.0
+  --> GET /src/lib/amaze/fonts/fontawesome-webfont.woff?v=4.5.0 200 9ms 81.63kb
+  <-- GET /assets/i/favicon.png
+  --> GET /assets/i/favicon.png 404 1ms -
+  <-- GET /assets/i/favicon.png
+  --> GET /assets/i/favicon.png 404 1ms -
+  <-- GET /component/detail/1
+undefined
+  --> GET /component/detail/1 200 10ms 7.31kb
+  <-- GET /src/css/detail.css
+  <-- GET /src/lib/prettify/prettify.min.js
+  <-- GET /src/lib/jquery/jquery.1.8.3.min.js
+  <-- GET /src/js/detail.js
+  --> GET /src/css/detail.css 200 7ms 1.24kb
+  --> GET /src/js/detail.js 200 3ms 496b
+  --> GET /src/lib/prettify/prettify.min.js 200 8ms 6.3kb
+  --> GET /src/lib/jquery/jquery.1.8.3.min.js 200 17ms 32.68kb
+  <-- GET /i/favicon.png
+  --> GET /i/favicon.png 404 1ms -
+  <-- GET /i/favicon.png
+  --> GET /i/favicon.png 404 1ms -
+  <-- GET /component/detail/1
+undefined
+  --> GET /component/detail/1 200 15ms 7.31kb
+  <-- GET /i/favicon.png
+  --> GET /i/favicon.png 404 1ms -
+  <-- GET /src/css/detail.css
+  <-- GET /src/lib/prettify/prettify.min.js
+  --> GET /src/css/detail.css 200 6ms 1.24kb
+  --> GET /src/lib/prettify/prettify.min.js 200 5ms 6.3kb
+  <-- GET /src/lib/jquery/jquery.1.8.3.min.js
+  --> GET /src/lib/jquery/jquery.1.8.3.min.js 200 15ms 32.68kb
+  <-- GET /src/js/detail.js
+  --> GET /src/js/detail.js 200 2ms 496b
+  <-- GET /component/detail/2
+undefined
+  --> GET /component/detail/2 200 11ms 4.72kb
+  <-- GET /i/favicon.png
+  --> GET /i/favicon.png 404 1ms -
+  <-- GET /component/detail/4
+undefined
+  --> GET /component/detail/4 200 7ms 3.91kb
+  <-- GET /i/favicon.png
+  --> GET /i/favicon.png 404 1ms -
+  <-- GET /i/favicon.png
+  --> GET /i/favicon.png 404 1ms -
+  <-- GET /component/detail/3
+undefined
+  --> GET /component/detail/3 200 9ms 3.79kb
+  <-- GET /i/favicon.png
+  --> GET /i/favicon.png 404 1ms -
+  <-- GET /component/detail/5
+undefined
+  --> GET /component/detail/5 200 8ms 5.18kb
+  <-- GET /i/favicon.png
+  --> GET /i/favicon.png 404 0ms -
+  <-- GET /component/detail/6
+undefined
+  --> GET /component/detail/6 200 8ms 4.63kb
+  <-- GET /i/favicon.png
+  --> GET /i/favicon.png 404 1ms -
+  <-- GET /component/detail/1
+undefined
+  --> GET /component/detail/1 200 11ms 7.31kb
+  <-- GET /i/favicon.png
+  --> GET /i/favicon.png 404 1ms -
+  <-- GET /component/detail/2
+undefined
+  --> GET /component/detail/2 200 7ms 4.72kb
+  <-- GET /i/favicon.png
+  --> GET /i/favicon.png 404 1ms -
+  <-- GET /
+  --> GET / 200 16ms 8.72kb
+  <-- GET /component/detail/1
+undefined
+  --> GET /component/detail/1 200 13ms 7.62kb
+  <-- GET /
+  --> GET / 200 15ms 8.4kb
+  <-- GET /files/components/1/thumb.jpg
+  --> GET /files/components/1/thumb.jpg 304 1ms 
+  <-- GET /files/components/2/thumb.jpg
+  --> GET /files/components/2/thumb.jpg 304 1ms 
+  <-- GET /files/components/4/thumb.jpg
+  --> GET /files/components/4/thumb.jpg 304 1ms 
+  <-- GET /files/components/3/thumb.jpg
+  --> GET /files/components/3/thumb.jpg 304 1ms 
+  <-- GET /files/components/thumbnail.png
+  --> GET /files/components/thumbnail.png 304 1ms 
+  <-- GET /
+  --> GET / 200 15ms 8.4kb
+  <-- GET /assets/i/favicon.png
+  --> GET /assets/i/favicon.png 404 1ms -
+  <-- GET /component/detail/2
+undefined
+  --> GET /component/detail/2 200 10ms 4.72kb
+  <-- GET /i/favicon.png
+  --> GET /i/favicon.png 404 1ms -
+  <-- GET /component/detail/2
+undefined
+  --> GET /component/detail/2 200 8ms 4.72kb
+  <-- GET /i/favicon.png
+  --> GET /i/favicon.png 404 1ms -
+  <-- GET /component/detail/3
+undefined
+  --> GET /component/detail/3 200 7ms 3.79kb
+  <-- GET /i/favicon.png
+  --> GET /i/favicon.png 404 1ms -
+  <-- GET /component/detail/3
+undefined
+  --> GET /component/detail/3 200 7ms 3.79kb
+  <-- GET /i/favicon.png
+  --> GET /i/favicon.png 404 1ms -
+  <-- GET /component/detail/5
+undefined
+  --> GET /component/detail/5 200 9ms 5.18kb
+  <-- GET /i/favicon.png
+  --> GET /i/favicon.png 404 1ms -
+  <-- GET /component/detail/6
+undefined
+  --> GET /component/detail/6 200 8ms 4.63kb
+  <-- GET /i/favicon.png
+  --> GET /i/favicon.png 404 1ms -
+  <-- GET /component/detail/1
+undefined
+  --> GET /component/detail/1 200 10ms 7.31kb
+  <-- GET /i/favicon.png
+  --> GET /i/favicon.png 404 0ms -
+  <-- GET /src/login.html
+  --> GET /src/login.html 200 3ms 1.28kb
+  <-- GET /i/favicon.png
+  --> GET /i/favicon.png 404 1ms -
+  <-- GET /src/lib/jquery/jQuery.md5.js
+  --> GET /src/lib/jquery/jQuery.md5.js 200 5ms 3.04kb
+  <-- GET /assets/i/favicon.png
+  --> GET /assets/i/favicon.png 404 1ms -
+  <-- GET /src/sign_up.html
+  --> GET /src/sign_up.html 200 4ms 1.39kb
+  <-- GET /i/favicon.png
+  --> GET /i/favicon.png 404 1ms -
+  <-- GET /
+  --> GET / 200 20ms 8.4kb
+  <-- GET /assets/i/favicon.png
+  --> GET /assets/i/favicon.png 404 0ms -
+  <-- GET /i/favicon.png
+  --> GET /i/favicon.png 404 1ms -
+  <-- GET /
+  --> GET / 200 17ms 8.4kb
+  <-- GET /user/api/login?account=guohao&pwd=9d175317ab4e4ab2469c3007b38ea744&_=1452248026647
+  --> GET /user/api/login?account=guohao&pwd=9d175317ab4e4ab2469c3007b38ea744&_=1452248026647 200 6ms 53b
+  <-- GET /index
+  --> GET /index 200 14ms 8.72kb
+  <-- GET /component/myComponent
+  --> GET /component/myComponent 200 12ms 9.79kb
+  <-- GET /component/assets/i/favicon.png
+  --> GET /component/assets/i/favicon.png 404 1ms -
+  <-- GET /component/modify/1
+  --> GET /component/modify/1 200 6ms 7.85kb
+  <-- GET /index
+  --> GET /index 200 16ms 8.72kb
+  <-- GET /favicon.ico
+  --> GET /favicon.ico 404 1ms -
+  <-- GET /component/submit
+  --> GET /component/submit 200 4ms 4.23kb
+  <-- GET /component/myComponent
+  --> GET /component/myComponent 200 13ms 9.79kb
+  <-- GET /component/submit
+  --> GET /component/submit 200 3ms 4.23kb
+  <-- POST /component/api/submitImg
+FileStream {
+  _readableState: 
+   ReadableState {
+     objectMode: false,
+     highWaterMark: 16384,
+     buffer: [ <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 ... > ],
+     length: 7162,
+     pipes: null,
+     pipesCount: 0,
+     flowing: null,
+     ended: false,
+     endEmitted: false,
+     reading: true,
+     sync: false,
+     needReadable: true,
+     emittedReadable: false,
+     readableListening: false,
+     defaultEncoding: 'utf8',
+     ranOut: false,
+     awaitDrain: 0,
+     readingMore: false,
+     decoder: null,
+     encoding: null },
+  readable: true,
+  domain: null,
+  _events: { end: [Function] },
+  _eventsCount: 1,
+  _maxListeners: undefined,
+  truncated: false,
+  _read: [Function],
+  fieldname: 'up-img',
+  filename: 'xxxx.jpg',
+  encoding: '7bit',
+  transferEncoding: '7bit',
+  mime: 'image/jpeg',
+  mimeType: 'image/jpeg' }
+uploading /opt/cy-front-platform/server/static/files/tmp/0bj42l558zl1sjor.jpg -> /opt/cy-front-platform/server/static/files/tmp/0bj42l558zl1sjor.jpg
+  --> POST /component/api/submitImg 200 13ms 97b
+  <-- GET /files/tmp/0bj42l558zl1sjor.jpg
+  --> GET /files/tmp/0bj42l558zl1sjor.jpg 200 5ms 22.13kb
+  <-- POST /component/api/submit
+  --> POST /component/api/submit 200 26ms 54b
+  <-- GET /component/myComponent
+  --> GET /component/myComponent 200 12ms 10.64kb
+  <-- GET /index
+  --> GET /index 200 18ms 9.09kb
+  <-- GET /files/components/7/thumb.jpg
+  --> GET /files/components/7/thumb.jpg 200 3ms 22.13kb
+  <-- GET /component/detail/7
+undefined
+  --> GET /component/detail/7 200 11ms 4.68kb
+  <-- GET /index
+  --> GET /index 200 16ms 9.09kb
+  <-- GET /files/components/1/thumb.jpg
+  --> GET /files/components/1/thumb.jpg 304 1ms 
+  <-- GET /files/components/2/thumb.jpg
+  --> GET /files/components/2/thumb.jpg 304 1ms 
+  <-- GET /files/components/4/thumb.jpg
+  --> GET /files/components/4/thumb.jpg 304 1ms 
+  <-- GET /files/components/3/thumb.jpg
+  --> GET /files/components/3/thumb.jpg 304 1ms 
+  <-- GET /files/components/thumbnail.png
+  <-- GET /files/components/7/thumb.jpg
+  --> GET /files/components/thumbnail.png 304 2ms 
+  --> GET /files/components/7/thumb.jpg 304 2ms 
+  <-- GET /component/detail/6
+undefined
+  --> GET /component/detail/6 200 10ms 4.94kb
+  <-- GET /component/myComponent
+  --> GET /component/myComponent 200 14ms 10.64kb
+  <-- GET /component/modify/6
+  --> GET /component/modify/6 200 9ms 5.99kb
+  <-- GET /component/detail/3
+undefined
+  --> GET /component/detail/3 200 9ms 4.1kb
+  <-- GET /component/detail/3
+undefined
+  --> GET /component/detail/3 200 9ms 4.1kb
+  <-- GET /component/modify/3
+  --> GET /component/modify/3 200 8ms 5.23kb
+  <-- GET /component/submit
+  --> GET /component/submit 200 3ms 4.23kb
+  <-- POST /component/api/submit
+  --> POST /component/api/submit 200 21ms 54b
+  <-- GET /index
+  --> GET /index 200 15ms 9.48kb
+  <-- GET /files/components/1/thumb.jpg
+  --> GET /files/components/1/thumb.jpg 304 1ms 
+  <-- GET /files/components/2/thumb.jpg
+  --> GET /files/components/2/thumb.jpg 304 1ms 
+  <-- GET /files/components/4/thumb.jpg
+  --> GET /files/components/4/thumb.jpg 304 0ms 
+  <-- GET /files/components/3/thumb.jpg
+  --> GET /files/components/3/thumb.jpg 304 1ms 
+  <-- GET /files/components/thumbnail.png
+  <-- GET /files/components/7/thumb.jpg
+  --> GET /files/components/thumbnail.png 304 2ms 
+  --> GET /files/components/7/thumb.jpg 304 1ms 
+  <-- GET /component/detail/8
+undefined
+  --> GET /component/detail/8 200 10ms 4.42kb
+  <-- GET /component/myComponent
+  --> GET /component/myComponent 200 12ms 11.49kb
+  <-- GET /component/detail/8
+undefined
+  --> GET /component/detail/8 200 14ms 4.42kb
+  <-- GET /component/modify/8
+  --> GET /component/modify/8 200 9ms 5.53kb
+  <-- POST /component/api/modify
+  --> POST /component/api/modify 200 28ms 54b
+  <-- GET /index
+  --> GET /index 200 18ms 9.48kb
+  <-- GET /files/components/1/thumb.jpg
+  --> GET /files/components/1/thumb.jpg 304 1ms 
+  <-- GET /files/components/2/thumb.jpg
+  --> GET /files/components/2/thumb.jpg 304 1ms 
+  <-- GET /files/components/4/thumb.jpg
+  --> GET /files/components/4/thumb.jpg 304 0ms 
+  <-- GET /files/components/3/thumb.jpg
+  --> GET /files/components/3/thumb.jpg 304 1ms 
+  <-- GET /files/components/thumbnail.png
+  <-- GET /files/components/7/thumb.jpg
+  --> GET /files/components/thumbnail.png 304 1ms 
+  --> GET /files/components/7/thumb.jpg 304 1ms 
+  <-- GET /component/detail/8
+undefined
+  --> GET /component/detail/8 200 9ms 4.1kb
+  <-- GET /
+  --> GET / 200 24ms 9.48kb
+  <-- GET /assets/i/favicon.png
+  --> GET /assets/i/favicon.png 404 1ms -
+  <-- GET /component/detail/8
+undefined
+  --> GET /component/detail/8 200 9ms 4.1kb
+  <-- GET /i/favicon.png
+  --> GET /i/favicon.png 404 1ms -
+  <-- GET /
+  --> GET / 200 22ms 9.16kb
+  <-- GET /assets/i/favicon.png
+  --> GET /assets/i/favicon.png 404 1ms -
+  <-- GET /component/detail/2
+undefined
+  --> GET /component/detail/2 200 16ms 4.72kb
+  <-- GET /
+  --> GET / 200 21ms 9.16kb
+  <-- GET /files/components/1/thumb.jpg
+  --> GET /files/components/1/thumb.jpg 200 6ms 68.33kb
+  <-- GET /files/components/2/thumb.jpg
+  --> GET /files/components/2/thumb.jpg 200 2ms 7.57kb
+  <-- GET /files/components/4/thumb.jpg
+  --> GET /files/components/4/thumb.jpg 200 2ms 20.23kb
+  <-- GET /files/components/3/thumb.jpg
+  --> GET /files/components/3/thumb.jpg 200 2ms 10.55kb
+  <-- GET /files/components/thumbnail.png
+  <-- GET /files/components/7/thumb.jpg
+  --> GET /files/components/thumbnail.png 200 3ms 51.89kb
+  --> GET /files/components/7/thumb.jpg 200 4ms 22.13kb
+  <-- GET /assets/i/favicon.png
+  --> GET /assets/i/favicon.png 404 1ms -
+  <-- GET /
+  --> GET / 200 19ms 9.16kb
+  <-- GET /
+  --> GET / 200 15ms 9.16kb
+  <-- GET /src/lib/amaze/css/amazeui.min.css
+  <-- GET /src/lib/amaze/css/admin.css
+  --> GET /src/lib/amaze/css/admin.css 200 3ms 1.3kb
+  <-- GET /src/lib/amaze/js/jquery.min.js
+  <-- GET /src/lib/amaze/js/amazeui.min.js
+  <-- GET /src/lib/amaze/js/app.js
+  <-- GET /src/js/common.js
+  --> GET /src/lib/amaze/js/app.js 200 2ms 372b
+  --> GET /src/js/common.js 200 2ms 408b
+  --> GET /src/lib/amaze/css/amazeui.min.css 200 24ms 41.83kb
+  <-- GET /files/components/1/thumb.jpg
+  --> GET /src/lib/amaze/js/jquery.min.js 200 18ms 28.87kb
+  --> GET /files/components/1/thumb.jpg 200 4ms 68.33kb
+  <-- GET /files/components/2/thumb.jpg
+  --> GET /src/lib/amaze/js/amazeui.min.js 200 26ms 56.47kb
+  --> GET /files/components/2/thumb.jpg 200 2ms 7.57kb
+  <-- GET /files/components/4/thumb.jpg
+  <-- GET /files/components/3/thumb.jpg
+  --> GET /files/components/4/thumb.jpg 200 2ms 20.23kb
+  --> GET /files/components/3/thumb.jpg 200 2ms 10.55kb
+  <-- GET /files/components/7/thumb.jpg
+  --> GET /files/components/7/thumb.jpg 200 3ms 22.13kb
+  <-- GET /files/components/thumbnail.png
+  --> GET /files/components/thumbnail.png 200 4ms 51.89kb
+  <-- GET /src/lib/amaze/fonts/fontawesome-webfont.woff2?v=4.5.0
+  --> GET /src/lib/amaze/fonts/fontawesome-webfont.woff2?v=4.5.0 200 8ms 65.06kb
+  <-- GET /assets/i/favicon.png
+  --> GET /assets/i/favicon.png 404 1ms -
+  <-- GET /component/detail/1
+undefined
+  --> GET /component/detail/1 200 14ms 7.31kb
+  <-- GET /src/css/detail.css
+  <-- GET /src/lib/prettify/prettify.min.js
+  <-- GET /src/lib/jquery/jquery.1.8.3.min.js
+  <-- GET /src/js/detail.js
+  --> GET /src/css/detail.css 200 9ms 1.24kb
+  --> GET /src/js/detail.js 200 3ms 496b
+  --> GET /src/lib/prettify/prettify.min.js 200 10ms 6.3kb
+  --> GET /src/lib/jquery/jquery.1.8.3.min.js 200 18ms 32.68kb
+  <-- GET /i/favicon.png
+  --> GET /i/favicon.png 404 1ms -
+  <-- GET /component/detail/4
+undefined
+  --> GET /component/detail/4 200 10ms 3.91kb
+  <-- GET /
+  --> GET / 200 20ms 9.16kb
+  <-- GET /assets/i/favicon.png
+  --> GET /assets/i/favicon.png 404 1ms -
+  <-- GET /component/detail/5
+undefined
+  --> GET /component/detail/5 200 32ms 5.18kb
+  <-- GET /i/favicon.png
+  --> GET /i/favicon.png 404 1ms -
+  <-- GET /component/detail/6
+undefined
+  --> GET /component/detail/6 200 9ms 4.63kb
+  <-- GET /component/detail/7
+undefined
+  --> GET /component/detail/7 200 11ms 4.37kb
+  <-- GET /
+  --> GET / 200 26ms 9.16kb
+  <-- GET /assets/i/favicon.png
+  --> GET /assets/i/favicon.png 404 1ms -
+  <-- GET /
+  --> GET / 200 18ms 9.16kb
+  <-- GET /component/detail/8
+undefined
+  --> GET /component/detail/8 200 8ms 3.78kb
+  <-- GET /i/favicon.png
+  --> GET /i/favicon.png 404 2ms -
+  <-- GET /component/detail/4
+undefined
+  --> GET /component/detail/4 200 12ms 3.91kb
+  <-- GET /component/detail/3
+undefined
+  --> GET /component/detail/3 200 10ms 3.79kb
+  <-- GET /
+  --> GET / 200 23ms 9.16kb
+  <-- GET /src/lib/amaze/css/amazeui.min.css
+  <-- GET /src/lib/amaze/css/admin.css
+  <-- GET /src/lib/amaze/js/jquery.min.js
+  <-- GET /src/lib/amaze/js/amazeui.min.js
+  <-- GET /src/lib/amaze/js/app.js
+  <-- GET /src/js/common.js
+  --> GET /src/lib/amaze/css/admin.css 200 10ms 1.3kb
+  --> GET /src/lib/amaze/js/app.js 200 5ms 372b
+  --> GET /src/js/common.js 200 6ms 408b
+  <-- GET /files/components/1/thumb.jpg
+  --> GET /files/components/1/thumb.jpg 200 6ms 68.33kb
+  --> GET /src/lib/amaze/css/amazeui.min.css 200 24ms 41.83kb
+  --> GET /src/lib/amaze/js/jquery.min.js 200 23ms 28.87kb
+  --> GET /src/lib/amaze/js/amazeui.min.js 200 26ms 56.47kb
+  <-- GET /files/components/2/thumb.jpg
+  <-- GET /files/components/4/thumb.jpg
+  <-- GET /files/components/3/thumb.jpg
+  <-- GET /files/components/thumbnail.png
+  <-- GET /files/components/7/thumb.jpg
+  --> GET /files/components/2/thumb.jpg 200 8ms 7.57kb
+  --> GET /files/components/3/thumb.jpg 200 6ms 10.55kb
+  --> GET /files/components/4/thumb.jpg 200 7ms 20.23kb
+  --> GET /files/components/thumbnail.png 200 6ms 51.89kb
+  --> GET /files/components/7/thumb.jpg 200 3ms 22.13kb
+  <-- GET /src/lib/amaze/fonts/fontawesome-webfont.woff2?v=4.5.0
+  --> GET /src/lib/amaze/fonts/fontawesome-webfont.woff2?v=4.5.0 200 3ms 65.06kb
+  <-- GET /assets/i/favicon.png
+  --> GET /assets/i/favicon.png 404 1ms -
+  <-- GET /
+  --> GET / 200 19ms 9.16kb
+  <-- GET /src/lib/amaze/css/amazeui.min.css
+  <-- GET /src/lib/amaze/css/admin.css
+  <-- GET /src/lib/amaze/js/jquery.min.js
+  <-- GET /src/lib/amaze/js/amazeui.min.js
+  <-- GET /src/lib/amaze/js/app.js
+  --> GET /src/lib/amaze/js/app.js 200 6ms 372b
+  --> GET /src/lib/amaze/css/admin.css 200 10ms 1.3kb
+  --> GET /src/lib/amaze/js/jquery.min.js 200 20ms 28.87kb
+  --> GET /src/lib/amaze/css/amazeui.min.css 200 29ms 41.83kb
+  <-- GET /src/js/common.js
+  --> GET /src/js/common.js 200 3ms 408b
+  --> GET /src/lib/amaze/js/amazeui.min.js 200 31ms 56.47kb
+  <-- GET /files/components/1/thumb.jpg
+  --> GET /files/components/1/thumb.jpg 200 4ms 68.33kb
+  <-- GET /files/components/2/thumb.jpg
+  --> GET /files/components/2/thumb.jpg 200 5ms 7.57kb
+  <-- GET /files/components/4/thumb.jpg
+  --> GET /files/components/4/thumb.jpg 200 2ms 20.23kb
+  <-- GET /files/components/3/thumb.jpg
+  --> GET /files/components/3/thumb.jpg 200 3ms 10.55kb
+  <-- GET /files/components/thumbnail.png
+  --> GET /files/components/thumbnail.png 200 2ms 51.89kb
+  <-- GET /files/components/7/thumb.jpg
+  --> GET /files/components/7/thumb.jpg 200 2ms 22.13kb
+  <-- GET /src/lib/amaze/fonts/fontawesome-webfont.woff2?v=4.5.0
+  --> GET /src/lib/amaze/fonts/fontawesome-webfont.woff2?v=4.5.0 200 6ms 65.06kb
+  <-- GET /assets/i/favicon.png
+  --> GET /assets/i/favicon.png 404 1ms -
+  <-- GET /src/sign_up.html
+  --> GET /src/sign_up.html 200 3ms 1.39kb
+  <-- GET /src/lib/jquery/jquery.1.8.3.min.js
+  --> GET /src/lib/jquery/jquery.1.8.3.min.js 200 14ms 32.68kb
+  <-- GET /src/lib/jquery/jQuery.md5.js
+  --> GET /src/lib/jquery/jQuery.md5.js 200 3ms 3.04kb
+  <-- GET /i/favicon.png
+  --> GET /i/favicon.png 404 0ms -
+  <-- GET /user/api/sign_up?account=malushashou&pwd=96e79218965eb72c92a549dd5a330112&nickname=malushashou&_=1453200301744
+  --> GET /user/api/sign_up?account=malushashou&pwd=96e79218965eb72c92a549dd5a330112&nickname=malushashou&_=1453200301744 200 14ms 56b
+  <-- GET /
+  --> GET / 200 22ms 9.16kb
+  <-- GET /src/login.html
+  --> GET /src/login.html 200 5ms 1.28kb
+  <-- GET /user/api/login?account=malushashou&pwd=96e79218965eb72c92a549dd5a330112&_=1453200310258
+  --> GET /user/api/login?account=malushashou&pwd=96e79218965eb72c92a549dd5a330112&_=1453200310258 200 4ms 53b
+  <-- GET /index
+  --> GET /index 200 18ms 9.48kb
+  <-- GET /index
+  --> GET /index 200 19ms 9.48kb
+  <-- GET /src/lib/amaze/css/amazeui.min.css
+  <-- GET /src/lib/amaze/css/admin.css
+  <-- GET /files/components/1/thumb.jpg
+  --> GET /src/lib/amaze/css/amazeui.min.css 304 3ms 
+  --> GET /src/lib/amaze/css/admin.css 304 3ms 
+  --> GET /files/components/1/thumb.jpg 304 2ms 
+  <-- GET /src/lib/amaze/js/jquery.min.js
+  --> GET /src/lib/amaze/js/jquery.min.js 304 2ms 
+  <-- GET /src/lib/amaze/js/amazeui.min.js
+  <-- GET /src/lib/amaze/js/app.js
+  --> GET /src/lib/amaze/js/amazeui.min.js 304 2ms 
+  --> GET /src/lib/amaze/js/app.js 304 1ms 
+  <-- GET /src/js/common.js
+  --> GET /src/js/common.js 304 1ms 
+  <-- GET /files/components/2/thumb.jpg
+  <-- GET /files/components/4/thumb.jpg
+  <-- GET /files/components/3/thumb.jpg
+  --> GET /files/components/2/thumb.jpg 304 4ms 
+  --> GET /files/components/4/thumb.jpg 304 4ms 
+  <-- GET /files/components/thumbnail.png
+  <-- GET /files/components/7/thumb.jpg
+  <-- GET /src/lib/amaze/fonts/fontawesome-webfont.woff2?v=4.5.0
+  --> GET /files/components/3/thumb.jpg 304 4ms 
+  --> GET /files/components/thumbnail.png 304 3ms 
+  --> GET /files/components/7/thumb.jpg 304 3ms 
+  --> GET /src/lib/amaze/fonts/fontawesome-webfont.woff2?v=4.5.0 304 3ms 
+  <-- GET /component/detail/5
+undefined
+  --> GET /component/detail/5 200 13ms 5.18kb
+  <-- GET /src/css/detail.css
+  <-- GET /src/lib/prettify/prettify.min.js
+  <-- GET /src/lib/jquery/jquery.1.8.3.min.js
+  <-- GET /src/js/detail.js
+  --> GET /src/css/detail.css 200 8ms 1.24kb
+  --> GET /src/js/detail.js 200 5ms 496b
+  --> GET /src/lib/prettify/prettify.min.js 200 7ms 6.3kb
+  --> GET /src/lib/jquery/jquery.1.8.3.min.js 200 17ms 32.68kb
+  <-- GET /i/favicon.png
+  --> GET /i/favicon.png 404 1ms -
+  <-- GET /component/submit
+  --> GET /component/submit 200 4ms 4.24kb
+  <-- GET /src/lib/ajaxFileUpload/ajaxFileUpload.js
+  <-- GET /src/js/submit.js
+  --> GET /src/js/submit.js 200 3ms 565b
+  --> GET /src/lib/ajaxFileUpload/ajaxFileUpload.js 200 6ms 3.48kb
+  <-- POST /component/api/submitImg
+FileStream {
+  _readableState: 
+   ReadableState {
+     objectMode: false,
+     highWaterMark: 16384,
+     buffer: [],
+     length: 0,
+     pipes: null,
+     pipesCount: 0,
+     flowing: null,
+     ended: true,
+     endEmitted: false,
+     reading: false,
+     sync: true,
+     needReadable: false,
+     emittedReadable: true,
+     readableListening: false,
+     defaultEncoding: 'utf8',
+     ranOut: false,
+     awaitDrain: 0,
+     readingMore: false,
+     decoder: null,
+     encoding: null },
+  readable: true,
+  domain: null,
+  _events: { end: [Function] },
+  _eventsCount: 1,
+  _maxListeners: undefined,
+  truncated: false,
+  _read: [Function],
+  fieldname: 'up-img',
+  filename: '',
+  encoding: '7bit',
+  transferEncoding: '7bit',
+  mime: 'application/octet-stream',
+  mimeType: 'application/octet-stream' }
+uploading /opt/cy-front-platform/server/static/files/tmp/9vm1hsujjo1dcxr -> /opt/cy-front-platform/server/static/files/tmp/9vm1hsujjo1dcxr
+  --> POST /component/api/submitImg 200 10ms 92b
+  <-- GET /files/tmp/9vm1hsujjo1dcxr
+  --> GET /files/tmp/9vm1hsujjo1dcxr 200 3ms 0b
+  <-- POST /component/api/submitImg
+FileStream {
+  _readableState: 
+   ReadableState {
+     objectMode: false,
+     highWaterMark: 16384,
+     buffer: [ <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 00 e2 00 00 00 8f 08 02 00 00 00 68 18 90 04 00 00 00 19 74 45 58 74 53 6f 66 74 77 61 72 65 00 ... > ],
+     length: 2765,
+     pipes: null,
+     pipesCount: 0,
+     flowing: null,
+     ended: false,
+     endEmitted: false,
+     reading: true,
+     sync: false,
+     needReadable: true,
+     emittedReadable: false,
+     readableListening: false,
+     defaultEncoding: 'utf8',
+     ranOut: false,
+     awaitDrain: 0,
+     readingMore: false,
+     decoder: null,
+     encoding: null },
+  readable: true,
+  domain: null,
+  _events: { end: [Function] },
+  _eventsCount: 1,
+  _maxListeners: undefined,
+  truncated: false,
+  _read: [Function],
+  fieldname: 'up-img',
+  filename: 'QQ截图20160119185743.png',
+  encoding: '7bit',
+  transferEncoding: '7bit',
+  mime: 'image/png',
+  mimeType: 'image/png' }
+uploading /opt/cy-front-platform/server/static/files/tmp/b9p8m95a5pyl23xr.png -> /opt/cy-front-platform/server/static/files/tmp/b9p8m95a5pyl23xr.png
+  --> POST /component/api/submitImg 200 10ms 97b
+  <-- GET /files/tmp/b9p8m95a5pyl23xr.png
+  --> GET /files/tmp/b9p8m95a5pyl23xr.png 200 4ms 20.55kb
+  <-- POST /component/api/submit
+  --> POST /component/api/submit 200 25ms 54b
+  <-- GET /index
+  --> GET /index 200 19ms 9.86kb
+  <-- GET /src/lib/amaze/css/amazeui.min.css
+  <-- GET /src/lib/amaze/css/admin.css
+  --> GET /src/lib/amaze/css/admin.css 200 4ms 1.3kb
+  <-- GET /src/lib/amaze/js/jquery.min.js
+  <-- GET /src/lib/amaze/js/amazeui.min.js
+  <-- GET /files/components/1/thumb.jpg
+  <-- GET /src/lib/amaze/js/app.js
+  --> GET /src/lib/amaze/js/jquery.min.js 200 16ms 28.87kb
+  --> GET /src/lib/amaze/js/app.js 200 6ms 372b
+  --> GET /files/components/1/thumb.jpg 200 12ms 68.33kb
+  --> GET /src/lib/amaze/css/amazeui.min.css 200 27ms 41.83kb
+  <-- GET /src/js/common.js
+  --> GET /src/js/common.js 200 2ms 408b
+  --> GET /src/lib/amaze/js/amazeui.min.js 200 27ms 56.47kb
+  <-- GET /files/components/2/thumb.jpg
+  --> GET /files/components/2/thumb.jpg 200 1ms 7.57kb
+  <-- GET /files/components/4/thumb.jpg
+  --> GET /files/components/4/thumb.jpg 200 2ms 20.23kb
+  <-- GET /files/components/3/thumb.jpg
+  --> GET /files/components/3/thumb.jpg 200 2ms 10.55kb
+  <-- GET /files/components/thumbnail.png
+  --> GET /files/components/thumbnail.png 200 2ms 51.89kb
+  <-- GET /files/components/7/thumb.jpg
+  --> GET /files/components/7/thumb.jpg 200 2ms 22.13kb
+  <-- GET /files/components/9/thumb.png
+  --> GET /files/components/9/thumb.png 200 2ms 20.55kb
+  <-- GET /src/lib/amaze/fonts/fontawesome-webfont.woff2?v=4.5.0
+  --> GET /src/lib/amaze/fonts/fontawesome-webfont.woff2?v=4.5.0 200 2ms 65.06kb
+  <-- GET /component/detail/9
+undefined
+  --> GET /component/detail/9 200 10ms 3kb
+  <-- GET /src/css/detail.css
+  <-- GET /src/lib/prettify/prettify.min.js
+  <-- GET /src/js/detail.js
+  --> GET /src/js/detail.js 200 3ms 496b
+  --> GET /src/css/detail.css 200 6ms 1.24kb
+  --> GET /src/lib/prettify/prettify.min.js 200 8ms 6.3kb
+  <-- GET /component/myComponent
+  --> GET /component/myComponent 200 11ms 5.54kb
+  <-- GET /src/lib/amaze/css/amazeui.min.css
+  <-- GET /src/lib/amaze/css/admin.css
+  <-- GET /src/lib/amaze/js/jquery.min.js
+  <-- GET /src/lib/amaze/js/amazeui.min.js
+  <-- GET /src/lib/amaze/js/app.js
+  <-- GET /src/js/myComponent.js
+  --> GET /src/lib/amaze/js/app.js 200 8ms 372b
+  --> GET /src/lib/amaze/css/admin.css 200 11ms 1.3kb
+  --> GET /src/js/myComponent.js 200 4ms 527b
+  --> GET /src/lib/amaze/js/jquery.min.js 200 21ms 28.87kb
+  <-- GET /src/js/common.js
+  --> GET /src/js/common.js 200 2ms 408b
+  --> GET /src/lib/amaze/css/amazeui.min.css 200 34ms 41.83kb
+  --> GET /src/lib/amaze/js/amazeui.min.js 200 34ms 56.47kb
+  <-- GET /src/lib/amaze/fonts/fontawesome-webfont.woff2?v=4.5.0
+  --> GET /src/lib/amaze/fonts/fontawesome-webfont.woff2?v=4.5.0 200 3ms 65.06kb
+  <-- GET /component/assets/i/favicon.png
+  --> GET /component/assets/i/favicon.png 404 1ms -
+  <-- GET /component/modify/9
+  --> GET /component/modify/9 200 10ms 4.33kb
+  <-- GET /src/js/modify.js
+  --> GET /src/js/modify.js 200 3ms 591b
+  <-- GET /
+  --> GET / 200 24ms 9.54kb
+  <-- GET /files/components/9/thumb.png
+  --> GET /files/components/9/thumb.png 200 2ms 20.55kb
+  <-- GET /assets/i/favicon.png
+  --> GET /assets/i/favicon.png 404 1ms -
+  <-- GET /component/detail/9
+undefined
+  --> GET /component/detail/9 200 6ms 2.68kb
+  <-- GET /i/favicon.png
+  --> GET /i/favicon.png 404 1ms -
+  <-- GET /component/detail/9
+undefined
+  --> GET /component/detail/9 200 6ms 2.68kb
+  <-- GET /component/detail/9
+undefined
+  --> GET /component/detail/9 200 7ms 2.68kb
+  <-- GET /
+  --> GET / 200 24ms 9.54kb
+  <-- GET /src/lib/amaze/css/amazeui.min.css
+  <-- GET /src/lib/amaze/css/admin.css
+  <-- GET /src/lib/amaze/js/jquery.min.js
+  <-- GET /src/lib/amaze/js/amazeui.min.js
+  <-- GET /src/lib/amaze/js/app.js
+  <-- GET /src/js/common.js
+  --> GET /src/lib/amaze/css/admin.css 200 10ms 1.3kb
+  --> GET /src/lib/amaze/js/app.js 200 5ms 372b
+  --> GET /src/js/common.js 200 5ms 408b
+  --> GET /src/lib/amaze/js/jquery.min.js 200 15ms 28.87kb
+  --> GET /src/lib/amaze/css/amazeui.min.css 200 30ms 41.83kb
+  --> GET /src/lib/amaze/js/amazeui.min.js 200 28ms 56.47kb
+  <-- GET /src/lib/amaze/fonts/fontawesome-webfont.woff2?v=4.5.0
+  --> GET /src/lib/amaze/fonts/fontawesome-webfont.woff2?v=4.5.0 200 34ms 65.06kb
+  <-- GET /component/detail/9
+undefined
+  --> GET /component/detail/9 200 9ms 2.68kb
+  <-- GET /src/css/detail.css
+  <-- GET /src/lib/prettify/prettify.min.js
+  --> GET /src/css/detail.css 200 5ms 1.24kb
+  --> GET /src/lib/prettify/prettify.min.js 200 6ms 6.3kb
+  <-- GET /src/lib/jquery/jquery.1.8.3.min.js
+  <-- GET /src/js/detail.js
+  --> GET /src/js/detail.js 200 2ms 496b
+  --> GET /src/lib/jquery/jquery.1.8.3.min.js 200 15ms 32.68kb
+  <-- GET /component/detail/7
+undefined
+  --> GET /component/detail/7 200 13ms 4.37kb
+  <-- GET /component/detail/9
+undefined
+  --> GET /component/detail/9 200 6ms 2.68kb
+  <-- GET /component/detail/5
+undefined
+  --> GET /component/detail/5 200 12ms 5.18kb
+  <-- GET /src/login.html
+  --> GET /src/login.html 200 3ms 1.28kb
+  <-- GET /src/lib/jquery/jQuery.md5.js
+  --> GET /src/lib/jquery/jQuery.md5.js 200 3ms 3.04kb
+  <-- GET /user/api/login?account=g5231315&pwd=9d175317ab4e4ab2469c3007b38ea744&_=1453435424414
+  --> GET /user/api/login?account=g5231315&pwd=9d175317ab4e4ab2469c3007b38ea744&_=1453435424414 200 4ms 51b
+  <-- GET /user/api/login?account=g5231315&pwd=cc34ef2b51de5071f021e86e11ba155a&_=1453435428455
+  --> GET /user/api/login?account=g5231315&pwd=cc34ef2b51de5071f021e86e11ba155a&_=1453435428455 200 2ms 51b
+  <-- GET /user/api/login?account=guohao&pwd=9d175317ab4e4ab2469c3007b38ea744&_=1453435434141
+  --> GET /user/api/login?account=guohao&pwd=9d175317ab4e4ab2469c3007b38ea744&_=1453435434141 200 4ms 53b
+  <-- GET /index
+  --> GET /index 200 19ms 9.86kb
+  <-- GET /component/myComponent
+  --> GET /component/myComponent 200 11ms 11.49kb
+  <-- GET /src/js/myComponent.js
+  --> GET /src/js/myComponent.js 200 2ms 527b
+  <-- GET /component/assets/i/favicon.png
+  --> GET /component/assets/i/favicon.png 404 2ms -
+  <-- GET /component/modify/5
+  --> GET /component/modify/5 200 8ms 6.44kb
+  <-- GET /src/lib/ajaxFileUpload/ajaxFileUpload.js
+  <-- GET /src/js/modify.js
+  --> GET /src/js/modify.js 200 3ms 591b
+  --> GET /src/lib/ajaxFileUpload/ajaxFileUpload.js 200 6ms 3.48kb
+  <-- GET /component/detail/1
+undefined
+  --> GET /component/detail/1 200 18ms 7.62kb
+  <-- GET /component/detail/1
+undefined
+  --> GET /component/detail/1 200 15ms 7.62kb
+  <-- GET /
+  --> GET / 200 18ms 9.54kb
+  <-- GET /assets/i/favicon.png
+  --> GET /assets/i/favicon.png 404 2ms -
+  <-- GET /component/detail/9
+undefined
+  --> GET /component/detail/9 200 6ms 2.68kb
+  <-- GET /i/favicon.png
+  --> GET /i/favicon.png 404 1ms -
+  <-- GET /user/api/login?account=malushashou&pwd=96e79218965eb72c92a549dd5a330112&_=1453441029288
+  --> GET /user/api/login?account=malushashou&pwd=96e79218965eb72c92a549dd5a330112&_=1453441029288 200 3ms 53b
+  <-- GET /index
+  --> GET /index 200 19ms 9.86kb
+  <-- GET /component/myComponent
+  --> GET /component/myComponent 200 10ms 5.54kb
+  <-- GET /component/assets/i/favicon.png
+  --> GET /component/assets/i/favicon.png 404 1ms -
+  <-- GET /component/detail/9
+undefined
+  --> GET /component/detail/9 200 6ms 3kb
+  <-- GET /component/modify/9
+  --> GET /component/modify/9 200 8ms 4.33kb
+  <-- GET /component/detail/7
+undefined
+  --> GET /component/detail/7 200 12ms 4.69kb
+  <-- GET /component/detail/9
+undefined
+  --> GET /component/detail/9 200 7ms 3kb
+  <-- GET /component/detail/3
+undefined
+  --> GET /component/detail/3 200 8ms 4.11kb
+  <-- POST /component/api/modify
+  --> POST /component/api/modify 200 20ms 54b
+  <-- GET /component/detail/7
+undefined
+  --> GET /component/detail/7 200 13ms 4.69kb
+  <-- GET /src/lib/amaze/css/amazeui.min.css
+  <-- GET /src/css/detail.css
+  <-- GET /src/lib/prettify/prettify.min.js
+  <-- GET /src/lib/jquery/jquery.1.8.3.min.js
+  <-- GET /src/lib/amaze/js/amazeui.min.js
+  <-- GET /src/js/detail.js
+  --> GET /src/css/detail.css 200 11ms 1.24kb
+  --> GET /src/lib/prettify/prettify.min.js 200 11ms 6.3kb
+  --> GET /src/js/detail.js 200 5ms 496b
+  --> GET /src/lib/jquery/jquery.1.8.3.min.js 200 20ms 32.68kb
+  --> GET /src/lib/amaze/css/amazeui.min.css 200 31ms 41.83kb
+  --> GET /src/lib/amaze/js/amazeui.min.js 200 30ms 56.47kb
+  <-- GET /src/lib/amaze/fonts/fontawesome-webfont.woff2?v=4.5.0
+  --> GET /src/lib/amaze/fonts/fontawesome-webfont.woff2?v=4.5.0 200 7ms 65.06kb
+  <-- GET /
+  --> GET / 200 19ms 9.86kb
+  <-- GET /src/lib/amaze/css/amazeui.min.css
+  <-- GET /src/lib/amaze/css/admin.css
+  --> GET /src/lib/amaze/css/amazeui.min.css 304 2ms 
+  --> GET /src/lib/amaze/css/admin.css 304 1ms 
+  <-- GET /files/components/1/thumb.jpg
+  --> GET /files/components/1/thumb.jpg 304 1ms 
+  <-- GET /src/lib/amaze/js/jquery.min.js
+  <-- GET /src/lib/amaze/js/amazeui.min.js
+  <-- GET /src/lib/amaze/js/app.js
+  --> GET /src/lib/amaze/js/jquery.min.js 304 2ms 
+  --> GET /src/lib/amaze/js/amazeui.min.js 304 2ms 
+  <-- GET /src/js/common.js
+  --> GET /src/lib/amaze/js/app.js 304 3ms 
+  --> GET /src/js/common.js 304 1ms 
+  <-- GET /files/components/2/thumb.jpg
+  --> GET /files/components/2/thumb.jpg 304 1ms 
+  <-- GET /files/components/4/thumb.jpg
+  <-- GET /files/components/3/thumb.jpg
+  --> GET /files/components/4/thumb.jpg 304 2ms 
+  <-- GET /files/components/thumbnail.png
+  <-- GET /src/lib/amaze/fonts/fontawesome-webfont.woff2?v=4.5.0
+  --> GET /files/components/3/thumb.jpg 304 3ms 
+  --> GET /files/components/thumbnail.png 304 2ms 
+  --> GET /src/lib/amaze/fonts/fontawesome-webfont.woff2?v=4.5.0 304 2ms 
+  <-- GET /files/components/7/thumb.jpg
+  <-- GET /files/components/9/thumb.png
+  --> GET /files/components/7/thumb.jpg 304 2ms 
+  --> GET /files/components/9/thumb.png 304 2ms 
+  <-- GET /component/detail/9
+undefined
+  --> GET /component/detail/9 200 9ms 3.97kb
+  <-- GET /
+  --> GET / 200 17ms 9.86kb
+  <-- GET /component/detail/2
+undefined
+  --> GET /component/detail/2 200 10ms 5.03kb
+  <-- GET /
+  --> GET / 200 21ms 9.86kb
+  <-- GET /
+  --> GET / 200 17ms 9.86kb
+  <-- GET /component/submit
+  --> GET /component/submit 200 5ms 4.23kb
+  <-- GET /src/js/submit.js
+  --> GET /src/js/submit.js 200 3ms 565b
+  <-- GET /component/myComponent
+  --> GET /component/myComponent 200 14ms 11.49kb
+  <-- GET /component/modify/6
+  --> GET /component/modify/6 200 9ms 5.99kb
+  <-- GET /favicon.ico
+  --> GET /favicon.ico 404 2ms -
+  <-- GET /
+  --> GET / 200 20ms 9.54kb
+  <-- GET /src/lib/amaze/css/amazeui.min.css
+  <-- GET /src/lib/amaze/css/admin.css
+  <-- GET /files/components/1/thumb.jpg
+  <-- GET /files/components/2/thumb.jpg
+  <-- GET /files/components/4/thumb.jpg
+  <-- GET /files/components/3/thumb.jpg
+  --> GET /src/lib/amaze/css/admin.css 200 9ms 1.3kb
+  --> GET /files/components/2/thumb.jpg 200 8ms 7.57kb
+  --> GET /files/components/1/thumb.jpg 200 9ms 68.33kb
+  --> GET /files/components/3/thumb.jpg 200 5ms 10.55kb
+  --> GET /files/components/4/thumb.jpg 200 11ms 20.23kb
+  <-- GET /src/lib/amaze/js/jquery.min.js
+  <-- GET /src/lib/amaze/js/amazeui.min.js
+  <-- GET /src/lib/amaze/js/app.js
+  <-- GET /assets/i/favicon.png
+  --> GET /assets/i/favicon.png 404 2ms -
+  <-- GET /src/js/common.js
+  --> GET /src/lib/amaze/css/amazeui.min.css 200 35ms 41.83kb
+  --> GET /src/lib/amaze/js/app.js 200 7ms 372b
+  --> GET /src/js/common.js 200 5ms 408b
+  --> GET /src/lib/amaze/js/jquery.min.js 200 18ms 28.87kb
+  --> GET /src/lib/amaze/js/amazeui.min.js 200 29ms 56.47kb
+  <-- GET /files/components/thumbnail.png
+  <-- GET /files/components/7/thumb.jpg
+  --> GET /files/components/thumbnail.png 200 3ms 51.89kb
+  --> GET /files/components/7/thumb.jpg 200 2ms 22.13kb
+  <-- GET /files/components/9/thumb.png
+  --> GET /files/components/9/thumb.png 200 2ms 20.55kb
+  <-- GET /src/lib/amaze/fonts/fontawesome-webfont.woff2?v=4.5.0
+  --> GET /src/lib/amaze/fonts/fontawesome-webfont.woff2?v=4.5.0 200 5ms 65.06kb
+  <-- GET /
+  --> GET / 200 34ms 9.54kb
+  <-- GET /assets/i/favicon.png
+  --> GET /assets/i/favicon.png 404 1ms -
+  <-- GET /component/detail/9
+undefined
+  --> GET /component/detail/9 200 11ms 3.65kb
+  <-- GET /i/favicon.png
+  --> GET /i/favicon.png 404 1ms -
+  <-- GET /user/api/login?account=guohao&pwd=9d175317ab4e4ab2469c3007b38ea744&_=1453705392741
+  --> GET /user/api/login?account=guohao&pwd=9d175317ab4e4ab2469c3007b38ea744&_=1453705392741 200 7ms 53b
+  <-- GET /index
+  --> GET /index 200 17ms 9.86kb
+  <-- GET /component/submit
+  --> GET /component/submit 200 3ms 4.23kb
+  <-- POST /component/api/submitImg
+FileStream {
+  _readableState: 
+   ReadableState {
+     objectMode: false,
+     highWaterMark: 16384,
+     buffer: [ <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 00 e2 00 00 00 8f 08 02 00 00 00 68 18 90 04 00 00 00 19 74 45 58 74 53 6f 66 74 77 61 72 65 00 ... > ],
+     length: 12538,
+     pipes: null,
+     pipesCount: 0,
+     flowing: null,
+     ended: true,
+     endEmitted: false,
+     reading: false,
+     sync: false,
+     needReadable: false,
+     emittedReadable: true,
+     readableListening: false,
+     defaultEncoding: 'utf8',
+     ranOut: false,
+     awaitDrain: 0,
+     readingMore: false,
+     decoder: null,
+     encoding: null },
+  readable: true,
+  domain: null,
+  _events: { end: [Function] },
+  _eventsCount: 1,
+  _maxListeners: undefined,
+  truncated: false,
+  _read: [Function],
+  fieldname: 'up-img',
+  filename: '2014090422402243014750.png',
+  encoding: '7bit',
+  transferEncoding: '7bit',
+  mime: 'image/png',
+  mimeType: 'image/png' }
+uploading /opt/cy-front-platform/server/static/files/tmp/iiwt5ebrcp85xw29.png -> /opt/cy-front-platform/server/static/files/tmp/iiwt5ebrcp85xw29.png
+  --> POST /component/api/submitImg 200 10ms 97b
+  <-- GET /files/tmp/iiwt5ebrcp85xw29.png
+  --> GET /files/tmp/iiwt5ebrcp85xw29.png 200 4ms 12.24kb
+  <-- POST /component/api/submit
+  --> POST /component/api/submit 200 22ms 54b
+  <-- GET /index
+  --> GET /index 200 19ms 10.24kb
+  <-- GET /src/lib/amaze/css/amazeui.min.css
+  --> GET /src/lib/amaze/css/amazeui.min.css 304 2ms 
+  <-- GET /src/lib/amaze/css/admin.css
+  --> GET /src/lib/amaze/css/admin.css 304 2ms 
+  <-- GET /src/lib/amaze/js/jquery.min.js
+  <-- GET /src/lib/amaze/js/amazeui.min.js
+  <-- GET /src/lib/amaze/js/app.js
+  <-- GET /src/js/common.js
+  --> GET /src/lib/amaze/js/jquery.min.js 304 4ms 
+  --> GET /src/lib/amaze/js/amazeui.min.js 304 4ms 
+  --> GET /src/lib/amaze/js/app.js 304 4ms 
+  --> GET /src/js/common.js 304 3ms 
+  <-- GET /files/components/9/thumb.png
+  <-- GET /files/components/2/thumb.jpg
+  <-- GET /files/components/1/thumb.jpg
+  --> GET /files/components/9/thumb.png 304 3ms 
+  --> GET /files/components/2/thumb.jpg 304 2ms 
+  <-- GET /files/components/4/thumb.jpg
+  --> GET /files/components/1/thumb.jpg 304 3ms 
+  <-- GET /files/components/10/thumb.png
+  <-- GET /files/components/3/thumb.jpg
+  --> GET /files/components/4/thumb.jpg 304 5ms 
+  --> GET /files/components/3/thumb.jpg 304 2ms 
+  <-- GET /files/components/thumbnail.png
+  <-- GET /files/components/7/thumb.jpg
+  --> GET /files/components/thumbnail.png 304 3ms 
+  --> GET /files/components/7/thumb.jpg 304 4ms 
+  --> GET /files/components/10/thumb.png 200 10ms 12.24kb
+  <-- GET /src/lib/amaze/fonts/fontawesome-webfont.woff2?v=4.5.0
+  --> GET /src/lib/amaze/fonts/fontawesome-webfont.woff2?v=4.5.0 304 0ms 
+  <-- GET /index
+  --> GET /index 200 19ms 10.24kb
+  <-- GET /src/lib/amaze/css/amazeui.min.css
+  <-- GET /src/lib/amaze/css/admin.css
+  --> GET /src/lib/amaze/css/amazeui.min.css 304 2ms 
+  --> GET /src/lib/amaze/css/admin.css 304 2ms 
+  <-- GET /files/components/1/thumb.jpg
+  <-- GET /src/lib/amaze/js/jquery.min.js
+  <-- GET /src/lib/amaze/js/amazeui.min.js
+  <-- GET /src/lib/amaze/js/app.js
+  --> GET /files/components/1/thumb.jpg 304 4ms 
+  --> GET /src/lib/amaze/js/jquery.min.js 304 4ms 
+  --> GET /src/lib/amaze/js/amazeui.min.js 304 3ms 
+  --> GET /src/lib/amaze/js/app.js 304 3ms 
+  <-- GET /src/js/common.js
+  <-- GET /files/components/10/thumb.png
+  --> GET /src/js/common.js 304 2ms 
+  --> GET /files/components/10/thumb.png 304 1ms 
+  <-- GET /files/components/9/thumb.png
+  <-- GET /files/components/2/thumb.jpg
+  <-- GET /files/components/4/thumb.jpg
+  <-- GET /files/components/3/thumb.jpg
+  --> GET /files/components/9/thumb.png 304 5ms 
+  --> GET /files/components/2/thumb.jpg 304 5ms 
+  --> GET /files/components/4/thumb.jpg 304 5ms 
+  --> GET /files/components/3/thumb.jpg 304 4ms 
+  <-- GET /files/components/thumbnail.png
+  <-- GET /files/components/7/thumb.jpg
+  --> GET /files/components/thumbnail.png 304 2ms 
+  --> GET /files/components/7/thumb.jpg 304 1ms 
+  <-- GET /src/lib/amaze/fonts/fontawesome-webfont.woff2?v=4.5.0
+  --> GET /src/lib/amaze/fonts/fontawesome-webfont.woff2?v=4.5.0 304 1ms 
+  <-- GET /component/detail/10
+undefined
+  --> GET /component/detail/10 200 9ms 3.91kb
+  <-- GET /
+  --> GET / 200 19ms 10.24kb
+  <-- GET /src/lib/amaze/css/amazeui.min.css
+  <-- GET /src/lib/amaze/css/admin.css
+  <-- GET /files/components/1/thumb.jpg
+  <-- GET /src/lib/amaze/js/jquery.min.js
+  <-- GET /src/lib/amaze/js/amazeui.min.js
+  <-- GET /src/lib/amaze/js/app.js
+  --> GET /src/lib/amaze/css/amazeui.min.css 304 6ms 
+  --> GET /src/lib/amaze/css/admin.css 304 5ms 
+  --> GET /files/components/1/thumb.jpg 304 5ms 
+  --> GET /src/lib/amaze/js/jquery.min.js 304 5ms 
+  --> GET /src/lib/amaze/js/amazeui.min.js 304 5ms 
+  --> GET /src/lib/amaze/js/app.js 304 4ms 
+  <-- GET /src/js/common.js
+  <-- GET /files/components/10/thumb.png
+  --> GET /src/js/common.js 304 4ms 
+  --> GET /files/components/10/thumb.png 304 2ms 
+  <-- GET /files/components/9/thumb.png
+  <-- GET /files/components/2/thumb.jpg
+  <-- GET /files/components/4/thumb.jpg
+  <-- GET /files/components/3/thumb.jpg
+  --> GET /files/components/9/thumb.png 304 4ms 
+  --> GET /files/components/2/thumb.jpg 304 3ms 
+  --> GET /files/components/4/thumb.jpg 304 3ms 
+  <-- GET /files/components/thumbnail.png
+  <-- GET /files/components/7/thumb.jpg
+  --> GET /files/components/3/thumb.jpg 304 4ms 
+  --> GET /files/components/thumbnail.png 304 3ms 
+  --> GET /files/components/7/thumb.jpg 304 3ms 
+  <-- GET /src/lib/amaze/fonts/fontawesome-webfont.woff2?v=4.5.0
+  --> GET /src/lib/amaze/fonts/fontawesome-webfont.woff2?v=4.5.0 304 1ms 
+  <-- GET /component/detail/10
+undefined
+  --> GET /component/detail/10 200 10ms 3.91kb
+  <-- GET /
+  --> GET / 200 23ms 10.24kb
+  <-- GET /component/detail/2
+undefined
+  --> GET /component/detail/2 200 11ms 5.03kb
+  <-- GET /component/myComponent
+  --> GET /component/myComponent 200 12ms 12.35kb
+  <-- GET /component/assets/i/favicon.png
+  --> GET /component/assets/i/favicon.png 404 1ms -
+  <-- GET /component/modify/2
+  --> GET /component/modify/2 200 10ms 5.68kb
+  <-- POST /component/api/submitImg
+FileStream {
+  _readableState: 
+   ReadableState {
+     objectMode: false,
+     highWaterMark: 16384,
+     buffer: [ <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 00 00 01 00 01 00 00 ff db 00 43 00 06 04 04 04 05 04 06 05 05 06 09 06 05 06 09 0b 08 06 06 08 0b 0c 0a 0a 0b ... > ],
+     length: 8613,
+     pipes: null,
+     pipesCount: 0,
+     flowing: null,
+     ended: false,
+     endEmitted: false,
+     reading: true,
+     sync: false,
+     needReadable: true,
+     emittedReadable: false,
+     readableListening: false,
+     defaultEncoding: 'utf8',
+     ranOut: false,
+     awaitDrain: 0,
+     readingMore: false,
+     decoder: null,
+     encoding: null },
+  readable: true,
+  domain: null,
+  _events: { end: [Function] },
+  _eventsCount: 1,
+  _maxListeners: undefined,
+  truncated: false,
+  _read: [Function],
+  fieldname: 'up-img',
+  filename: '1368517273225.jpg',
+  encoding: '7bit',
+  transferEncoding: '7bit',
+  mime: 'image/jpeg',
+  mimeType: 'image/jpeg' }
+uploading /opt/cy-front-platform/server/static/files/tmp/x3bjuk50lrztzkt9.jpg -> /opt/cy-front-platform/server/static/files/tmp/x3bjuk50lrztzkt9.jpg
+  --> POST /component/api/submitImg 200 9ms 97b
+  <-- GET /files/tmp/x3bjuk50lrztzkt9.jpg
+  --> GET /files/tmp/x3bjuk50lrztzkt9.jpg 200 3ms 14.29kb
+  <-- POST /component/api/modify
+  --> POST /component/api/modify 200 21ms 54b
+  <-- GET /component/modify/10
+  --> GET /component/modify/10 200 10ms 5.04kb
+  <-- GET /favicon.ico
+  --> GET /favicon.ico 404 1ms -
+  <-- GET /files/components/10/thumb.png
+  --> GET /files/components/10/thumb.png 304 1ms 
+  <-- POST /component/api/submitImg
+FileStream {
+  _readableState: 
+   ReadableState {
+     objectMode: false,
+     highWaterMark: 16384,
+     buffer: [ <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 00 e2 00 00 00 8f 08 03 00 00 00 d0 a4 f7 61 00 00 00 04 67 41 4d 41 00 00 b1 8f 0b fc 61 05 00 ... > ],
+     length: 6038,
+     pipes: null,
+     pipesCount: 0,
+     flowing: null,
+     ended: true,
+     endEmitted: false,
+     reading: false,
+     sync: false,
+     needReadable: false,
+     emittedReadable: true,
+     readableListening: false,
+     defaultEncoding: 'utf8',
+     ranOut: false,
+     awaitDrain: 0,
+     readingMore: false,
+     decoder: null,
+     encoding: null },
+  readable: true,
+  domain: null,
+  _events: { end: [Function] },
+  _eventsCount: 1,
+  _maxListeners: undefined,
+  truncated: false,
+  _read: [Function],
+  fieldname: 'up-img',
+  filename: '2014090422402243014750.png',
+  encoding: '7bit',
+  transferEncoding: '7bit',
+  mime: 'image/png',
+  mimeType: 'image/png' }
+uploading /opt/cy-front-platform/server/static/files/tmp/o6vabgdla800be29.png -> /opt/cy-front-platform/server/static/files/tmp/o6vabgdla800be29.png
+  --> POST /component/api/submitImg 200 5ms 97b
+  <-- GET /files/tmp/o6vabgdla800be29.png
+  --> GET /files/tmp/o6vabgdla800be29.png 200 3ms 5.9kb
+  <-- POST /component/api/modify
+  --> POST /component/api/modify 200 29ms 54b
+  <-- GET /
+  --> GET / 200 19ms 10.24kb
+  <-- GET /files/components/1/thumb.jpg
+  --> GET /files/components/1/thumb.jpg 304 1ms 
+  <-- GET /files/components/thumbnail.png
+  --> GET /files/components/thumbnail.png 304 1ms 
+  <-- GET /files/components/7/thumb.jpg
+  --> GET /files/components/7/thumb.jpg 304 1ms 
+  <-- GET /files/components/9/thumb.png
+  --> GET /files/components/9/thumb.png 304 1ms 
+  <-- GET /files/components/2/thumb.jpg
+  --> GET /files/components/2/thumb.jpg 200 3ms 14.29kb
+  <-- GET /files/components/4/thumb.jpg
+  --> GET /files/components/4/thumb.jpg 304 1ms 
+  <-- GET /files/components/10/thumb.png
+  --> GET /files/components/10/thumb.png 200 2ms 5.9kb
+  <-- GET /files/components/3/thumb.jpg
+  --> GET /files/components/3/thumb.jpg 304 2ms 
+  <-- GET /
+  --> GET / 200 17ms 10.24kb
+  <-- GET /files/components/1/thumb.jpg
+  --> GET /files/components/1/thumb.jpg 304 1ms 
+  <-- GET /files/components/thumbnail.png
+  --> GET /files/components/thumbnail.png 304 1ms 
+  <-- GET /files/components/7/thumb.jpg
+  --> GET /files/components/7/thumb.jpg 304 1ms 
+  <-- GET /files/components/9/thumb.png
+  --> GET /files/components/9/thumb.png 304 3ms 
+  <-- GET /files/components/4/thumb.jpg
+  <-- GET /files/components/2/thumb.jpg
+  <-- GET /files/components/3/thumb.jpg
+  <-- GET /files/components/10/thumb.png
+  --> GET /files/components/4/thumb.jpg 304 3ms 
+  --> GET /files/components/3/thumb.jpg 304 3ms 
+  --> GET /files/components/2/thumb.jpg 200 5ms 14.29kb
+  --> GET /files/components/10/thumb.png 200 3ms 5.9kb
+  <-- GET /
+  --> GET / 200 19ms 10.24kb
+  <-- GET /files/components/1/thumb.jpg
+  --> GET /files/components/1/thumb.jpg 304 3ms 
+  <-- GET /files/components/2/thumb.jpg
+  --> GET /files/components/2/thumb.jpg 304 2ms 
+  <-- GET /files/components/10/thumb.png
+  --> GET /files/components/10/thumb.png 304 1ms 
+  <-- GET /files/components/thumbnail.png
+  <-- GET /files/components/7/thumb.jpg
+  <-- GET /files/components/9/thumb.png
+  <-- GET /files/components/4/thumb.jpg
+  <-- GET /files/components/3/thumb.jpg
+  --> GET /files/components/thumbnail.png 304 4ms 
+  --> GET /files/components/7/thumb.jpg 304 4ms 
+  --> GET /files/components/9/thumb.png 304 4ms 
+  --> GET /files/components/4/thumb.jpg 304 3ms 
+  --> GET /files/components/3/thumb.jpg 304 4ms 
+  <-- GET /
+  --> GET / 200 20ms 10.24kb
+  <-- GET /files/components/2/thumb.jpg
+  <-- GET /files/components/1/thumb.jpg
+  <-- GET /files/components/10/thumb.png
+  <-- GET /files/components/3/thumb.jpg
+  <-- GET /files/components/4/thumb.jpg
+  --> GET /files/components/2/thumb.jpg 304 5ms 
+  --> GET /files/components/1/thumb.jpg 304 4ms 
+  --> GET /files/components/10/thumb.png 304 4ms 
+  --> GET /files/components/3/thumb.jpg 304 3ms 
+  --> GET /files/components/4/thumb.jpg 304 3ms 
+  <-- GET /files/components/thumbnail.png
+  --> GET /files/components/thumbnail.png 304 1ms 
+  <-- GET /files/components/7/thumb.jpg
+  <-- GET /files/components/9/thumb.png
+  --> GET /files/components/7/thumb.jpg 304 3ms 
+  --> GET /files/components/9/thumb.png 304 2ms 
+  <-- GET /
+  --> GET / 200 17ms 10.24kb
+  <-- GET /files/components/1/thumb.jpg
+  --> GET /files/components/1/thumb.jpg 304 1ms 
+  <-- GET /files/components/2/thumb.jpg
+  --> GET /files/components/2/thumb.jpg 304 0ms 
+  <-- GET /files/components/10/thumb.png
+  --> GET /files/components/10/thumb.png 304 1ms 
+  <-- GET /files/components/thumbnail.png
+  <-- GET /files/components/7/thumb.jpg
+  <-- GET /files/components/9/thumb.png
+  <-- GET /files/components/4/thumb.jpg
+  <-- GET /files/components/3/thumb.jpg
+  --> GET /files/components/thumbnail.png 304 4ms 
+  --> GET /files/components/7/thumb.jpg 304 3ms 
+  --> GET /files/components/9/thumb.png 304 3ms 
+  --> GET /files/components/4/thumb.jpg 304 3ms 
+  --> GET /files/components/3/thumb.jpg 304 2ms 
+  <-- GET /
+  --> GET / 200 19ms 10.24kb
+  <-- GET /files/components/1/thumb.jpg
+  --> GET /files/components/1/thumb.jpg 304 1ms 
+  <-- GET /files/components/2/thumb.jpg
+  --> GET /files/components/2/thumb.jpg 304 1ms 
+  <-- GET /files/components/10/thumb.png
+  --> GET /files/components/10/thumb.png 304 1ms 
+  <-- GET /files/components/thumbnail.png
+  <-- GET /files/components/9/thumb.png
+  <-- GET /files/components/4/thumb.jpg
+  --> GET /files/components/thumbnail.png 304 22ms 
+  --> GET /files/components/9/thumb.png 304 3ms 
+  <-- GET /files/components/7/thumb.jpg
+  <-- GET /files/components/3/thumb.jpg
+  --> GET /files/components/4/thumb.jpg 304 4ms 
+  --> GET /files/components/7/thumb.jpg 304 1ms 
+  --> GET /files/components/3/thumb.jpg 304 2ms 
+  <-- GET /
+  --> GET / 200 15ms 10.24kb
+  <-- GET /files/components/1/thumb.jpg
+  --> GET /files/components/1/thumb.jpg 304 0ms 
+  <-- GET /files/components/2/thumb.jpg
+  --> GET /files/components/2/thumb.jpg 304 1ms 
+  <-- GET /files/components/10/thumb.png
+  --> GET /files/components/10/thumb.png 304 1ms 
+  <-- GET /files/components/thumbnail.png
+  --> GET /files/components/thumbnail.png 304 1ms 
+  <-- GET /files/components/7/thumb.jpg
+  --> GET /files/components/7/thumb.jpg 304 1ms 
+  <-- GET /files/components/9/thumb.png
+  <-- GET /files/components/3/thumb.jpg
+  <-- GET /files/components/4/thumb.jpg
+  --> GET /files/components/9/thumb.png 304 2ms 
+  --> GET /files/components/3/thumb.jpg 304 1ms 
+  --> GET /files/components/4/thumb.jpg 304 2ms 
