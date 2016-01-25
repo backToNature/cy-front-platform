@@ -83,7 +83,8 @@
               <a target="_blank" href="/component/detail/{{sitem.id}}">
                 <img class="am-img-thumbnail am-img-bdrs" src="{{sitem.thub_url}}" alt="{{sitem.title}}"/>
                 <div class="gallery-title">{{sitem.title}}</div>
-                <div class="gallery-desc">更新时间:{{sitem.utime}}</div>
+                <div class="gallery-desc">作者: {{sitem.author.nickname}}</div>
+                <div class="gallery-desc">简介: {{sitem.description}}</div>
               </a>
             </li>
         {%- endfor %}

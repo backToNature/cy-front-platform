@@ -5,6 +5,7 @@ const postParse = require('co-body');
 const fs = require('fs');
 const path = require('path');
 const componentDao = require('../dao/component');
+const userDao = require('../dao/user');
 const util = require('util');
 const componentModel = require('../model/component');
 const md = require( "markdown" ).markdown;
@@ -72,7 +73,6 @@ var routePages = {
             return item[0] === 'header';
         });
         var tocData = componentModel.getToc(header);
-        console.log(tocData);
         html = html.replace(/<pre>/g, '<pre class="prettyprint">');
         info.content = html;
         info.ctime = moment(info.ctime).format("YYYY-MM-DD HH:mm:ss");
@@ -86,12 +86,15 @@ var routePages = {
     },
     index: function *() {
         var componentList = yield componentDao.getComponetList();
+
         var userInfo = this.session;
+        var userList = yield userDao.getUserList();
         componentList.forEach(function (item) {
             item.ctime = moment(item.ctime).format("YYYY-MM-DD HH:mm:ss");
             item.utime = moment(item.utime).format("YYYY-MM-DD HH:mm:ss");
+            
         });
-        var tagList = componentModel.getTagList(componentList);
+        var tagList = componentModel.getTagList(componentList, userList);
         var data = {
             tagList: tagList,
             componentList: componentList,
